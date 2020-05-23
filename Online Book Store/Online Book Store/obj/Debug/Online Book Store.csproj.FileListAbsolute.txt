@@ -1,0 +1,10 @@
+C:\Users\aydcs\OneDrive\Masaüstü\online-book-store\Online Book Store\Online Book Store\bin\Debug\Online Book Store.exe.config
+C:\Users\aydcs\OneDrive\Masaüstü\online-book-store\Online Book Store\Online Book Store\bin\Debug\Online Book Store.exe
+C:\Users\aydcs\OneDrive\Masaüstü\online-book-store\Online Book Store\Online Book Store\bin\Debug\Online Book Store.pdb
+C:\Users\aydcs\OneDrive\Masaüstü\online-book-store\Online Book Store\Online Book Store\obj\Debug\Online Book Store.csprojAssemblyReference.cache
+C:\Users\aydcs\OneDrive\Masaüstü\online-book-store\Online Book Store\Online Book Store\obj\Debug\Online_Book_Store.Properties.Resources.resources
+C:\Users\aydcs\OneDrive\Masaüstü\online-book-store\Online Book Store\Online Book Store\obj\Debug\Online Book Store.csproj.GenerateResource.cache
+C:\Users\aydcs\OneDrive\Masaüstü\online-book-store\Online Book Store\Online Book Store\obj\Debug\Online Book Store.csproj.CoreCompileInputs.cache
+C:\Users\aydcs\OneDrive\Masaüstü\online-book-store\Online Book Store\Online Book Store\obj\Debug\Online Book Store.exe
+C:\Users\aydcs\OneDrive\Masaüstü\online-book-store\Online Book Store\Online Book Store\obj\Debug\Online Book Store.pdb
+C:\Users\aydcs\OneDrive\Masaüstü\online-book-store\Online Book Store\Online Book Store\obj\Debug\Online_Book_Store.Login_Form.resources
