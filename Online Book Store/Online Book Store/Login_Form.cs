@@ -19,12 +19,17 @@ namespace Online_Book_Store
 
         private void btnClose_Click(object sender, EventArgs e)
         {
-            this.Close();
+            Application.Exit();
         }
 
         private void btnLogin_Click(object sender, EventArgs e)
         {
-
+            /////////////////////////////////////////////
+            //Database den custumer bilgilerine bakılıp//
+            //Eşleşen kullanıcı varsa giriş yapılacak  //
+            //Yoksa hata mesajı gösterilip yeniden  gi-//
+            //rilmesi beklenecek.......................//
+            /////////////////////////////////////////////
         }
 
         private void lblSignUp_Click(object sender, EventArgs e)
