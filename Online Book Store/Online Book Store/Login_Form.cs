@@ -28,7 +28,7 @@ namespace Online_Book_Store
             //Database den custumer bilgilerine bakılıp//
             //Eşleşen kullanıcı varsa giriş yapılacak  //
             //Yoksa hata mesajı gösterilip yeniden  gi-//
-            //rilmesi beklenecek.......................//
+            //rilmesi beklenecek ......................//
             /////////////////////////////////////////////
         }
 
