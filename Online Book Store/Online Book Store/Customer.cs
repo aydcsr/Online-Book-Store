@@ -22,7 +22,6 @@ namespace Online_Book_Store
             this.Username = username;
             this.Password = password;
             this.Address = address;
-            
         }
         public string Firstname { get => firstname; set => firstname = value; }
         public string Lastname { get => lastname; set => lastname = value; }

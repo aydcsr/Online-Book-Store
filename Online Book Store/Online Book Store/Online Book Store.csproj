@@ -47,11 +47,42 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Customer.cs" />
+    <Compile Include="DatabaseClass.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormBookUpdate.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormBookUpdate.Designer.cs">
+      <DependentUpon>FormBookUpdate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormCdUpdate.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormCdUpdate.Designer.cs">
+      <DependentUpon>FormCdUpdate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormMagazineUpdate.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormMagazineUpdate.Designer.cs">
+      <DependentUpon>FormMagazineUpdate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormItemAdd.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormItemAdd.Designer.cs">
+      <DependentUpon>FormItemAdd.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormAdmin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormAdmin.Designer.cs">
+      <DependentUpon>FormAdmin.cs</DependentUpon>
     </Compile>
     <Compile Include="Login_Form.cs">
       <SubType>Form</SubType>
@@ -68,6 +99,21 @@
       <DependentUpon>Signup_Form.cs</DependentUpon>
     </Compile>
     <Compile Include="Util.cs" />
+    <EmbeddedResource Include="FormBookUpdate.resx">
+      <DependentUpon>FormBookUpdate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormCdUpdate.resx">
+      <DependentUpon>FormCdUpdate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormItemAdd.resx">
+      <DependentUpon>FormItemAdd.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormAdmin.resx">
+      <DependentUpon>FormAdmin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormMagazineUpdate.resx">
+      <DependentUpon>FormMagazineUpdate.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Login_Form.resx">
       <DependentUpon>Login_Form.cs</DependentUpon>
     </EmbeddedResource>
