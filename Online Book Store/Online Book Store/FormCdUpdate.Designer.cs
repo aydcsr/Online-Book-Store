@@ -28,7 +28,9 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormCdUpdate));
             this.gbCd = new System.Windows.Forms.GroupBox();
+            this.btnCdDelete = new System.Windows.Forms.Button();
             this.btnCdAdd = new System.Windows.Forms.Button();
             this.label19 = new System.Windows.Forms.Label();
             this.tbSongType = new System.Windows.Forms.TextBox();
@@ -42,8 +44,9 @@
             this.tbCdSale = new System.Windows.Forms.TextBox();
             this.label17 = new System.Windows.Forms.Label();
             this.label16 = new System.Windows.Forms.Label();
-            this.btnCdDelete = new System.Windows.Forms.Button();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.gbCd.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // gbCd
@@ -62,21 +65,42 @@
             this.gbCd.Controls.Add(this.tbCdSale);
             this.gbCd.Controls.Add(this.label17);
             this.gbCd.Controls.Add(this.label16);
-            this.gbCd.Location = new System.Drawing.Point(61, 45);
+            this.gbCd.Location = new System.Drawing.Point(12, 25);
             this.gbCd.Name = "gbCd";
-            this.gbCd.Size = new System.Drawing.Size(241, 261);
+            this.gbCd.Size = new System.Drawing.Size(228, 282);
             this.gbCd.TabIndex = 63;
             this.gbCd.TabStop = false;
             this.gbCd.Text = "CD\'s";
             // 
+            // btnCdDelete
+            // 
+            this.btnCdDelete.BackColor = System.Drawing.Color.Crimson;
+            this.btnCdDelete.FlatAppearance.BorderSize = 0;
+            this.btnCdDelete.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnCdDelete.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.btnCdDelete.ForeColor = System.Drawing.Color.White;
+            this.btnCdDelete.Location = new System.Drawing.Point(20, 234);
+            this.btnCdDelete.Name = "btnCdDelete";
+            this.btnCdDelete.Size = new System.Drawing.Size(195, 31);
+            this.btnCdDelete.TabIndex = 59;
+            this.btnCdDelete.Text = "CD DELETE";
+            this.btnCdDelete.UseVisualStyleBackColor = false;
+            this.btnCdDelete.Click += new System.EventHandler(this.btnCdDelete_Click);
+            // 
             // btnCdAdd
             // 
+            this.btnCdAdd.BackColor = System.Drawing.Color.Crimson;
+            this.btnCdAdd.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnCdAdd.FlatAppearance.BorderSize = 0;
+            this.btnCdAdd.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnCdAdd.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.btnCdAdd.ForeColor = System.Drawing.Color.White;
             this.btnCdAdd.Location = new System.Drawing.Point(20, 195);
             this.btnCdAdd.Name = "btnCdAdd";
-            this.btnCdAdd.Size = new System.Drawing.Size(195, 23);
+            this.btnCdAdd.Size = new System.Drawing.Size(195, 33);
             this.btnCdAdd.TabIndex = 49;
             this.btnCdAdd.Text = "CD UPDATE";
-            this.btnCdAdd.UseVisualStyleBackColor = true;
+            this.btnCdAdd.UseVisualStyleBackColor = false;
             this.btnCdAdd.Click += new System.EventHandler(this.btnCdAdd_Click);
             // 
             // label19
@@ -179,27 +203,31 @@
             this.label16.TabIndex = 54;
             this.label16.Text = "CD Name";
             // 
-            // btnCdDelete
+            // pictureBox1
             // 
-            this.btnCdDelete.Location = new System.Drawing.Point(20, 224);
-            this.btnCdDelete.Name = "btnCdDelete";
-            this.btnCdDelete.Size = new System.Drawing.Size(195, 23);
-            this.btnCdDelete.TabIndex = 59;
-            this.btnCdDelete.Text = "CD DELETE";
-            this.btnCdDelete.UseVisualStyleBackColor = true;
-            this.btnCdDelete.Click += new System.EventHandler(this.btnCdDelete_Click);
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
+            this.pictureBox1.Location = new System.Drawing.Point(233, -102);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(407, 623);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox1.TabIndex = 64;
+            this.pictureBox1.TabStop = false;
             // 
             // FormCdUpdate
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(399, 352);
+            this.BackColor = System.Drawing.Color.White;
+            this.ClientSize = new System.Drawing.Size(638, 418);
+            this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.gbCd);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "FormCdUpdate";
             this.Text = "FormCdUpdate";
             this.Load += new System.EventHandler(this.FormCdUpdate_Load);
             this.gbCd.ResumeLayout(false);
             this.gbCd.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -221,5 +249,6 @@
         private System.Windows.Forms.Label label17;
         private System.Windows.Forms.Label label16;
         private System.Windows.Forms.Button btnCdDelete;
+        private System.Windows.Forms.PictureBox pictureBox1;
     }
 }
