@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             this.gbBook = new System.Windows.Forms.GroupBox();
+            this.btnBookDelete = new System.Windows.Forms.Button();
             this.label7 = new System.Windows.Forms.Label();
             this.tbBookType = new System.Windows.Forms.TextBox();
             this.label9 = new System.Windows.Forms.Label();
@@ -48,7 +49,6 @@
             this.tbBookAuthor = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.tbBookName = new System.Windows.Forms.TextBox();
-            this.btnBookDelete = new System.Windows.Forms.Button();
             this.gbBook.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -80,6 +80,16 @@
             this.gbBook.TabIndex = 61;
             this.gbBook.TabStop = false;
             this.gbBook.Text = "Books";
+            // 
+            // btnBookDelete
+            // 
+            this.btnBookDelete.Location = new System.Drawing.Point(32, 315);
+            this.btnBookDelete.Name = "btnBookDelete";
+            this.btnBookDelete.Size = new System.Drawing.Size(195, 23);
+            this.btnBookDelete.TabIndex = 39;
+            this.btnBookDelete.Text = "BOOK DELETE";
+            this.btnBookDelete.UseVisualStyleBackColor = true;
+            this.btnBookDelete.Click += new System.EventHandler(this.btnBookDelete_Click);
             // 
             // label7
             // 
@@ -239,21 +249,12 @@
             this.tbBookName.Size = new System.Drawing.Size(100, 20);
             this.tbBookName.TabIndex = 17;
             // 
-            // btnBookDelete
-            // 
-            this.btnBookDelete.Location = new System.Drawing.Point(32, 315);
-            this.btnBookDelete.Name = "btnBookDelete";
-            this.btnBookDelete.Size = new System.Drawing.Size(195, 23);
-            this.btnBookDelete.TabIndex = 39;
-            this.btnBookDelete.Text = "BOOK DELETE";
-            this.btnBookDelete.UseVisualStyleBackColor = true;
-            this.btnBookDelete.Click += new System.EventHandler(this.btnBookDelete_Click);
-            // 
             // FormBookUpdate
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(426, 450);
+            this.BackColor = System.Drawing.Color.White;
+            this.ClientSize = new System.Drawing.Size(896, 450);
             this.Controls.Add(this.gbBook);
             this.Name = "FormBookUpdate";
             this.Text = "FormBookUpdate";
