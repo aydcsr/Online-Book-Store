@@ -54,3 +54,4 @@ C:\Users\aydcs\OneDrive\Masaüstü\online-book-store\Online Book Store\Online Bo
 C:\Users\aydcs\OneDrive\Masaüstü\online-book-store\Online Book Store\Online Book Store\obj\Debug\Online_Book_Store.FormItemAdd.resources
 C:\Users\aydcs\OneDrive\Masaüstü\online-book-store\Online Book Store\Online Book Store\obj\Debug\Online_Book_Store.FormAdmin.resources
 C:\Users\aydcs\OneDrive\Masaüstü\online-book-store\Online Book Store\Online Book Store\obj\Debug\Online_Book_Store.FormMagazineUpdate.resources
+C:\Users\aydcs\OneDrive\Masaüstü\online-book-store\Online Book Store\Online Book Store\obj\Debug\Online_Book_Store.MainForm.resources
