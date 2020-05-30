@@ -20,7 +20,13 @@ namespace Online_Book_Store
         int Move;
         int Mouse_X;
         int Mouse_Y;
-
+        Customer cs = new Customer();
+        public MainForm(Customer cs)
+        {
+            InitializeComponent();
+            
+            this.cs = cs;
+        }
         private void panel1_MouseUp(object sender, MouseEventArgs e)
         {
             Move = 0;
@@ -48,7 +54,8 @@ namespace Online_Book_Store
 
         private void lblUsername_Click(object sender, EventArgs e)
         {
-
+            kullanıciprofil kullanıciprofil = new kullanıciprofil(cs);
+            kullanıciprofil.ShowDialog();
         }
     }
 }

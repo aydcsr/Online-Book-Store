@@ -21,15 +21,27 @@ namespace Online_Book_Store
         {
             Application.Exit();
         }
-
+        Customer cs = new Customer();
         private void btnLogin_Click(object sender, EventArgs e)
         {
-            /////////////////////////////////////////////
-            //Database den custumer bilgilerine bakılıp//
-            //Eşleşen kullanıcı varsa giriş yapılacak  //
-            //Yoksa hata mesajı gösterilip yeniden  gi-//
-            //rilmesi beklenecek ......................//
-            /////////////////////////////////////////////
+            DatabaseClass db = DatabaseClass.createConnection("onlineSales");
+            string str = "select * from CustomerInformationTable where customerNick='"+txtUsername.Text + "'and customerPassword='"+txtPassword.Text+"'";
+            DataTable tb = new DataTable();
+            tb = db.getData(str);
+            if (tb.Rows.Count == 1)
+            {
+                cs.Firstname = tb.Rows[0][1].ToString();
+                cs.Lastname = tb.Rows[0][2].ToString();
+                MainForm mainform = new MainForm(cs);
+            
+
+                mainform.ShowDialog();
+
+            }
+            else
+                MessageBox.Show("yanlıs");
+
+
         }
 
         private void lblSignUp_Click(object sender, EventArgs e)
@@ -37,6 +49,11 @@ namespace Online_Book_Store
             Signup_Form signup = new Signup_Form();
             this.Hide();
             signup.Show();
+        }
+
+        private void txtUsername_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }
