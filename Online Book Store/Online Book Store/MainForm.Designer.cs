@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainForm));
             this.panel1 = new System.Windows.Forms.Panel();
             this.btnHide = new System.Windows.Forms.Button();
@@ -35,12 +36,12 @@
             this.label1 = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
             this.panel3 = new System.Windows.Forms.Panel();
+            this.label4 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.lblUsername = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
             this.pictureBox9 = new System.Windows.Forms.PictureBox();
             this.label25 = new System.Windows.Forms.Label();
             this.label24 = new System.Windows.Forms.Label();
@@ -141,7 +142,14 @@
             this.label63 = new System.Windows.Forms.Label();
             this.label64 = new System.Windows.Forms.Label();
             this.pictureBox22 = new System.Windows.Forms.PictureBox();
+            this.btnAdmin = new System.Windows.Forms.Button();
+            this.lblTime = new System.Windows.Forms.Label();
+            this.lblDate = new System.Windows.Forms.Label();
+            this.timer1 = new System.Windows.Forms.Timer(this.components);
+            this.label65 = new System.Windows.Forms.Label();
+            this.label66 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
+            this.panel2.SuspendLayout();
             this.panel3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -215,6 +223,7 @@
             this.btnHide.TabIndex = 2;
             this.btnHide.Text = "_";
             this.btnHide.UseVisualStyleBackColor = false;
+            this.btnHide.Click += new System.EventHandler(this.btnHide_Click);
             // 
             // btnClose
             // 
@@ -230,6 +239,7 @@
             this.btnClose.TabIndex = 1;
             this.btnClose.Text = "X";
             this.btnClose.UseVisualStyleBackColor = false;
+            this.btnClose.Click += new System.EventHandler(this.btnClose_Click);
             // 
             // label1
             // 
@@ -245,10 +255,15 @@
             // panel2
             // 
             this.panel2.BackColor = System.Drawing.Color.Silver;
+            this.panel2.Controls.Add(this.label66);
+            this.panel2.Controls.Add(this.label65);
+            this.panel2.Controls.Add(this.lblDate);
+            this.panel2.Controls.Add(this.lblTime);
             this.panel2.Location = new System.Drawing.Point(0, 40);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(190, 711);
             this.panel2.TabIndex = 3;
+            this.panel2.Paint += new System.Windows.Forms.PaintEventHandler(this.panel2_Paint);
             // 
             // panel3
             // 
@@ -262,6 +277,26 @@
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(160, 200);
             this.panel3.TabIndex = 4;
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label4.Location = new System.Drawing.Point(37, 160);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(39, 17);
+            this.label4.TabIndex = 3;
+            this.label4.Text = "Price";
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label3.Location = new System.Drawing.Point(36, 130);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(95, 17);
+            this.label3.TabIndex = 2;
+            this.label3.Text = "Author Name";
             // 
             // label2
             // 
@@ -301,30 +336,10 @@
             this.lblUsername.ForeColor = System.Drawing.Color.DimGray;
             this.lblUsername.Location = new System.Drawing.Point(1228, 53);
             this.lblUsername.Name = "lblUsername";
-            this.lblUsername.Size = new System.Drawing.Size(103, 19);
+            this.lblUsername.Size = new System.Drawing.Size(54, 19);
             this.lblUsername.TabIndex = 26;
-            this.lblUsername.Text = "LoginedUser";
+            this.lblUsername.Text = "Guess";
             this.lblUsername.Click += new System.EventHandler(this.lblUsername_Click);
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label3.Location = new System.Drawing.Point(36, 130);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(95, 17);
-            this.label3.TabIndex = 2;
-            this.label3.Text = "Author Name";
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label4.Location = new System.Drawing.Point(37, 160);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(39, 17);
-            this.label4.TabIndex = 3;
-            this.label4.Text = "Price";
             // 
             // pictureBox9
             // 
@@ -1386,12 +1401,72 @@
             this.pictureBox22.TabIndex = 0;
             this.pictureBox22.TabStop = false;
             // 
+            // btnAdmin
+            // 
+            this.btnAdmin.Location = new System.Drawing.Point(1111, 49);
+            this.btnAdmin.Name = "btnAdmin";
+            this.btnAdmin.Size = new System.Drawing.Size(75, 23);
+            this.btnAdmin.TabIndex = 65;
+            this.btnAdmin.Text = "AdminPanel";
+            this.btnAdmin.UseVisualStyleBackColor = true;
+            this.btnAdmin.Visible = false;
+            this.btnAdmin.Click += new System.EventHandler(this.btnAdmin_Click);
+            // 
+            // lblTime
+            // 
+            this.lblTime.AutoSize = true;
+            this.lblTime.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.lblTime.ForeColor = System.Drawing.Color.Crimson;
+            this.lblTime.Location = new System.Drawing.Point(65, 655);
+            this.lblTime.Name = "lblTime";
+            this.lblTime.Size = new System.Drawing.Size(0, 19);
+            this.lblTime.TabIndex = 66;
+            // 
+            // lblDate
+            // 
+            this.lblDate.AutoSize = true;
+            this.lblDate.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.lblDate.ForeColor = System.Drawing.Color.Crimson;
+            this.lblDate.Location = new System.Drawing.Point(65, 684);
+            this.lblDate.Name = "lblDate";
+            this.lblDate.Size = new System.Drawing.Size(0, 19);
+            this.lblDate.TabIndex = 67;
+            // 
+            // timer1
+            // 
+            this.timer1.Enabled = true;
+            this.timer1.Interval = 1000;
+            this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
+            // 
+            // label65
+            // 
+            this.label65.AutoSize = true;
+            this.label65.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label65.ForeColor = System.Drawing.Color.Crimson;
+            this.label65.Location = new System.Drawing.Point(12, 655);
+            this.label65.Name = "label65";
+            this.label65.Size = new System.Drawing.Size(48, 19);
+            this.label65.TabIndex = 68;
+            this.label65.Text = "Time:";
+            // 
+            // label66
+            // 
+            this.label66.AutoSize = true;
+            this.label66.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label66.ForeColor = System.Drawing.Color.Crimson;
+            this.label66.Location = new System.Drawing.Point(12, 684);
+            this.label66.Name = "label66";
+            this.label66.Size = new System.Drawing.Size(47, 19);
+            this.label66.TabIndex = 69;
+            this.label66.Text = "Date:";
+            // 
             // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(1400, 750);
+            this.Controls.Add(this.btnAdmin);
             this.Controls.Add(this.panel22);
             this.Controls.Add(this.panel23);
             this.Controls.Add(this.panel20);
@@ -1422,6 +1497,8 @@
             this.Load += new System.EventHandler(this.MainForm_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
+            this.panel2.ResumeLayout(false);
+            this.panel2.PerformLayout();
             this.panel3.ResumeLayout(false);
             this.panel3.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
@@ -1605,5 +1682,11 @@
         private System.Windows.Forms.Label label63;
         private System.Windows.Forms.Label label64;
         private System.Windows.Forms.PictureBox pictureBox22;
+        private System.Windows.Forms.Button btnAdmin;
+        private System.Windows.Forms.Label lblDate;
+        private System.Windows.Forms.Label lblTime;
+        private System.Windows.Forms.Timer timer1;
+        private System.Windows.Forms.Label label66;
+        private System.Windows.Forms.Label label65;
     }
 }

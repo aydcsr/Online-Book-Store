@@ -18,8 +18,6 @@ namespace Online_Book_Store
         public kullanıciprofil()
         {
             InitializeComponent();
-            
-
         }
         public kullanıciprofil(Customer cs)
         {
@@ -31,25 +29,19 @@ namespace Online_Book_Store
         }
 
 
-        private void label1_Click(object sender, EventArgs e)
-        {
-
-        }
-
         private void kullanıciprofil_Load(object sender, EventArgs e)
         {
-            string a = cs.Firstname;
+            string a = cs.Username;
             DatabaseClass db = DatabaseClass.createConnection("onlineSales");
             DataTable tb = new DataTable();
-            tb = db.getData("select * from CustomerInformationTable where customerNick='" + a+"'");
-            label6.Text = tb.Rows[0][5].ToString();
-            label7.Text = tb.Rows[0][4].ToString();
-            label8.Text = tb.Rows[0][3].ToString();
+            tb = db.getData("select * from CustomerInformationTable where customerNick='" + a +"'");
+            if(tb.Rows.Count > 0)
+            {
+                label6.Text = tb.Rows[0][5].ToString();
+                label7.Text = tb.Rows[0][4].ToString();
+                label8.Text = tb.Rows[0][3].ToString();
+            }
 
-        }
-
-        private void label2_Click(object sender, EventArgs e)
-        {
 
         }
 
@@ -97,16 +89,6 @@ namespace Online_Book_Store
         }
 
         private void button2_Click(object sender, EventArgs e)
-        {
-
-           
-
-
-
-
-        }
-
-        private void label6_Click(object sender, EventArgs e)
         {
 
         }

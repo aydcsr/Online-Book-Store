@@ -19,7 +19,7 @@ namespace Online_Book_Store
 
         private void btnClose_Click(object sender, EventArgs e)
         {
-            Application.Exit();
+            this.Close();
         }
         Customer cs = new Customer();
         private void btnLogin_Click(object sender, EventArgs e)
@@ -32,6 +32,7 @@ namespace Online_Book_Store
             {
                 cs.Firstname = tb.Rows[0][1].ToString();
                 cs.Lastname = tb.Rows[0][2].ToString();
+                cs.Username = txtUsername.Text;
                 MainForm mainform = new MainForm(cs);
             
 
