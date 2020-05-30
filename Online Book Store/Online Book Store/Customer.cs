@@ -14,6 +14,11 @@ namespace Online_Book_Store
         private String username;
         private String password;
         private String address;
+
+        public Customer()
+        {
+         
+        }
         public Customer(string firstname, string lastname, string email, string username, string password, string address)
         {
             this.Firstname = firstname;

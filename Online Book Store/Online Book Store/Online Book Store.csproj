@@ -49,6 +49,12 @@
   <ItemGroup>
     <Compile Include="Customer.cs" />
     <Compile Include="DatabaseClass.cs" />
+    <Compile Include="kullanıciprofil.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="kullanıciprofil.Designer.cs">
+      <DependentUpon>kullanıciprofil.cs</DependentUpon>
+    </Compile>
     <Compile Include="MainForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -100,6 +106,9 @@
       <DependentUpon>Signup_Form.cs</DependentUpon>
     </Compile>
     <Compile Include="Util.cs" />
+    <EmbeddedResource Include="kullanıciprofil.resx">
+      <DependentUpon>kullanıciprofil.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="MainForm.resx">
       <DependentUpon>MainForm.cs</DependentUpon>
     </EmbeddedResource>
