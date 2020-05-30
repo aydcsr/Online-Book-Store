@@ -1,8 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Runtime.CompilerServices;
 using System.Text;
 using System.Threading.Tasks;
+using System.Xml.Schema;
 
 namespace Online_Book_Store
 {
@@ -14,7 +16,9 @@ namespace Online_Book_Store
         private String username;
         private String password;
         private String address;
-
+        private String phonenumber;
+        private String authorization;
+        private String id;
         public Customer()
         {
          
@@ -34,5 +38,15 @@ namespace Online_Book_Store
         public string Username { get => username; set => username = value; }
         public string Password { get => password; set => password = value; }
         public string Address { get => address; set => address = value; }
+        public string Phonenumber { get => phonenumber; set => phonenumber = value; }
+        public string Authorization { get => authorization; set => authorization = value; }
+        public string Id { get => id; set => id = value; }
+
+        public string DatabaseValues()
+        {
+            string values;
+            values = "'" + this.firstname + "','" + this.lastname + "','" + this.address + "','" + this.email + "','" + this.username + "','" + this.password+ "','0','"+this.phonenumber+ "','"+this.authorization+"'";
+            return values;
+        }
     }
 }

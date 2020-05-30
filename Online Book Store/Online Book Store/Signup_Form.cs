@@ -11,15 +11,30 @@ using System.Windows.Forms;
 
 namespace Online_Book_Store
 {
+
     public partial class Signup_Form : Form
     {
+        DatabaseClass db = DatabaseClass.createConnection("onlineSales");
         public Signup_Form()
         {
             InitializeComponent();
         }
         public bool isValidProfile()
         {
-            if(txtFirstName.Text == "" || txtLastName .Text == "")
+
+            DataTable tb = new DataTable();
+            tb = db.getData("customerNick", "CustomerInformationTable");
+            int error = 0;
+
+            for (int i = 0; i < tb.Rows.Count; i++)
+            {
+                if (txtUsername.Text == tb.Rows[i][0].ToString())
+                {
+                    error = 1;
+                }
+            }
+
+            if (txtFirstName.Text == "" || txtLastName .Text == "")
             {
                 lblError.Text = "Name part cannot be empty.";
                 lblError.ForeColor = Color.Red;
@@ -31,9 +46,15 @@ namespace Online_Book_Store
                 lblError.ForeColor = Color.Red;
                 return false;
             }
-            ///////////////////////////////////
-            //Username eşleşmesi denetlenecek//
-            ///////////////////////////////////
+
+            else if(error == 1)
+            {
+                lblError.Text = "This username is already taken";
+                lblError.ForeColor = Color.Red;
+                return false;
+
+            }
+
             else if(txtPassword.Text.Length > 16 || txtPassword.Text.Length < 8)
             {
                 lblError.Text = "Password length must be between 8 - 16";
@@ -58,11 +79,12 @@ namespace Online_Book_Store
         {
             if(isValidProfile())
             {
+                //Password database e hashli olarak aktarıldığında database hata veriyor
                 string password = Util.ComputeSha256Hash(txtPassword.Text); // Şifreler hash kodlarıyla tutulacak 
                 Customer customer = new Customer(txtFirstName.Text, txtLastName.Text, txtEmail.Text, txtUsername.Text, password, rtxtAddress.Text);
-                //////////////////////////////////////////////////
-                ///Oluşturulan customer database e eklenecek//////
-                //////////////////////////////////////////////////
+                string columns = "customerName,customerSurname,customerAdress,customerEmail,customerNick,customerPassword,userAuthorization,customerPhoneNumber,customerVisibility";
+                string values = "'" + txtFirstName.Text + "','" + txtLastName.Text + "','" + rtxtAddress.Text + "','" + txtEmail.Text + "','" + txtUsername.Text + "','" + txtPassword.Text + "','0','0','1'";
+                db.insertData("CustomerInformationTable", columns, values);
             }
             else
             {

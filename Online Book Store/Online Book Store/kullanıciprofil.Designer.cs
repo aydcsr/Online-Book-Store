@@ -49,7 +49,6 @@
             this.label1.Size = new System.Drawing.Size(106, 13);
             this.label1.TabIndex = 0;
             this.label1.Text = "KULLANICI PROFİLİ";
-            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // label2
             // 
@@ -59,7 +58,6 @@
             this.label2.Size = new System.Drawing.Size(102, 33);
             this.label2.TabIndex = 1;
             this.label2.Text = "Kullanıcı Adı :";
-            this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
             // label3
             // 
@@ -125,7 +123,6 @@
             this.label6.Size = new System.Drawing.Size(35, 13);
             this.label6.TabIndex = 9;
             this.label6.Text = "label6";
-            this.label6.Click += new System.EventHandler(this.label6_Click);
             // 
             // label7
             // 
