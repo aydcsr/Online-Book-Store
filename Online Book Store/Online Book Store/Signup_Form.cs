@@ -121,6 +121,11 @@ namespace Online_Book_Store
             login_form.Show();
             this.Close();
         }
+
+        private void txtConfirm_TextChanged(object sender, EventArgs e)
+        {
+
+        }
         // End of move form
     }
 }

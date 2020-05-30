@@ -141,6 +141,7 @@
             this.txtConfirm.Size = new System.Drawing.Size(323, 27);
             this.txtConfirm.TabIndex = 11;
             this.txtConfirm.UseSystemPasswordChar = true;
+            this.txtConfirm.TextChanged += new System.EventHandler(this.txtConfirm_TextChanged);
             // 
             // label6
             // 
