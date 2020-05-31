@@ -25,7 +25,7 @@ namespace Online_Book_Store
         public void insertLog(LogClass log)
         {
             con.Open();
-            string sorgu = "insert into LogTable (customerId,butonName,formName,date) values ('" + log.Customerid + "','" + log.BtnName + "','" + log.FrmName + "','" + log.Date + "'";
+            string sorgu = "insert into LogTable (customerId,butonName,formName,date) values ('" + log.Customerid + "','" + log.BtnName + "','" + log.FrmName + "','" + log.Date + "')";
             SqlCommand cmd = new SqlCommand(sorgu, con);
             cmd.ExecuteNonQuery();
             con.Close();

@@ -24,19 +24,6 @@ namespace Online_Book_Store
         Customer cs = new Customer();
         public MainForm(Customer cs)
         {
-            DataTable tb = db.getData("select * from customerInformationTable where customerNick = '" + cs.Username +"'");
-            if(tb.Rows.Count >0)
-            {
-                cs.Id = tb.Rows[0][0].ToString();
-                cs.Firstname = tb.Rows[0][1].ToString();
-                cs.Lastname = tb.Rows[0][2].ToString();
-                cs.Address = tb.Rows[0][3].ToString();
-                cs.Email = tb.Rows[0][4].ToString();
-                cs.Username = tb.Rows[0][5].ToString();
-                cs.Password = tb.Rows[0][6].ToString();
-                cs.Authorization = tb.Rows[0][7].ToString();
-                cs.Phonenumber = tb.Rows[0][8].ToString();
-            }
             InitializeComponent();
             if (cs.Authorization == "1")
             {
@@ -67,8 +54,10 @@ namespace Online_Book_Store
 
         private void MainForm_Load(object sender, EventArgs e)
         {
-
-
+            List<ItemInterface> listitems = new List<ItemInterface>();
+            //////////////////////////////////////////////////////////
+            ///    Data Tabledan veriler çekilip liste atılacak    ///
+            //////////////////////////////////////////////////////////    
         }
 
         private void lblUsername_Click(object sender, EventArgs e)
@@ -81,7 +70,9 @@ namespace Online_Book_Store
             }
             else
             {
-                kullanıciprofil kullanıciprofil = new kullanıciprofil(cs);
+                LogClass log = new LogClass(LoginedCustomer.getInstance().Customer.Id, lblUsername.Name, "MainForm", Util.GetTime());
+                db.insertLog(log);
+                kullanıciprofil kullanıciprofil = new kullanıciprofil(LoginedCustomer.getInstance().Customer);
                 kullanıciprofil.ShowDialog();
             }
 
@@ -89,16 +80,22 @@ namespace Online_Book_Store
 
         private void btnClose_Click(object sender, EventArgs e)
         {
+            LogClass log = new LogClass(LoginedCustomer.getInstance().Customer.Id, btnClose.Name, "MainForm", Util.GetTime());
+            db.insertLog(log);
             Application.Exit();
         }
 
         private void btnHide_Click(object sender, EventArgs e)
         {
+            LogClass log = new LogClass(LoginedCustomer.getInstance().Customer.Id, btnHide.Name, "MainForm", Util.GetTime());
+            db.insertLog(log);
             this.WindowState = FormWindowState.Minimized;
         }
 
         private void btnAdmin_Click(object sender, EventArgs e)
         {
+            LogClass log = new LogClass(LoginedCustomer.getInstance().Customer.Id, btnAdmin.Name, "MainForm", Util.GetTime());
+            db.insertLog(log);
             FormAdmin admin = new FormAdmin();
             admin.Show();
         }
@@ -116,7 +113,14 @@ namespace Online_Book_Store
 
         private void btnSearch_Click(object sender, EventArgs e)
         {
-            
+            LogClass log = new LogClass(LoginedCustomer.getInstance().Customer.Id, btnSearch.Name, "MainForm", Util.GetTime());
+            db.insertLog(log);
+        }
+
+        private void btnCart_Click(object sender, EventArgs e)
+        {
+            LogClass log = new LogClass(LoginedCustomer.getInstance().Customer.Id, btnCart.Name, "MainForm", Util.GetTime());
+            db.insertLog(log);
         }
     }
 }

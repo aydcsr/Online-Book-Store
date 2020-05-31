@@ -12,6 +12,7 @@ namespace Online_Book_Store
 {
     public static class Util
     {
+        
         public static bool isValidEmail(string inputEmail)
         {
             // This Pattern is use to verify the email 
@@ -64,5 +65,6 @@ namespace Online_Book_Store
 
             }
         }
+
     }
 }

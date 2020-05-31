@@ -30,17 +30,27 @@ namespace Online_Book_Store
             tb = db.getData(str);
             if (tb.Rows.Count == 1)
             {
+                cs.Id = tb.Rows[0][0].ToString();
                 cs.Firstname = tb.Rows[0][1].ToString();
                 cs.Lastname = tb.Rows[0][2].ToString();
-                cs.Username = txtUsername.Text;
-                MainForm mainform = new MainForm(cs);
-            
-
+                cs.Address = tb.Rows[0][3].ToString();
+                cs.Email = tb.Rows[0][4].ToString();
+                cs.Username = tb.Rows[0][5].ToString();
+                cs.Password = tb.Rows[0][6].ToString();
+                cs.Authorization = tb.Rows[0][7].ToString();
+                cs.Phonenumber = tb.Rows[0][8].ToString();
+                LoginedCustomer.getInstance().Customer = cs;
+                LogClass log = new LogClass(LoginedCustomer.getInstance().Customer.Id, btnLogin.Name, "Login_Form", Util.GetTime());
+                db.insertLog(log);
+                MainForm mainform = new MainForm(LoginedCustomer.getInstance().Customer);
                 mainform.ShowDialog();
 
             }
             else
-                MessageBox.Show("yanlıs");
+            {
+                MessageBox.Show("Username or password incorrect");
+            }
+
 
 
         }

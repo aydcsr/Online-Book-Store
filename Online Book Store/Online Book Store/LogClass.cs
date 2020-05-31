@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Online_Book_Store
 {
-    class LogClass
+    public class LogClass
     {
         private string customerid;
         private string btnName;
@@ -14,7 +14,7 @@ namespace Online_Book_Store
         private string date;
         public LogClass(string customerId,string btnName,string frmName,string date)
         {
-            this.customerid = customerid;
+            this.customerid = customerId;
             this.btnName = btnName;
             this.frmName = frmName;
             this.date = date;
