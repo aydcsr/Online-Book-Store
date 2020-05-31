@@ -72,3 +72,4 @@ C:\Users\Huseyinoglu\Desktop\online-book-store\Online Book Store\Online Book Sto
 C:\Users\Huseyinoglu\Desktop\online-book-store\Online Book Store\Online Book Store\obj\Debug\Online Book Store.csproj.GenerateResource.cache
 C:\Users\Huseyinoglu\Desktop\online-book-store\Online Book Store\Online Book Store\obj\Debug\Online Book Store.exe
 C:\Users\Huseyinoglu\Desktop\online-book-store\Online Book Store\Online Book Store\obj\Debug\Online Book Store.pdb
+C:\Users\aydcs\OneDrive\Masaüstü\online-book-store\Online Book Store\Online Book Store\obj\Debug\Online_Book_Store.kullanıciprofil.resources
