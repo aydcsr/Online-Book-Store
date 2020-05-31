@@ -26,6 +26,11 @@ namespace Online_Book_Store
             ToolTip Aciklama = new ToolTip();
             Aciklama.SetToolTip(button1, "kaydet");
             this.cs = cs;
+            button4.Visible = false;
+            button3.Visible = false;
+           
+
+
         }
 
 
@@ -38,8 +43,8 @@ namespace Online_Book_Store
             if(tb.Rows.Count > 0)
             {
                 label6.Text = tb.Rows[0][5].ToString();
-                label7.Text = tb.Rows[0][4].ToString();
-                label8.Text = tb.Rows[0][3].ToString();
+                mailbox.Text = tb.Rows[0][4].ToString();
+                adressbox.Text = tb.Rows[0][3].ToString();
             }
 
 
@@ -89,6 +94,74 @@ namespace Online_Book_Store
         }
 
         private void button2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label8_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button2_Click_1(object sender, EventArgs e)
+        {
+
+            button4.Visible = true;
+            button3.Visible = true;
+            passwordc.Visible = true;
+            passwordcb.Visible = true;
+            mailbox.ReadOnly = false;
+            adressbox.ReadOnly = false;
+            updatep.Visible = true;
+
+         
+
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            
+             if (!Util.isValidEmail(mailbox.Text))
+             {
+                lblErrorm.Visible = true;
+                lblErrorm.Text = "Email is not valid";
+                lblErrorm.ForeColor = Color.Red;
+               
+             }
+            else
+            {
+                DatabaseClass db = DatabaseClass.createConnection("onlineSales");
+                db.updateData("CustomerInformationTable", "customerEmail", "'" + mailbox.Text + "'", " customerNick=" + "'" + cs.Username + "'");
+                mailbox.ReadOnly = true;
+            }
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            DatabaseClass db = DatabaseClass.createConnection("onlineSales");
+            db.updateData("CustomerInformationTable", "customerAdress", "'" + adressbox.Text + "'", " customerNick=" + "'" + cs.Username + "'");
+            adressbox.ReadOnly = true;
+        }
+
+        private void passwordcb_Click(object sender, EventArgs e)
+        {
+
+            if (passwordc.Text.Length > 16 || passwordc.Text.Length < 8)
+            {
+                labeleror.Text = "Password length must be between 8 - 16";
+                labeleror.ForeColor = Color.Red;
+               
+            }
+            else
+            {
+                DatabaseClass db = DatabaseClass.createConnection("onlineSales");
+                db.updateData("CustomerInformationTable", "customerPassword", "'" + passwordc.Text + "'", " customerNick=" + "'" + cs.Username + "'");
+            }
+
+
+        }
+
+        private void updatep_Click(object sender, EventArgs e)
         {
 
         }
