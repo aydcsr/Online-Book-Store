@@ -35,6 +35,12 @@
             this.btnClose = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
+            this.btnCart = new System.Windows.Forms.Button();
+            this.label67 = new System.Windows.Forms.Label();
+            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.label68 = new System.Windows.Forms.Label();
+            this.cmbItemType = new System.Windows.Forms.ComboBox();
+            this.btnSearch = new System.Windows.Forms.Button();
             this.label66 = new System.Windows.Forms.Label();
             this.label65 = new System.Windows.Forms.Label();
             this.lblDate = new System.Windows.Forms.Label();
@@ -148,12 +154,6 @@
             this.pictureBox22 = new System.Windows.Forms.PictureBox();
             this.btnAdmin = new System.Windows.Forms.Button();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
-            this.btnSearch = new System.Windows.Forms.Button();
-            this.label67 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.label68 = new System.Windows.Forms.Label();
-            this.cmbItemType = new System.Windows.Forms.ComboBox();
-            this.btnCart = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.panel3.SuspendLayout();
@@ -276,6 +276,80 @@
             this.panel2.Size = new System.Drawing.Size(190, 711);
             this.panel2.TabIndex = 3;
             this.panel2.Paint += new System.Windows.Forms.PaintEventHandler(this.panel2_Paint);
+            // 
+            // btnCart
+            // 
+            this.btnCart.BackColor = System.Drawing.Color.Crimson;
+            this.btnCart.FlatAppearance.BorderSize = 0;
+            this.btnCart.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnCart.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.btnCart.ForeColor = System.Drawing.Color.White;
+            this.btnCart.Location = new System.Drawing.Point(0, 26);
+            this.btnCart.Name = "btnCart";
+            this.btnCart.Size = new System.Drawing.Size(190, 34);
+            this.btnCart.TabIndex = 74;
+            this.btnCart.Text = "Go To Cart";
+            this.btnCart.UseVisualStyleBackColor = false;
+            this.btnCart.Click += new System.EventHandler(this.btnCart_Click);
+            // 
+            // label67
+            // 
+            this.label67.AutoSize = true;
+            this.label67.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold);
+            this.label67.ForeColor = System.Drawing.Color.Crimson;
+            this.label67.Location = new System.Drawing.Point(3, 565);
+            this.label67.Name = "label67";
+            this.label67.Size = new System.Drawing.Size(89, 19);
+            this.label67.TabIndex = 73;
+            this.label67.Text = "Item Name:";
+            // 
+            // textBox1
+            // 
+            this.textBox1.ForeColor = System.Drawing.Color.Crimson;
+            this.textBox1.Location = new System.Drawing.Point(3, 587);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(170, 20);
+            this.textBox1.TabIndex = 72;
+            // 
+            // label68
+            // 
+            this.label68.AutoSize = true;
+            this.label68.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold);
+            this.label68.ForeColor = System.Drawing.Color.Crimson;
+            this.label68.Location = new System.Drawing.Point(3, 510);
+            this.label68.Name = "label68";
+            this.label68.Size = new System.Drawing.Size(82, 19);
+            this.label68.TabIndex = 71;
+            this.label68.Text = "Item Type:";
+            // 
+            // cmbItemType
+            // 
+            this.cmbItemType.ForeColor = System.Drawing.Color.Crimson;
+            this.cmbItemType.FormattingEnabled = true;
+            this.cmbItemType.Items.AddRange(new object[] {
+            "Book",
+            "CD",
+            "Magazine"});
+            this.cmbItemType.Location = new System.Drawing.Point(4, 533);
+            this.cmbItemType.Margin = new System.Windows.Forms.Padding(4);
+            this.cmbItemType.Name = "cmbItemType";
+            this.cmbItemType.Size = new System.Drawing.Size(169, 21);
+            this.cmbItemType.TabIndex = 70;
+            // 
+            // btnSearch
+            // 
+            this.btnSearch.BackColor = System.Drawing.Color.Crimson;
+            this.btnSearch.FlatAppearance.BorderSize = 0;
+            this.btnSearch.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnSearch.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.btnSearch.ForeColor = System.Drawing.Color.White;
+            this.btnSearch.Location = new System.Drawing.Point(0, 618);
+            this.btnSearch.Name = "btnSearch";
+            this.btnSearch.Size = new System.Drawing.Size(190, 34);
+            this.btnSearch.TabIndex = 66;
+            this.btnSearch.Text = "Search";
+            this.btnSearch.UseVisualStyleBackColor = false;
+            this.btnSearch.Click += new System.EventHandler(this.btnSearch_Click);
             // 
             // label66
             // 
@@ -1471,79 +1545,6 @@
             this.timer1.Enabled = true;
             this.timer1.Interval = 1000;
             this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
-            // 
-            // btnSearch
-            // 
-            this.btnSearch.BackColor = System.Drawing.Color.Crimson;
-            this.btnSearch.FlatAppearance.BorderSize = 0;
-            this.btnSearch.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnSearch.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.btnSearch.ForeColor = System.Drawing.Color.White;
-            this.btnSearch.Location = new System.Drawing.Point(0, 618);
-            this.btnSearch.Name = "btnSearch";
-            this.btnSearch.Size = new System.Drawing.Size(190, 34);
-            this.btnSearch.TabIndex = 66;
-            this.btnSearch.Text = "Search";
-            this.btnSearch.UseVisualStyleBackColor = false;
-            this.btnSearch.Click += new System.EventHandler(this.btnSearch_Click);
-            // 
-            // label67
-            // 
-            this.label67.AutoSize = true;
-            this.label67.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold);
-            this.label67.ForeColor = System.Drawing.Color.Crimson;
-            this.label67.Location = new System.Drawing.Point(3, 565);
-            this.label67.Name = "label67";
-            this.label67.Size = new System.Drawing.Size(89, 19);
-            this.label67.TabIndex = 73;
-            this.label67.Text = "Item Name:";
-            // 
-            // textBox1
-            // 
-            this.textBox1.ForeColor = System.Drawing.Color.Crimson;
-            this.textBox1.Location = new System.Drawing.Point(3, 587);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(170, 20);
-            this.textBox1.TabIndex = 72;
-            // 
-            // label68
-            // 
-            this.label68.AutoSize = true;
-            this.label68.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold);
-            this.label68.ForeColor = System.Drawing.Color.Crimson;
-            this.label68.Location = new System.Drawing.Point(3, 510);
-            this.label68.Name = "label68";
-            this.label68.Size = new System.Drawing.Size(82, 19);
-            this.label68.TabIndex = 71;
-            this.label68.Text = "Item Type:";
-            // 
-            // cmbItemType
-            // 
-            this.cmbItemType.ForeColor = System.Drawing.Color.Crimson;
-            this.cmbItemType.FormattingEnabled = true;
-            this.cmbItemType.Items.AddRange(new object[] {
-            "Book",
-            "CD",
-            "Magazine"});
-            this.cmbItemType.Location = new System.Drawing.Point(4, 533);
-            this.cmbItemType.Margin = new System.Windows.Forms.Padding(4);
-            this.cmbItemType.Name = "cmbItemType";
-            this.cmbItemType.Size = new System.Drawing.Size(169, 21);
-            this.cmbItemType.TabIndex = 70;
-            // 
-            // btnCart
-            // 
-            this.btnCart.BackColor = System.Drawing.Color.Crimson;
-            this.btnCart.FlatAppearance.BorderSize = 0;
-            this.btnCart.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnCart.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.btnCart.ForeColor = System.Drawing.Color.White;
-            this.btnCart.Location = new System.Drawing.Point(0, 26);
-            this.btnCart.Name = "btnCart";
-            this.btnCart.Size = new System.Drawing.Size(190, 34);
-            this.btnCart.TabIndex = 74;
-            this.btnCart.Text = "Go To Cart";
-            this.btnCart.UseVisualStyleBackColor = false;
             // 
             // MainForm
             // 

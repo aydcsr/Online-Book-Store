@@ -13,7 +13,7 @@ namespace Online_Book_Store
 {
     public partial class kullanıciprofil : Form
     {
-
+        DatabaseClass db = DatabaseClass.createConnection("onlineSales");
         Customer cs = new Customer();
         public kullanıciprofil()
         {
@@ -28,16 +28,13 @@ namespace Online_Book_Store
             this.cs = cs;
             button4.Visible = false;
             button3.Visible = false;
-           
-
-
         }
 
 
         private void kullanıciprofil_Load(object sender, EventArgs e)
         {
             string a = cs.Username;
-            DatabaseClass db = DatabaseClass.createConnection("onlineSales");
+            
             DataTable tb = new DataTable();
             tb = db.getData("select * from CustomerInformationTable where customerNick='" + a +"'");
             if(tb.Rows.Count > 0)
@@ -52,38 +49,41 @@ namespace Online_Book_Store
 
         private void button1_Click(object sender, EventArgs e)
         {
-
+            LogClass log = new LogClass(LoginedCustomer.getInstance().Customer.Id, button1.Name, "kullanıciprofil", Util.GetTime());
+            db.insertLog(log);
             /* DATADAN ALINAN BİLGİLER PARCALAR ADLI BİR DİZİYE ATILACAK*/
 
-             
 
-          /*  SaveFileDialog save = new SaveFileDialog();
-            save.Filter = "TXT Dosyası|*.txt";
-            save.OverwritePrompt = true;
-            save.CreatePrompt = true;
 
-            if (save.ShowDialog() == DialogResult.OK)
-            {
-                StreamWriter Kayit = new StreamWriter(save.FileName);
-                int c = 0;
-                for (int i = 0; i < parcalar.Length; i++)
-                {
-                    Kayit.Write(parcalar[i]);
-                    Kayit.Write("\t");
-                    c++;
-                    if (c % 3 == 0)
-                    {
-                        Kayit.Write("\n");
-                    }
-                }
+            /*  SaveFileDialog save = new SaveFileDialog();
+              save.Filter = "TXT Dosyası|*.txt";
+              save.OverwritePrompt = true;
+              save.CreatePrompt = true;
 
-                Kayit.Close();
-            }*/
+              if (save.ShowDialog() == DialogResult.OK)
+              {
+                  StreamWriter Kayit = new StreamWriter(save.FileName);
+                  int c = 0;
+                  for (int i = 0; i < parcalar.Length; i++)
+                  {
+                      Kayit.Write(parcalar[i]);
+                      Kayit.Write("\t");
+                      c++;
+                      if (c % 3 == 0)
+                      {
+                          Kayit.Write("\n");
+                      }
+                  }
+
+                  Kayit.Close();
+              }*/
 
         }
 
         private void gecmis_Click(object sender, EventArgs e)
         {
+            LogClass log = new LogClass(LoginedCustomer.getInstance().Customer.Id, gecmis.Name, "kullanıciprofil", Util.GetTime());
+            db.insertLog(log);
             if (listBox1.Visible)
                 listBox1.Visible = false;
 
@@ -105,7 +105,8 @@ namespace Online_Book_Store
 
         private void button2_Click_1(object sender, EventArgs e)
         {
-
+            LogClass log = new LogClass(LoginedCustomer.getInstance().Customer.Id, button2.Name, "kullanıciprofil", Util.GetTime());
+            db.insertLog(log);
             button4.Visible = true;
             button3.Visible = true;
             passwordc.Visible = true;
@@ -120,8 +121,9 @@ namespace Online_Book_Store
 
         private void button3_Click(object sender, EventArgs e)
         {
-            
-             if (!Util.isValidEmail(mailbox.Text))
+            LogClass log = new LogClass(LoginedCustomer.getInstance().Customer.Id, button3.Name, "kullanıciprofil", Util.GetTime());
+            db.insertLog(log);
+            if (!Util.isValidEmail(mailbox.Text))
              {
                 lblErrorm.Visible = true;
                 lblErrorm.Text = "Email is not valid";
@@ -138,14 +140,16 @@ namespace Online_Book_Store
 
         private void button4_Click(object sender, EventArgs e)
         {
-            DatabaseClass db = DatabaseClass.createConnection("onlineSales");
+            LogClass log = new LogClass(LoginedCustomer.getInstance().Customer.Id, button4.Name, "kullanıciprofil", Util.GetTime());
+            db.insertLog(log);
             db.updateData("CustomerInformationTable", "customerAdress", "'" + adressbox.Text + "'", " customerNick=" + "'" + cs.Username + "'");
             adressbox.ReadOnly = true;
         }
 
         private void passwordcb_Click(object sender, EventArgs e)
         {
-
+            LogClass log = new LogClass(LoginedCustomer.getInstance().Customer.Id, passwordcb.Name, "kullanıciprofil", Util.GetTime());
+            db.insertLog(log);
             if (passwordc.Text.Length > 16 || passwordc.Text.Length < 8)
             {
                 labeleror.Text = "Password length must be between 8 - 16";
@@ -168,6 +172,8 @@ namespace Online_Book_Store
 
         private void btnClose_Click(object sender, EventArgs e)
         {
+            LogClass log = new LogClass(LoginedCustomer.getInstance().Customer.Id, btnClose.Name, "kullanıciprofil", Util.GetTime());
+            db.insertLog(log);
             this.Hide();
         }
     }
