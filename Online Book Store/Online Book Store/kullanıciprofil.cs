@@ -165,5 +165,10 @@ namespace Online_Book_Store
         {
 
         }
+
+        private void btnClose_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+        }
     }
 }

@@ -35,6 +35,10 @@
             this.btnClose = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
+            this.label66 = new System.Windows.Forms.Label();
+            this.label65 = new System.Windows.Forms.Label();
+            this.lblDate = new System.Windows.Forms.Label();
+            this.lblTime = new System.Windows.Forms.Label();
             this.panel3 = new System.Windows.Forms.Panel();
             this.label4 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
@@ -143,11 +147,13 @@
             this.label64 = new System.Windows.Forms.Label();
             this.pictureBox22 = new System.Windows.Forms.PictureBox();
             this.btnAdmin = new System.Windows.Forms.Button();
-            this.lblTime = new System.Windows.Forms.Label();
-            this.lblDate = new System.Windows.Forms.Label();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
-            this.label65 = new System.Windows.Forms.Label();
-            this.label66 = new System.Windows.Forms.Label();
+            this.btnSearch = new System.Windows.Forms.Button();
+            this.label67 = new System.Windows.Forms.Label();
+            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.label68 = new System.Windows.Forms.Label();
+            this.cmbItemType = new System.Windows.Forms.ComboBox();
+            this.btnCart = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.panel3.SuspendLayout();
@@ -255,6 +261,12 @@
             // panel2
             // 
             this.panel2.BackColor = System.Drawing.Color.Silver;
+            this.panel2.Controls.Add(this.btnCart);
+            this.panel2.Controls.Add(this.label67);
+            this.panel2.Controls.Add(this.textBox1);
+            this.panel2.Controls.Add(this.label68);
+            this.panel2.Controls.Add(this.cmbItemType);
+            this.panel2.Controls.Add(this.btnSearch);
             this.panel2.Controls.Add(this.label66);
             this.panel2.Controls.Add(this.label65);
             this.panel2.Controls.Add(this.lblDate);
@@ -264,6 +276,48 @@
             this.panel2.Size = new System.Drawing.Size(190, 711);
             this.panel2.TabIndex = 3;
             this.panel2.Paint += new System.Windows.Forms.PaintEventHandler(this.panel2_Paint);
+            // 
+            // label66
+            // 
+            this.label66.AutoSize = true;
+            this.label66.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label66.ForeColor = System.Drawing.Color.Crimson;
+            this.label66.Location = new System.Drawing.Point(12, 684);
+            this.label66.Name = "label66";
+            this.label66.Size = new System.Drawing.Size(47, 19);
+            this.label66.TabIndex = 69;
+            this.label66.Text = "Date:";
+            // 
+            // label65
+            // 
+            this.label65.AutoSize = true;
+            this.label65.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label65.ForeColor = System.Drawing.Color.Crimson;
+            this.label65.Location = new System.Drawing.Point(12, 655);
+            this.label65.Name = "label65";
+            this.label65.Size = new System.Drawing.Size(48, 19);
+            this.label65.TabIndex = 68;
+            this.label65.Text = "Time:";
+            // 
+            // lblDate
+            // 
+            this.lblDate.AutoSize = true;
+            this.lblDate.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.lblDate.ForeColor = System.Drawing.Color.Crimson;
+            this.lblDate.Location = new System.Drawing.Point(65, 684);
+            this.lblDate.Name = "lblDate";
+            this.lblDate.Size = new System.Drawing.Size(0, 19);
+            this.lblDate.TabIndex = 67;
+            // 
+            // lblTime
+            // 
+            this.lblTime.AutoSize = true;
+            this.lblTime.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.lblTime.ForeColor = System.Drawing.Color.Crimson;
+            this.lblTime.Location = new System.Drawing.Point(65, 655);
+            this.lblTime.Name = "lblTime";
+            this.lblTime.Size = new System.Drawing.Size(0, 19);
+            this.lblTime.TabIndex = 66;
             // 
             // panel3
             // 
@@ -1412,53 +1466,84 @@
             this.btnAdmin.Visible = false;
             this.btnAdmin.Click += new System.EventHandler(this.btnAdmin_Click);
             // 
-            // lblTime
-            // 
-            this.lblTime.AutoSize = true;
-            this.lblTime.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.lblTime.ForeColor = System.Drawing.Color.Crimson;
-            this.lblTime.Location = new System.Drawing.Point(65, 655);
-            this.lblTime.Name = "lblTime";
-            this.lblTime.Size = new System.Drawing.Size(0, 19);
-            this.lblTime.TabIndex = 66;
-            // 
-            // lblDate
-            // 
-            this.lblDate.AutoSize = true;
-            this.lblDate.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.lblDate.ForeColor = System.Drawing.Color.Crimson;
-            this.lblDate.Location = new System.Drawing.Point(65, 684);
-            this.lblDate.Name = "lblDate";
-            this.lblDate.Size = new System.Drawing.Size(0, 19);
-            this.lblDate.TabIndex = 67;
-            // 
             // timer1
             // 
             this.timer1.Enabled = true;
             this.timer1.Interval = 1000;
             this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
             // 
-            // label65
+            // btnSearch
             // 
-            this.label65.AutoSize = true;
-            this.label65.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label65.ForeColor = System.Drawing.Color.Crimson;
-            this.label65.Location = new System.Drawing.Point(12, 655);
-            this.label65.Name = "label65";
-            this.label65.Size = new System.Drawing.Size(48, 19);
-            this.label65.TabIndex = 68;
-            this.label65.Text = "Time:";
+            this.btnSearch.BackColor = System.Drawing.Color.Crimson;
+            this.btnSearch.FlatAppearance.BorderSize = 0;
+            this.btnSearch.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnSearch.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.btnSearch.ForeColor = System.Drawing.Color.White;
+            this.btnSearch.Location = new System.Drawing.Point(0, 618);
+            this.btnSearch.Name = "btnSearch";
+            this.btnSearch.Size = new System.Drawing.Size(190, 34);
+            this.btnSearch.TabIndex = 66;
+            this.btnSearch.Text = "Search";
+            this.btnSearch.UseVisualStyleBackColor = false;
+            this.btnSearch.Click += new System.EventHandler(this.btnSearch_Click);
             // 
-            // label66
+            // label67
             // 
-            this.label66.AutoSize = true;
-            this.label66.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label66.ForeColor = System.Drawing.Color.Crimson;
-            this.label66.Location = new System.Drawing.Point(12, 684);
-            this.label66.Name = "label66";
-            this.label66.Size = new System.Drawing.Size(47, 19);
-            this.label66.TabIndex = 69;
-            this.label66.Text = "Date:";
+            this.label67.AutoSize = true;
+            this.label67.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold);
+            this.label67.ForeColor = System.Drawing.Color.Crimson;
+            this.label67.Location = new System.Drawing.Point(3, 565);
+            this.label67.Name = "label67";
+            this.label67.Size = new System.Drawing.Size(89, 19);
+            this.label67.TabIndex = 73;
+            this.label67.Text = "Item Name:";
+            // 
+            // textBox1
+            // 
+            this.textBox1.ForeColor = System.Drawing.Color.Crimson;
+            this.textBox1.Location = new System.Drawing.Point(3, 587);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(170, 20);
+            this.textBox1.TabIndex = 72;
+            // 
+            // label68
+            // 
+            this.label68.AutoSize = true;
+            this.label68.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold);
+            this.label68.ForeColor = System.Drawing.Color.Crimson;
+            this.label68.Location = new System.Drawing.Point(3, 510);
+            this.label68.Name = "label68";
+            this.label68.Size = new System.Drawing.Size(82, 19);
+            this.label68.TabIndex = 71;
+            this.label68.Text = "Item Type:";
+            // 
+            // cmbItemType
+            // 
+            this.cmbItemType.ForeColor = System.Drawing.Color.Crimson;
+            this.cmbItemType.FormattingEnabled = true;
+            this.cmbItemType.Items.AddRange(new object[] {
+            "Book",
+            "CD",
+            "Magazine"});
+            this.cmbItemType.Location = new System.Drawing.Point(4, 533);
+            this.cmbItemType.Margin = new System.Windows.Forms.Padding(4);
+            this.cmbItemType.Name = "cmbItemType";
+            this.cmbItemType.Size = new System.Drawing.Size(169, 21);
+            this.cmbItemType.TabIndex = 70;
+            // 
+            // btnCart
+            // 
+            this.btnCart.BackColor = System.Drawing.Color.Crimson;
+            this.btnCart.FlatAppearance.BorderSize = 0;
+            this.btnCart.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnCart.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.btnCart.ForeColor = System.Drawing.Color.White;
+            this.btnCart.Location = new System.Drawing.Point(0, 26);
+            this.btnCart.Name = "btnCart";
+            this.btnCart.Size = new System.Drawing.Size(190, 34);
+            this.btnCart.TabIndex = 74;
+            this.btnCart.Text = "Go To Cart";
+            this.btnCart.UseVisualStyleBackColor = false;
             // 
             // MainForm
             // 
@@ -1688,5 +1773,11 @@
         private System.Windows.Forms.Timer timer1;
         private System.Windows.Forms.Label label66;
         private System.Windows.Forms.Label label65;
+        private System.Windows.Forms.Button btnSearch;
+        private System.Windows.Forms.Label label67;
+        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.Label label68;
+        private System.Windows.Forms.ComboBox cmbItemType;
+        private System.Windows.Forms.Button btnCart;
     }
 }
