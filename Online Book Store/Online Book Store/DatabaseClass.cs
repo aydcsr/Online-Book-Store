@@ -22,6 +22,14 @@ namespace Online_Book_Store
                 obj = new DatabaseClass();
             return obj;
         }
+        public void insertLog(LogClass log)
+        {
+            con.Open();
+            string sorgu = "insert into LogTable (customerId,butonName,formName,date) values ('" + log.Customerid + "','" + log.BtnName + "','" + log.FrmName + "','" + log.Date + "'";
+            SqlCommand cmd = new SqlCommand(sorgu, con);
+            cmd.ExecuteNonQuery();
+            con.Close();
+        }
         public DataTable getData(string columnName,string tableName)
         {
             con.Open();
