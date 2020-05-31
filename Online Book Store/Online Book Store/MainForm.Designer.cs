@@ -153,6 +153,7 @@
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.label68 = new System.Windows.Forms.Label();
             this.cmbItemType = new System.Windows.Forms.ComboBox();
+            this.btnCart = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.panel3.SuspendLayout();
@@ -260,6 +261,7 @@
             // panel2
             // 
             this.panel2.BackColor = System.Drawing.Color.Silver;
+            this.panel2.Controls.Add(this.btnCart);
             this.panel2.Controls.Add(this.label67);
             this.panel2.Controls.Add(this.textBox1);
             this.panel2.Controls.Add(this.label68);
@@ -1529,6 +1531,20 @@
             this.cmbItemType.Size = new System.Drawing.Size(169, 21);
             this.cmbItemType.TabIndex = 70;
             // 
+            // btnCart
+            // 
+            this.btnCart.BackColor = System.Drawing.Color.Crimson;
+            this.btnCart.FlatAppearance.BorderSize = 0;
+            this.btnCart.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnCart.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.btnCart.ForeColor = System.Drawing.Color.White;
+            this.btnCart.Location = new System.Drawing.Point(0, 26);
+            this.btnCart.Name = "btnCart";
+            this.btnCart.Size = new System.Drawing.Size(190, 34);
+            this.btnCart.TabIndex = 74;
+            this.btnCart.Text = "Go To Cart";
+            this.btnCart.UseVisualStyleBackColor = false;
+            // 
             // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -1762,5 +1778,6 @@
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.Label label68;
         private System.Windows.Forms.ComboBox cmbItemType;
+        private System.Windows.Forms.Button btnCart;
     }
 }
