@@ -56,6 +56,7 @@
     <Compile Include="kullanıciprofil.Designer.cs">
       <DependentUpon>kullanıciprofil.cs</DependentUpon>
     </Compile>
+    <Compile Include="LogClass.cs" />
     <Compile Include="MainForm.cs">
       <SubType>Form</SubType>
     </Compile>
