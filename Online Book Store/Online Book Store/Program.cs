@@ -16,7 +16,7 @@ namespace Online_Book_Store
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Item());
+            Application.Run(new MainForm());
         }
     }
 }

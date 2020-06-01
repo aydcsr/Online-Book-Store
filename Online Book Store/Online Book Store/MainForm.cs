@@ -13,6 +13,7 @@ namespace Online_Book_Store
     public partial class MainForm : Form
     {
         DatabaseClass db = DatabaseClass.createConnection("onlineSales");
+        List<ItemInterface> listitems = new List<ItemInterface>();
         public MainForm()
         {
             InitializeComponent();
@@ -54,10 +55,31 @@ namespace Online_Book_Store
 
         private void MainForm_Load(object sender, EventArgs e)
         {
-            List<ItemInterface> listitems = new List<ItemInterface>();
-            //////////////////////////////////////////////////////////
-            ///    Data Tabledan veriler çekilip liste atılacak    ///
-            //////////////////////////////////////////////////////////    
+            DataTable tb = new DataTable();
+            string column = "productAuthor,productPublisher,productPageSize,productType,productLanguage,visibility,productPrice,productSale,productName";
+            tb = db.getData(column, "BookTable");
+            for (int i = 0; i < tb.Rows.Count; i++)
+            {
+                Book b = new Book("3", tb.Rows[i][8].ToString(), tb.Rows[i][0].ToString(), tb.Rows[i][1].ToString(), tb.Rows[i][2].ToString(), tb.Rows[i][3].ToString(), tb.Rows[i][4].ToString(), tb.Rows[i][6].ToString(), tb.Rows[i][7].ToString());
+                listitems.Add(b);
+            }
+            column = "productSinger,visibility,productPrice,productSale,productName,typeOfSong";
+            tb.Clear();
+            tb = db.getData(column, "CdTable");
+            for(int i = 0; i < tb.Rows.Count;i++)
+            {
+                CD c = new CD("4", tb.Rows[i][0].ToString(), tb.Rows[i][4].ToString(), tb.Rows[i][2].ToString(), tb.Rows[i][3].ToString(), tb.Rows[i][5].ToString());
+                listitems.Add(c);
+            }
+            tb.Clear();
+            column = "productIssue,visibility,productPrice,productSale,productName";
+            tb = db.getData(column, "magazineTable");
+            for(int i=0;i<tb.Rows.Count;i++)
+            {
+                Magazine m = new Magazine("5", tb.Rows[i][4].ToString(), tb.Rows[i][0].ToString(), tb.Rows[i][2].ToString(), tb.Rows[i][3].ToString());
+                listitems.Add(m);
+            }
+
         }
 
         private void lblUsername_Click(object sender, EventArgs e)
@@ -80,15 +102,21 @@ namespace Online_Book_Store
 
         private void btnClose_Click(object sender, EventArgs e)
         {
-            LogClass log = new LogClass(LoginedCustomer.getInstance().Customer.Id, btnClose.Name, "MainForm", Util.GetTime());
-            db.insertLog(log);
+            if (LoginedCustomer.getInstance().Customer != null)
+            {
+                LogClass log = new LogClass(LoginedCustomer.getInstance().Customer.Id, btnClose.Name, "MainForm", Util.GetTime());
+                db.insertLog(log);
+            }
             Application.Exit();
         }
 
         private void btnHide_Click(object sender, EventArgs e)
         {
-            LogClass log = new LogClass(LoginedCustomer.getInstance().Customer.Id, btnHide.Name, "MainForm", Util.GetTime());
-            db.insertLog(log);
+            if(LoginedCustomer.getInstance().Customer != null)
+            {
+                LogClass log = new LogClass(LoginedCustomer.getInstance().Customer.Id, btnHide.Name, "MainForm", Util.GetTime());
+                db.insertLog(log);
+            }
             this.WindowState = FormWindowState.Minimized;
         }
 
@@ -113,14 +141,20 @@ namespace Online_Book_Store
 
         private void btnSearch_Click(object sender, EventArgs e)
         {
-            LogClass log = new LogClass(LoginedCustomer.getInstance().Customer.Id, btnSearch.Name, "MainForm", Util.GetTime());
-            db.insertLog(log);
+            if (LoginedCustomer.getInstance().Customer != null)
+            {
+                LogClass log = new LogClass(LoginedCustomer.getInstance().Customer.Id, btnSearch.Name, "MainForm", Util.GetTime());
+                db.insertLog(log);
+            }
         }
 
         private void btnCart_Click(object sender, EventArgs e)
         {
-            LogClass log = new LogClass(LoginedCustomer.getInstance().Customer.Id, btnCart.Name, "MainForm", Util.GetTime());
-            db.insertLog(log);
+            if (LoginedCustomer.getInstance().Customer != null)
+            {
+                LogClass log = new LogClass(LoginedCustomer.getInstance().Customer.Id, btnCart.Name, "MainForm", Util.GetTime());
+                db.insertLog(log);
+            }
         }
     }
 }

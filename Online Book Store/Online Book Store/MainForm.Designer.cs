@@ -45,10 +45,10 @@
             this.label65 = new System.Windows.Forms.Label();
             this.lblDate = new System.Windows.Forms.Label();
             this.lblTime = new System.Windows.Forms.Label();
-            this.panel3 = new System.Windows.Forms.Panel();
+            this.bookpanel1 = new System.Windows.Forms.Panel();
             this.label4 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
+            this.bookname1 = new System.Windows.Forms.Label();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.lblUsername = new System.Windows.Forms.Label();
@@ -62,35 +62,35 @@
             this.label45 = new System.Windows.Forms.Label();
             this.label46 = new System.Windows.Forms.Label();
             this.pictureBox16 = new System.Windows.Forms.PictureBox();
-            this.panel4 = new System.Windows.Forms.Panel();
+            this.bookpanel2 = new System.Windows.Forms.Panel();
             this.label5 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
-            this.label7 = new System.Windows.Forms.Label();
+            this.bookname2 = new System.Windows.Forms.Label();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
-            this.panel5 = new System.Windows.Forms.Panel();
+            this.bookpanel3 = new System.Windows.Forms.Panel();
             this.label8 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
-            this.label10 = new System.Windows.Forms.Label();
+            this.bookname3 = new System.Windows.Forms.Label();
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
-            this.panel6 = new System.Windows.Forms.Panel();
+            this.bookpanel7 = new System.Windows.Forms.Panel();
             this.label11 = new System.Windows.Forms.Label();
             this.label12 = new System.Windows.Forms.Label();
-            this.label13 = new System.Windows.Forms.Label();
+            this.bookname7 = new System.Windows.Forms.Label();
             this.pictureBox5 = new System.Windows.Forms.PictureBox();
-            this.panel7 = new System.Windows.Forms.Panel();
+            this.bookpanel6 = new System.Windows.Forms.Panel();
             this.label14 = new System.Windows.Forms.Label();
             this.label15 = new System.Windows.Forms.Label();
-            this.label16 = new System.Windows.Forms.Label();
+            this.bookname6 = new System.Windows.Forms.Label();
             this.pictureBox6 = new System.Windows.Forms.PictureBox();
-            this.panel8 = new System.Windows.Forms.Panel();
+            this.bookpanel5 = new System.Windows.Forms.Panel();
             this.label17 = new System.Windows.Forms.Label();
             this.label18 = new System.Windows.Forms.Label();
-            this.label19 = new System.Windows.Forms.Label();
+            this.bookname5 = new System.Windows.Forms.Label();
             this.pictureBox7 = new System.Windows.Forms.PictureBox();
-            this.panel9 = new System.Windows.Forms.Panel();
+            this.bookpanel4 = new System.Windows.Forms.Panel();
             this.label20 = new System.Windows.Forms.Label();
             this.label21 = new System.Windows.Forms.Label();
-            this.label22 = new System.Windows.Forms.Label();
+            this.bookname4 = new System.Windows.Forms.Label();
             this.pictureBox8 = new System.Windows.Forms.PictureBox();
             this.panel11 = new System.Windows.Forms.Panel();
             this.label26 = new System.Windows.Forms.Label();
@@ -156,24 +156,24 @@
             this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
-            this.panel3.SuspendLayout();
+            this.bookpanel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).BeginInit();
             this.panel10.SuspendLayout();
             this.panel17.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox16)).BeginInit();
-            this.panel4.SuspendLayout();
+            this.bookpanel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
-            this.panel5.SuspendLayout();
+            this.bookpanel3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
-            this.panel6.SuspendLayout();
+            this.bookpanel7.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
-            this.panel7.SuspendLayout();
+            this.bookpanel6.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
-            this.panel8.SuspendLayout();
+            this.bookpanel5.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
-            this.panel9.SuspendLayout();
+            this.bookpanel4.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).BeginInit();
             this.panel11.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).BeginInit();
@@ -393,18 +393,18 @@
             this.lblTime.Size = new System.Drawing.Size(0, 19);
             this.lblTime.TabIndex = 66;
             // 
-            // panel3
+            // bookpanel1
             // 
-            this.panel3.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.panel3.Controls.Add(this.label4);
-            this.panel3.Controls.Add(this.label3);
-            this.panel3.Controls.Add(this.label2);
-            this.panel3.Controls.Add(this.pictureBox2);
-            this.panel3.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.panel3.Location = new System.Drawing.Point(196, 86);
-            this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(160, 200);
-            this.panel3.TabIndex = 4;
+            this.bookpanel1.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.bookpanel1.Controls.Add(this.label4);
+            this.bookpanel1.Controls.Add(this.label3);
+            this.bookpanel1.Controls.Add(this.bookname1);
+            this.bookpanel1.Controls.Add(this.pictureBox2);
+            this.bookpanel1.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.bookpanel1.Location = new System.Drawing.Point(196, 86);
+            this.bookpanel1.Name = "bookpanel1";
+            this.bookpanel1.Size = new System.Drawing.Size(160, 200);
+            this.bookpanel1.TabIndex = 4;
             // 
             // label4
             // 
@@ -426,15 +426,15 @@
             this.label3.TabIndex = 2;
             this.label3.Text = "Author Name";
             // 
-            // label2
+            // bookname1
             // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label2.Location = new System.Drawing.Point(36, 113);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(84, 17);
-            this.label2.TabIndex = 1;
-            this.label2.Text = "Book Name";
+            this.bookname1.AutoSize = true;
+            this.bookname1.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.bookname1.Location = new System.Drawing.Point(36, 113);
+            this.bookname1.Name = "bookname1";
+            this.bookname1.Size = new System.Drawing.Size(84, 17);
+            this.bookname1.TabIndex = 1;
+            this.bookname1.Text = "Book Name";
             // 
             // pictureBox2
             // 
@@ -575,18 +575,18 @@
             this.pictureBox16.TabIndex = 0;
             this.pictureBox16.TabStop = false;
             // 
-            // panel4
+            // bookpanel2
             // 
-            this.panel4.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.panel4.Controls.Add(this.label5);
-            this.panel4.Controls.Add(this.label6);
-            this.panel4.Controls.Add(this.label7);
-            this.panel4.Controls.Add(this.pictureBox3);
-            this.panel4.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.panel4.Location = new System.Drawing.Point(362, 86);
-            this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(160, 200);
-            this.panel4.TabIndex = 47;
+            this.bookpanel2.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.bookpanel2.Controls.Add(this.label5);
+            this.bookpanel2.Controls.Add(this.label6);
+            this.bookpanel2.Controls.Add(this.bookname2);
+            this.bookpanel2.Controls.Add(this.pictureBox3);
+            this.bookpanel2.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.bookpanel2.Location = new System.Drawing.Point(362, 86);
+            this.bookpanel2.Name = "bookpanel2";
+            this.bookpanel2.Size = new System.Drawing.Size(160, 200);
+            this.bookpanel2.TabIndex = 47;
             // 
             // label5
             // 
@@ -608,15 +608,15 @@
             this.label6.TabIndex = 2;
             this.label6.Text = "Author Name";
             // 
-            // label7
+            // bookname2
             // 
-            this.label7.AutoSize = true;
-            this.label7.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label7.Location = new System.Drawing.Point(36, 113);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(84, 17);
-            this.label7.TabIndex = 1;
-            this.label7.Text = "Book Name";
+            this.bookname2.AutoSize = true;
+            this.bookname2.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.bookname2.Location = new System.Drawing.Point(36, 113);
+            this.bookname2.Name = "bookname2";
+            this.bookname2.Size = new System.Drawing.Size(84, 17);
+            this.bookname2.TabIndex = 1;
+            this.bookname2.Text = "Book Name";
             // 
             // pictureBox3
             // 
@@ -628,18 +628,18 @@
             this.pictureBox3.TabIndex = 0;
             this.pictureBox3.TabStop = false;
             // 
-            // panel5
+            // bookpanel3
             // 
-            this.panel5.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.panel5.Controls.Add(this.label8);
-            this.panel5.Controls.Add(this.label9);
-            this.panel5.Controls.Add(this.label10);
-            this.panel5.Controls.Add(this.pictureBox4);
-            this.panel5.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.panel5.Location = new System.Drawing.Point(528, 86);
-            this.panel5.Name = "panel5";
-            this.panel5.Size = new System.Drawing.Size(160, 200);
-            this.panel5.TabIndex = 48;
+            this.bookpanel3.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.bookpanel3.Controls.Add(this.label8);
+            this.bookpanel3.Controls.Add(this.label9);
+            this.bookpanel3.Controls.Add(this.bookname3);
+            this.bookpanel3.Controls.Add(this.pictureBox4);
+            this.bookpanel3.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.bookpanel3.Location = new System.Drawing.Point(528, 86);
+            this.bookpanel3.Name = "bookpanel3";
+            this.bookpanel3.Size = new System.Drawing.Size(160, 200);
+            this.bookpanel3.TabIndex = 48;
             // 
             // label8
             // 
@@ -661,15 +661,15 @@
             this.label9.TabIndex = 2;
             this.label9.Text = "Author Name";
             // 
-            // label10
+            // bookname3
             // 
-            this.label10.AutoSize = true;
-            this.label10.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label10.Location = new System.Drawing.Point(36, 113);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(84, 17);
-            this.label10.TabIndex = 1;
-            this.label10.Text = "Book Name";
+            this.bookname3.AutoSize = true;
+            this.bookname3.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.bookname3.Location = new System.Drawing.Point(36, 113);
+            this.bookname3.Name = "bookname3";
+            this.bookname3.Size = new System.Drawing.Size(84, 17);
+            this.bookname3.TabIndex = 1;
+            this.bookname3.Text = "Book Name";
             // 
             // pictureBox4
             // 
@@ -681,18 +681,18 @@
             this.pictureBox4.TabIndex = 0;
             this.pictureBox4.TabStop = false;
             // 
-            // panel6
+            // bookpanel7
             // 
-            this.panel6.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.panel6.Controls.Add(this.label11);
-            this.panel6.Controls.Add(this.label12);
-            this.panel6.Controls.Add(this.label13);
-            this.panel6.Controls.Add(this.pictureBox5);
-            this.panel6.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.panel6.Location = new System.Drawing.Point(1194, 86);
-            this.panel6.Name = "panel6";
-            this.panel6.Size = new System.Drawing.Size(160, 200);
-            this.panel6.TabIndex = 49;
+            this.bookpanel7.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.bookpanel7.Controls.Add(this.label11);
+            this.bookpanel7.Controls.Add(this.label12);
+            this.bookpanel7.Controls.Add(this.bookname7);
+            this.bookpanel7.Controls.Add(this.pictureBox5);
+            this.bookpanel7.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.bookpanel7.Location = new System.Drawing.Point(1194, 86);
+            this.bookpanel7.Name = "bookpanel7";
+            this.bookpanel7.Size = new System.Drawing.Size(160, 200);
+            this.bookpanel7.TabIndex = 49;
             // 
             // label11
             // 
@@ -714,15 +714,15 @@
             this.label12.TabIndex = 2;
             this.label12.Text = "Author Name";
             // 
-            // label13
+            // bookname7
             // 
-            this.label13.AutoSize = true;
-            this.label13.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label13.Location = new System.Drawing.Point(36, 113);
-            this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(84, 17);
-            this.label13.TabIndex = 1;
-            this.label13.Text = "Book Name";
+            this.bookname7.AutoSize = true;
+            this.bookname7.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.bookname7.Location = new System.Drawing.Point(36, 113);
+            this.bookname7.Name = "bookname7";
+            this.bookname7.Size = new System.Drawing.Size(84, 17);
+            this.bookname7.TabIndex = 1;
+            this.bookname7.Text = "Book Name";
             // 
             // pictureBox5
             // 
@@ -734,18 +734,18 @@
             this.pictureBox5.TabIndex = 0;
             this.pictureBox5.TabStop = false;
             // 
-            // panel7
+            // bookpanel6
             // 
-            this.panel7.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.panel7.Controls.Add(this.label14);
-            this.panel7.Controls.Add(this.label15);
-            this.panel7.Controls.Add(this.label16);
-            this.panel7.Controls.Add(this.pictureBox6);
-            this.panel7.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.panel7.Location = new System.Drawing.Point(1026, 86);
-            this.panel7.Name = "panel7";
-            this.panel7.Size = new System.Drawing.Size(160, 200);
-            this.panel7.TabIndex = 52;
+            this.bookpanel6.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.bookpanel6.Controls.Add(this.label14);
+            this.bookpanel6.Controls.Add(this.label15);
+            this.bookpanel6.Controls.Add(this.bookname6);
+            this.bookpanel6.Controls.Add(this.pictureBox6);
+            this.bookpanel6.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.bookpanel6.Location = new System.Drawing.Point(1026, 86);
+            this.bookpanel6.Name = "bookpanel6";
+            this.bookpanel6.Size = new System.Drawing.Size(160, 200);
+            this.bookpanel6.TabIndex = 52;
             // 
             // label14
             // 
@@ -767,15 +767,15 @@
             this.label15.TabIndex = 2;
             this.label15.Text = "Author Name";
             // 
-            // label16
+            // bookname6
             // 
-            this.label16.AutoSize = true;
-            this.label16.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label16.Location = new System.Drawing.Point(36, 113);
-            this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(84, 17);
-            this.label16.TabIndex = 1;
-            this.label16.Text = "Book Name";
+            this.bookname6.AutoSize = true;
+            this.bookname6.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.bookname6.Location = new System.Drawing.Point(36, 113);
+            this.bookname6.Name = "bookname6";
+            this.bookname6.Size = new System.Drawing.Size(84, 17);
+            this.bookname6.TabIndex = 1;
+            this.bookname6.Text = "Book Name";
             // 
             // pictureBox6
             // 
@@ -787,18 +787,18 @@
             this.pictureBox6.TabIndex = 0;
             this.pictureBox6.TabStop = false;
             // 
-            // panel8
+            // bookpanel5
             // 
-            this.panel8.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.panel8.Controls.Add(this.label17);
-            this.panel8.Controls.Add(this.label18);
-            this.panel8.Controls.Add(this.label19);
-            this.panel8.Controls.Add(this.pictureBox7);
-            this.panel8.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.panel8.Location = new System.Drawing.Point(860, 86);
-            this.panel8.Name = "panel8";
-            this.panel8.Size = new System.Drawing.Size(160, 200);
-            this.panel8.TabIndex = 51;
+            this.bookpanel5.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.bookpanel5.Controls.Add(this.label17);
+            this.bookpanel5.Controls.Add(this.label18);
+            this.bookpanel5.Controls.Add(this.bookname5);
+            this.bookpanel5.Controls.Add(this.pictureBox7);
+            this.bookpanel5.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.bookpanel5.Location = new System.Drawing.Point(860, 86);
+            this.bookpanel5.Name = "bookpanel5";
+            this.bookpanel5.Size = new System.Drawing.Size(160, 200);
+            this.bookpanel5.TabIndex = 51;
             // 
             // label17
             // 
@@ -820,15 +820,15 @@
             this.label18.TabIndex = 2;
             this.label18.Text = "Author Name";
             // 
-            // label19
+            // bookname5
             // 
-            this.label19.AutoSize = true;
-            this.label19.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label19.Location = new System.Drawing.Point(36, 113);
-            this.label19.Name = "label19";
-            this.label19.Size = new System.Drawing.Size(84, 17);
-            this.label19.TabIndex = 1;
-            this.label19.Text = "Book Name";
+            this.bookname5.AutoSize = true;
+            this.bookname5.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.bookname5.Location = new System.Drawing.Point(36, 113);
+            this.bookname5.Name = "bookname5";
+            this.bookname5.Size = new System.Drawing.Size(84, 17);
+            this.bookname5.TabIndex = 1;
+            this.bookname5.Text = "Book Name";
             // 
             // pictureBox7
             // 
@@ -840,18 +840,18 @@
             this.pictureBox7.TabIndex = 0;
             this.pictureBox7.TabStop = false;
             // 
-            // panel9
+            // bookpanel4
             // 
-            this.panel9.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.panel9.Controls.Add(this.label20);
-            this.panel9.Controls.Add(this.label21);
-            this.panel9.Controls.Add(this.label22);
-            this.panel9.Controls.Add(this.pictureBox8);
-            this.panel9.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.panel9.Location = new System.Drawing.Point(694, 86);
-            this.panel9.Name = "panel9";
-            this.panel9.Size = new System.Drawing.Size(160, 200);
-            this.panel9.TabIndex = 50;
+            this.bookpanel4.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.bookpanel4.Controls.Add(this.label20);
+            this.bookpanel4.Controls.Add(this.label21);
+            this.bookpanel4.Controls.Add(this.bookname4);
+            this.bookpanel4.Controls.Add(this.pictureBox8);
+            this.bookpanel4.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.bookpanel4.Location = new System.Drawing.Point(694, 86);
+            this.bookpanel4.Name = "bookpanel4";
+            this.bookpanel4.Size = new System.Drawing.Size(160, 200);
+            this.bookpanel4.TabIndex = 50;
             // 
             // label20
             // 
@@ -873,15 +873,15 @@
             this.label21.TabIndex = 2;
             this.label21.Text = "Author Name";
             // 
-            // label22
+            // bookname4
             // 
-            this.label22.AutoSize = true;
-            this.label22.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label22.Location = new System.Drawing.Point(36, 113);
-            this.label22.Name = "label22";
-            this.label22.Size = new System.Drawing.Size(84, 17);
-            this.label22.TabIndex = 1;
-            this.label22.Text = "Book Name";
+            this.bookname4.AutoSize = true;
+            this.bookname4.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.bookname4.Location = new System.Drawing.Point(36, 113);
+            this.bookname4.Name = "bookname4";
+            this.bookname4.Size = new System.Drawing.Size(84, 17);
+            this.bookname4.TabIndex = 1;
+            this.bookname4.Text = "Book Name";
             // 
             // pictureBox8
             // 
@@ -1565,17 +1565,17 @@
             this.Controls.Add(this.panel14);
             this.Controls.Add(this.panel12);
             this.Controls.Add(this.panel11);
-            this.Controls.Add(this.panel7);
-            this.Controls.Add(this.panel8);
-            this.Controls.Add(this.panel9);
-            this.Controls.Add(this.panel6);
-            this.Controls.Add(this.panel5);
-            this.Controls.Add(this.panel4);
+            this.Controls.Add(this.bookpanel6);
+            this.Controls.Add(this.bookpanel5);
+            this.Controls.Add(this.bookpanel4);
+            this.Controls.Add(this.bookpanel7);
+            this.Controls.Add(this.bookpanel3);
+            this.Controls.Add(this.bookpanel2);
             this.Controls.Add(this.panel17);
             this.Controls.Add(this.panel10);
             this.Controls.Add(this.lblUsername);
             this.Controls.Add(this.pictureBox1);
-            this.Controls.Add(this.panel3);
+            this.Controls.Add(this.bookpanel1);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
@@ -1585,8 +1585,8 @@
             this.panel1.PerformLayout();
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
-            this.panel3.ResumeLayout(false);
-            this.panel3.PerformLayout();
+            this.bookpanel1.ResumeLayout(false);
+            this.bookpanel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).EndInit();
@@ -1595,23 +1595,23 @@
             this.panel17.ResumeLayout(false);
             this.panel17.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox16)).EndInit();
-            this.panel4.ResumeLayout(false);
-            this.panel4.PerformLayout();
+            this.bookpanel2.ResumeLayout(false);
+            this.bookpanel2.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
-            this.panel5.ResumeLayout(false);
-            this.panel5.PerformLayout();
+            this.bookpanel3.ResumeLayout(false);
+            this.bookpanel3.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
-            this.panel6.ResumeLayout(false);
-            this.panel6.PerformLayout();
+            this.bookpanel7.ResumeLayout(false);
+            this.bookpanel7.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
-            this.panel7.ResumeLayout(false);
-            this.panel7.PerformLayout();
+            this.bookpanel6.ResumeLayout(false);
+            this.bookpanel6.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
-            this.panel8.ResumeLayout(false);
-            this.panel8.PerformLayout();
+            this.bookpanel5.ResumeLayout(false);
+            this.bookpanel5.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();
-            this.panel9.ResumeLayout(false);
-            this.panel9.PerformLayout();
+            this.bookpanel4.ResumeLayout(false);
+            this.bookpanel4.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).EndInit();
             this.panel11.ResumeLayout(false);
             this.panel11.PerformLayout();
@@ -1661,10 +1661,10 @@
         private System.Windows.Forms.Button btnClose;
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.Button btnHide;
-        private System.Windows.Forms.Panel panel3;
+        private System.Windows.Forms.Panel bookpanel1;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Label lblUsername;
-        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label bookname1;
         private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
@@ -1678,35 +1678,35 @@
         private System.Windows.Forms.Label label45;
         private System.Windows.Forms.Label label46;
         private System.Windows.Forms.PictureBox pictureBox16;
-        private System.Windows.Forms.Panel panel4;
+        private System.Windows.Forms.Panel bookpanel2;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.Label bookname2;
         private System.Windows.Forms.PictureBox pictureBox3;
-        private System.Windows.Forms.Panel panel5;
+        private System.Windows.Forms.Panel bookpanel3;
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.Label label9;
-        private System.Windows.Forms.Label label10;
+        private System.Windows.Forms.Label bookname3;
         private System.Windows.Forms.PictureBox pictureBox4;
-        private System.Windows.Forms.Panel panel6;
+        private System.Windows.Forms.Panel bookpanel7;
         private System.Windows.Forms.Label label11;
         private System.Windows.Forms.Label label12;
-        private System.Windows.Forms.Label label13;
+        private System.Windows.Forms.Label bookname7;
         private System.Windows.Forms.PictureBox pictureBox5;
-        private System.Windows.Forms.Panel panel7;
+        private System.Windows.Forms.Panel bookpanel6;
         private System.Windows.Forms.Label label14;
         private System.Windows.Forms.Label label15;
-        private System.Windows.Forms.Label label16;
+        private System.Windows.Forms.Label bookname6;
         private System.Windows.Forms.PictureBox pictureBox6;
-        private System.Windows.Forms.Panel panel8;
+        private System.Windows.Forms.Panel bookpanel5;
         private System.Windows.Forms.Label label17;
         private System.Windows.Forms.Label label18;
-        private System.Windows.Forms.Label label19;
+        private System.Windows.Forms.Label bookname5;
         private System.Windows.Forms.PictureBox pictureBox7;
-        private System.Windows.Forms.Panel panel9;
+        private System.Windows.Forms.Panel bookpanel4;
         private System.Windows.Forms.Label label20;
         private System.Windows.Forms.Label label21;
-        private System.Windows.Forms.Label label22;
+        private System.Windows.Forms.Label bookname4;
         private System.Windows.Forms.PictureBox pictureBox8;
         private System.Windows.Forms.Panel panel11;
         private System.Windows.Forms.Label label26;
