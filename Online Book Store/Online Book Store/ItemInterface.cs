@@ -6,6 +6,9 @@ using System.Threading.Tasks;
 
 namespace Online_Book_Store
 {
+    /// <summary>
+    /// author Aslı CALISKAN
+    /// </summary>
     public interface ItemInterface
     {
         string getInfo();

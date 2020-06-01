@@ -9,6 +9,9 @@ using System.Windows.Forms;
 
 namespace Online_Book_Store
 {
+    /// <summary>
+    /// author Sumeyye Busra KARTAL
+    /// </summary>
     class DatabaseClass
     {
         private static SqlConnection con;

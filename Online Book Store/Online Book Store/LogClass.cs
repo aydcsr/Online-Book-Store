@@ -6,6 +6,9 @@ using System.Threading.Tasks;
 
 namespace Online_Book_Store
 {
+    /// <summary>
+    /// author Sumeyye Busra KARTAL
+    /// </summary>
     public class LogClass
     {
         private string customerid;

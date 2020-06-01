@@ -10,6 +10,9 @@ using System.Windows.Forms;
 
 namespace Online_Book_Store
 {
+    /// <summary>
+    /// author Aslı CALISKAN
+    /// </summary>
     public partial class Item : Form
     {
         DatabaseClass db = DatabaseClass.createConnection("onlineSales"); 

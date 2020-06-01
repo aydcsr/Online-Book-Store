@@ -6,6 +6,9 @@ using System.Threading.Tasks;
 
 namespace Online_Book_Store
 {
+    /// <summary>
+    /// author Asli CALISKAN
+    /// </summary>
     public class Book : ItemInterface
     {
         String producttype;

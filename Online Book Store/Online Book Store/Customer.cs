@@ -8,6 +8,9 @@ using System.Xml.Schema;
 
 namespace Online_Book_Store
 {
+    /// <summary>
+    /// author Aydın CESUR
+    /// </summary>
     public class Customer
     {
         private String firstname;

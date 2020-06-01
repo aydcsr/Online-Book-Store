@@ -10,6 +10,9 @@ using System.Windows.Forms;
 
 namespace Online_Book_Store
 {
+    /// <summary>
+    /// author Sumeyye Busra KARTAL
+    /// </summary>
     public partial class FormMagazineUpdate : Form
     {
         string productId;

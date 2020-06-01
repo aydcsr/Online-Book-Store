@@ -8,8 +8,12 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
+
 namespace Online_Book_Store
 {
+    /// <summary>
+    /// author Sumeyye Busra KARTAL
+    /// </summary>
     public partial class FormAdmin : Form
     {
         private DatabaseClass db = DatabaseClass.createConnection("onlineSales");

@@ -6,6 +6,9 @@ using System.Threading.Tasks;
 
 namespace Online_Book_Store
 {
+    /// <summary>
+    /// author Aydin CESUR
+    /// </summary>
     public class Basket
     {
         public List<ItemInterface> basket = new List<ItemInterface>();

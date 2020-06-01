@@ -11,6 +11,9 @@ using System.Windows.Forms;
 
 namespace Online_Book_Store
 {
+    /// <summary>
+    /// author Gorkem GOREN
+    /// </summary>
 
     public partial class Signup_Form : Form
     {

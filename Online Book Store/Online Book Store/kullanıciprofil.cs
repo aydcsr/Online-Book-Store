@@ -11,6 +11,9 @@ using System.IO;
 
 namespace Online_Book_Store
 {
+    /// <summary>
+    /// author Berkay HUSEYINOGLU
+    /// </summary>
     public partial class kullanıciprofil : Form
     {
         DatabaseClass db = DatabaseClass.createConnection("onlineSales");
