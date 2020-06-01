@@ -154,6 +154,8 @@ namespace Online_Book_Store
                 LogClass log = new LogClass(LoginedCustomer.getInstance().Customer.Id, btnBasket.Name, "MainForm", Util.GetTime());
                 db.insertLog(log);
             }
+            FormBasket bsktform = new FormBasket();
+            bsktform.Show();
 
         }
 

@@ -48,10 +48,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Basket.cs" />
     <Compile Include="Book.cs" />
     <Compile Include="CD.cs" />
     <Compile Include="Customer.cs" />
     <Compile Include="DatabaseClass.cs" />
+    <Compile Include="FormBasket.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormBasket.Designer.cs">
+      <DependentUpon>FormBasket.cs</DependentUpon>
+    </Compile>
     <Compile Include="Item.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -120,6 +127,9 @@
       <DependentUpon>Signup_Form.cs</DependentUpon>
     </Compile>
     <Compile Include="Util.cs" />
+    <EmbeddedResource Include="FormBasket.resx">
+      <DependentUpon>FormBasket.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Item.resx">
       <DependentUpon>Item.cs</DependentUpon>
     </EmbeddedResource>
