@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Online_Book_Store
 {
-    interface ItemInterface
+    public interface ItemInterface
     {
         string getInfo();
         string getName();

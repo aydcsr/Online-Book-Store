@@ -14,6 +14,9 @@ namespace Online_Book_Store
     {
         DatabaseClass db = DatabaseClass.createConnection("onlineSales");
         List<ItemInterface> listitems = new List<ItemInterface>();
+        List<ItemInterface> books = new List<ItemInterface>();
+        List<ItemInterface> cds = new List<ItemInterface>();
+        List<ItemInterface> magazines = new List<ItemInterface>();
         public MainForm()
         {
             InitializeComponent();
@@ -135,11 +138,6 @@ namespace Online_Book_Store
             lblTime.Text = DateTime.Now.ToString("HH:mm:ss ");
         }
 
-        private void panel2_Paint(object sender, PaintEventArgs e)
-        {
-
-        }
-
         private void btnSearch_Click(object sender, EventArgs e)
         {
             if (LoginedCustomer.getInstance().Customer != null)
@@ -153,16 +151,15 @@ namespace Online_Book_Store
         {
             if (LoginedCustomer.getInstance().Customer != null)
             {
-                LogClass log = new LogClass(LoginedCustomer.getInstance().Customer.Id, btnCart.Name, "MainForm", Util.GetTime());
+                LogClass log = new LogClass(LoginedCustomer.getInstance().Customer.Id, btnBasket.Name, "MainForm", Util.GetTime());
                 db.insertLog(log);
             }
+
         }
 
         private void VirtualDesign()
         {
-            List<ItemInterface> books = new List<ItemInterface>();
-            List<ItemInterface> cds = new List<ItemInterface>();
-            List<ItemInterface> magazines = new List<ItemInterface>();
+
             int i = 0;
             while(listitems[i].getType() == "3")
             {
@@ -248,5 +245,237 @@ namespace Online_Book_Store
             cdprice7.Text = cds[6].getPrice() + " TL";
 
         }
+        //Panel Click Events started
+        private void bookpanel1_Click(object sender, EventArgs e)
+        {
+            if (LoginedCustomer.getInstance().Customer != null)
+            {
+                LogClass log = new LogClass(LoginedCustomer.getInstance().Customer.Id, bookpanel1.Name, "MainForm", Util.GetTime());
+                db.insertLog(log);
+            }
+            Item i = new Item(books[0]);
+            i.Show();
+        }
+
+        private void bookpanel2_Click(object sender, EventArgs e)
+        {
+            if (LoginedCustomer.getInstance().Customer != null)
+            {
+                LogClass log = new LogClass(LoginedCustomer.getInstance().Customer.Id, bookpanel2.Name, "MainForm", Util.GetTime());
+                db.insertLog(log);
+            }
+            Item i = new Item(books[1]);
+            i.Show();
+        }
+
+        private void bookpanel3_Click(object sender, EventArgs e)
+        {
+            if (LoginedCustomer.getInstance().Customer != null)
+            {
+                LogClass log = new LogClass(LoginedCustomer.getInstance().Customer.Id, bookpanel3.Name, "MainForm", Util.GetTime());
+                db.insertLog(log);
+            }
+            Item i = new Item(books[2]);
+            i.Show();
+        }
+
+        private void bookpanel4_Click(object sender, EventArgs e)
+        {
+            if (LoginedCustomer.getInstance().Customer != null)
+            {
+                LogClass log = new LogClass(LoginedCustomer.getInstance().Customer.Id, bookpanel4.Name, "MainForm", Util.GetTime());
+                db.insertLog(log);
+            }
+            Item i = new Item(books[3]);
+            i.Show();
+        }
+
+        private void bookpanel5_Click(object sender, EventArgs e)
+        {
+            if (LoginedCustomer.getInstance().Customer != null)
+            {
+                LogClass log = new LogClass(LoginedCustomer.getInstance().Customer.Id, bookpanel5.Name, "MainForm", Util.GetTime());
+                db.insertLog(log);
+            }
+            Item i = new Item(books[4]);
+            i.Show();
+        }
+
+        private void bookpanel6_Click(object sender, EventArgs e)
+        {
+            if (LoginedCustomer.getInstance().Customer != null)
+            {
+                LogClass log = new LogClass(LoginedCustomer.getInstance().Customer.Id, bookpanel6.Name, "MainForm", Util.GetTime());
+                db.insertLog(log);
+            }
+            Item i = new Item(books[5]);
+            i.Show();
+        }
+
+        private void bookpanel7_Click(object sender, EventArgs e)
+        {
+            if (LoginedCustomer.getInstance().Customer != null)
+            {
+                LogClass log = new LogClass(LoginedCustomer.getInstance().Customer.Id, bookpanel7.Name, "MainForm", Util.GetTime());
+                db.insertLog(log);
+            }
+            Item i = new Item(books[6]);
+            i.Show();
+        }
+
+        private void magazinepanel1_Click(object sender, EventArgs e)
+        {
+            if (LoginedCustomer.getInstance().Customer != null)
+            {
+                LogClass log = new LogClass(LoginedCustomer.getInstance().Customer.Id, magazinepanel1.Name, "MainForm", Util.GetTime());
+                db.insertLog(log);
+            }
+            Item i = new Item(magazines[0]);
+            i.Show();
+        }
+
+        private void magazinepanel2_Click(object sender, EventArgs e)
+        {
+            if (LoginedCustomer.getInstance().Customer != null)
+            {
+                LogClass log = new LogClass(LoginedCustomer.getInstance().Customer.Id, magazinepanel2.Name, "MainForm", Util.GetTime());
+                db.insertLog(log);
+            }
+            Item i = new Item(magazines[1]);
+            i.Show();
+        }
+
+        private void magazinepanel3_Click(object sender, EventArgs e)
+        {
+            if (LoginedCustomer.getInstance().Customer != null)
+            {
+                LogClass log = new LogClass(LoginedCustomer.getInstance().Customer.Id, magazinepanel3.Name, "MainForm", Util.GetTime());
+                db.insertLog(log);
+            }
+            Item i = new Item(magazines[2]);
+            i.Show();
+        }
+
+        private void magazinepanel4_Click(object sender, EventArgs e)
+        {
+            if (LoginedCustomer.getInstance().Customer != null)
+            {
+                LogClass log = new LogClass(LoginedCustomer.getInstance().Customer.Id, magazinepanel4.Name, "MainForm", Util.GetTime());
+                db.insertLog(log);
+            }
+            Item i = new Item(magazines[3]);
+            i.Show();
+        }
+
+        private void magazinepanel5_Click(object sender, EventArgs e)
+        {
+            if (LoginedCustomer.getInstance().Customer != null)
+            {
+                LogClass log = new LogClass(LoginedCustomer.getInstance().Customer.Id, magazinepanel5.Name, "MainForm", Util.GetTime());
+                db.insertLog(log);
+            }
+            Item i = new Item(magazines[4]);
+            i.Show();
+        }
+
+        private void magazinepanel6_Click(object sender, EventArgs e)
+        {
+            if (LoginedCustomer.getInstance().Customer != null)
+            {
+                LogClass log = new LogClass(LoginedCustomer.getInstance().Customer.Id, magazinepanel6.Name, "MainForm", Util.GetTime());
+                db.insertLog(log);
+            }
+            Item i = new Item(magazines[5]);
+            i.Show();
+        }
+
+        private void magazinepanel7_Click(object sender, EventArgs e)
+        {
+            if (LoginedCustomer.getInstance().Customer != null)
+            {
+                LogClass log = new LogClass(LoginedCustomer.getInstance().Customer.Id, magazinepanel7.Name, "MainForm", Util.GetTime());
+                db.insertLog(log);
+            }
+            Item i = new Item(magazines[6]);
+            i.Show();
+        }
+
+        private void panelcd1_Click(object sender, EventArgs e)
+        {
+            if (LoginedCustomer.getInstance().Customer != null)
+            {
+                LogClass log = new LogClass(LoginedCustomer.getInstance().Customer.Id, panelcd1.Name, "MainForm", Util.GetTime());
+                db.insertLog(log);
+            }
+            Item i = new Item(cds[0]);
+            i.Show();
+        }
+
+        private void panelcd2_Click(object sender, EventArgs e)
+        {
+            if (LoginedCustomer.getInstance().Customer != null)
+            {
+                LogClass log = new LogClass(LoginedCustomer.getInstance().Customer.Id, panelcd2.Name, "MainForm", Util.GetTime());
+                db.insertLog(log);
+            }
+            Item i = new Item(cds[1]);
+            i.Show();
+        }
+
+        private void panelcd3_Click(object sender, EventArgs e)
+        {
+            if (LoginedCustomer.getInstance().Customer != null)
+            {
+                LogClass log = new LogClass(LoginedCustomer.getInstance().Customer.Id, panelcd3.Name, "MainForm", Util.GetTime());
+                db.insertLog(log);
+            }
+            Item i = new Item(cds[2]);
+            i.Show();
+        }
+
+        private void panelcd4_Click(object sender, EventArgs e)
+        {
+            if (LoginedCustomer.getInstance().Customer != null)
+            {
+                LogClass log = new LogClass(LoginedCustomer.getInstance().Customer.Id, panelcd4.Name, "MainForm", Util.GetTime());
+                db.insertLog(log);
+            }
+            Item i = new Item(cds[3]);
+            i.Show();
+        }
+
+        private void panelcd5_Click(object sender, EventArgs e)
+        {
+            if (LoginedCustomer.getInstance().Customer != null)
+            {
+                LogClass log = new LogClass(LoginedCustomer.getInstance().Customer.Id, panelcd5.Name, "MainForm", Util.GetTime());
+                db.insertLog(log);
+            }
+            Item i = new Item(cds[4]);
+            i.Show();
+        }
+
+        private void panelcd6_Click(object sender, EventArgs e)
+        {
+            if (LoginedCustomer.getInstance().Customer != null)
+            {
+                LogClass log = new LogClass(LoginedCustomer.getInstance().Customer.Id, panelcd6.Name, "MainForm", Util.GetTime());
+                db.insertLog(log);
+            }
+            Item i = new Item(cds[5]);
+            i.Show();
+        }
+
+        private void panelcd7_Click(object sender, EventArgs e)
+        {
+            if (LoginedCustomer.getInstance().Customer != null)
+            {
+                LogClass log = new LogClass(LoginedCustomer.getInstance().Customer.Id, panelcd7.Name, "MainForm", Util.GetTime());
+                db.insertLog(log);
+            }
+            Item i = new Item(cds[6]);
+            i.Show();
+        }
+        //Panel Click Events ended
     }
 }

@@ -35,7 +35,7 @@
             this.btnClose = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.btnCart = new System.Windows.Forms.Button();
+            this.btnBasket = new System.Windows.Forms.Button();
             this.label67 = new System.Windows.Forms.Label();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.label68 = new System.Windows.Forms.Label();
@@ -261,7 +261,7 @@
             // panel2
             // 
             this.panel2.BackColor = System.Drawing.Color.Silver;
-            this.panel2.Controls.Add(this.btnCart);
+            this.panel2.Controls.Add(this.btnBasket);
             this.panel2.Controls.Add(this.label67);
             this.panel2.Controls.Add(this.textBox1);
             this.panel2.Controls.Add(this.label68);
@@ -275,22 +275,21 @@
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(190, 711);
             this.panel2.TabIndex = 3;
-            this.panel2.Paint += new System.Windows.Forms.PaintEventHandler(this.panel2_Paint);
             // 
-            // btnCart
+            // btnBasket
             // 
-            this.btnCart.BackColor = System.Drawing.Color.Crimson;
-            this.btnCart.FlatAppearance.BorderSize = 0;
-            this.btnCart.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnCart.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.btnCart.ForeColor = System.Drawing.Color.White;
-            this.btnCart.Location = new System.Drawing.Point(0, 26);
-            this.btnCart.Name = "btnCart";
-            this.btnCart.Size = new System.Drawing.Size(190, 34);
-            this.btnCart.TabIndex = 74;
-            this.btnCart.Text = "Go To Cart";
-            this.btnCart.UseVisualStyleBackColor = false;
-            this.btnCart.Click += new System.EventHandler(this.btnCart_Click);
+            this.btnBasket.BackColor = System.Drawing.Color.Crimson;
+            this.btnBasket.FlatAppearance.BorderSize = 0;
+            this.btnBasket.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnBasket.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.btnBasket.ForeColor = System.Drawing.Color.White;
+            this.btnBasket.Location = new System.Drawing.Point(0, 26);
+            this.btnBasket.Name = "btnBasket";
+            this.btnBasket.Size = new System.Drawing.Size(190, 34);
+            this.btnBasket.TabIndex = 74;
+            this.btnBasket.Text = "Go To Basket";
+            this.btnBasket.UseVisualStyleBackColor = false;
+            this.btnBasket.Click += new System.EventHandler(this.btnCart_Click);
             // 
             // label67
             // 
@@ -405,6 +404,7 @@
             this.bookpanel1.Name = "bookpanel1";
             this.bookpanel1.Size = new System.Drawing.Size(160, 200);
             this.bookpanel1.TabIndex = 4;
+            this.bookpanel1.Click += new System.EventHandler(this.bookpanel1_Click);
             // 
             // bookprice1
             // 
@@ -521,6 +521,7 @@
             this.magazinepanel1.Name = "magazinepanel1";
             this.magazinepanel1.Size = new System.Drawing.Size(160, 200);
             this.magazinepanel1.TabIndex = 33;
+            this.magazinepanel1.Click += new System.EventHandler(this.magazinepanel1_Click);
             // 
             // panelcd1
             // 
@@ -534,6 +535,7 @@
             this.panelcd1.Name = "panelcd1";
             this.panelcd1.Size = new System.Drawing.Size(160, 200);
             this.panelcd1.TabIndex = 40;
+            this.panelcd1.Click += new System.EventHandler(this.panelcd1_Click);
             // 
             // cdprice1
             // 
@@ -587,6 +589,7 @@
             this.bookpanel2.Name = "bookpanel2";
             this.bookpanel2.Size = new System.Drawing.Size(160, 200);
             this.bookpanel2.TabIndex = 47;
+            this.bookpanel2.Click += new System.EventHandler(this.bookpanel2_Click);
             // 
             // bookprice2
             // 
@@ -640,6 +643,7 @@
             this.bookpanel3.Name = "bookpanel3";
             this.bookpanel3.Size = new System.Drawing.Size(160, 200);
             this.bookpanel3.TabIndex = 48;
+            this.bookpanel3.Click += new System.EventHandler(this.bookpanel3_Click);
             // 
             // bookprice3
             // 
@@ -693,6 +697,7 @@
             this.bookpanel7.Name = "bookpanel7";
             this.bookpanel7.Size = new System.Drawing.Size(160, 200);
             this.bookpanel7.TabIndex = 49;
+            this.bookpanel7.Click += new System.EventHandler(this.bookpanel7_Click);
             // 
             // bookprice7
             // 
@@ -746,6 +751,7 @@
             this.bookpanel6.Name = "bookpanel6";
             this.bookpanel6.Size = new System.Drawing.Size(160, 200);
             this.bookpanel6.TabIndex = 52;
+            this.bookpanel6.Click += new System.EventHandler(this.bookpanel6_Click);
             // 
             // bookprice6
             // 
@@ -799,6 +805,7 @@
             this.bookpanel5.Name = "bookpanel5";
             this.bookpanel5.Size = new System.Drawing.Size(160, 200);
             this.bookpanel5.TabIndex = 51;
+            this.bookpanel5.Click += new System.EventHandler(this.bookpanel5_Click);
             // 
             // bookprice5
             // 
@@ -852,6 +859,7 @@
             this.bookpanel4.Name = "bookpanel4";
             this.bookpanel4.Size = new System.Drawing.Size(160, 200);
             this.bookpanel4.TabIndex = 50;
+            this.bookpanel4.Click += new System.EventHandler(this.bookpanel4_Click);
             // 
             // bookprice4
             // 
@@ -905,6 +913,7 @@
             this.magazinepanel2.Name = "magazinepanel2";
             this.magazinepanel2.Size = new System.Drawing.Size(160, 200);
             this.magazinepanel2.TabIndex = 53;
+            this.magazinepanel2.Click += new System.EventHandler(this.magazinepanel2_Click);
             // 
             // magazineprice2
             // 
@@ -958,6 +967,7 @@
             this.magazinepanel7.Name = "magazinepanel7";
             this.magazinepanel7.Size = new System.Drawing.Size(160, 200);
             this.magazinepanel7.TabIndex = 54;
+            this.magazinepanel7.Click += new System.EventHandler(this.magazinepanel7_Click);
             // 
             // magazineprice7
             // 
@@ -1011,6 +1021,7 @@
             this.magazinepanel4.Name = "magazinepanel4";
             this.magazinepanel4.Size = new System.Drawing.Size(160, 200);
             this.magazinepanel4.TabIndex = 56;
+            this.magazinepanel4.Click += new System.EventHandler(this.magazinepanel4_Click);
             // 
             // magazineprice4
             // 
@@ -1064,6 +1075,7 @@
             this.magazinepanel3.Name = "magazinepanel3";
             this.magazinepanel3.Size = new System.Drawing.Size(160, 200);
             this.magazinepanel3.TabIndex = 55;
+            this.magazinepanel3.Click += new System.EventHandler(this.magazinepanel3_Click);
             // 
             // magazineprice3
             // 
@@ -1117,6 +1129,7 @@
             this.magazinepanel6.Name = "magazinepanel6";
             this.magazinepanel6.Size = new System.Drawing.Size(160, 200);
             this.magazinepanel6.TabIndex = 58;
+            this.magazinepanel6.Click += new System.EventHandler(this.magazinepanel6_Click);
             // 
             // magazineprice6
             // 
@@ -1170,6 +1183,7 @@
             this.magazinepanel5.Name = "magazinepanel5";
             this.magazinepanel5.Size = new System.Drawing.Size(160, 200);
             this.magazinepanel5.TabIndex = 57;
+            this.magazinepanel5.Click += new System.EventHandler(this.magazinepanel5_Click);
             // 
             // magazineprice5
             // 
@@ -1223,6 +1237,7 @@
             this.panelcd2.Name = "panelcd2";
             this.panelcd2.Size = new System.Drawing.Size(160, 200);
             this.panelcd2.TabIndex = 59;
+            this.panelcd2.Click += new System.EventHandler(this.panelcd2_Click);
             // 
             // cdprice2
             // 
@@ -1276,6 +1291,7 @@
             this.panelcd7.Name = "panelcd7";
             this.panelcd7.Size = new System.Drawing.Size(160, 200);
             this.panelcd7.TabIndex = 60;
+            this.panelcd7.Click += new System.EventHandler(this.panelcd7_Click);
             // 
             // cdprice7
             // 
@@ -1329,6 +1345,7 @@
             this.panelcd4.Name = "panelcd4";
             this.panelcd4.Size = new System.Drawing.Size(160, 200);
             this.panelcd4.TabIndex = 62;
+            this.panelcd4.Click += new System.EventHandler(this.panelcd4_Click);
             // 
             // cdprice4
             // 
@@ -1382,6 +1399,7 @@
             this.panelcd3.Name = "panelcd3";
             this.panelcd3.Size = new System.Drawing.Size(160, 200);
             this.panelcd3.TabIndex = 61;
+            this.panelcd3.Click += new System.EventHandler(this.panelcd3_Click);
             // 
             // cdprice3
             // 
@@ -1435,6 +1453,7 @@
             this.panelcd6.Name = "panelcd6";
             this.panelcd6.Size = new System.Drawing.Size(160, 200);
             this.panelcd6.TabIndex = 64;
+            this.panelcd6.Click += new System.EventHandler(this.panelcd6_Click);
             // 
             // cdprice6
             // 
@@ -1488,6 +1507,7 @@
             this.panelcd5.Name = "panelcd5";
             this.panelcd5.Size = new System.Drawing.Size(160, 200);
             this.panelcd5.TabIndex = 63;
+            this.panelcd5.Click += new System.EventHandler(this.panelcd5_Click);
             // 
             // cdprice5
             // 
@@ -1779,6 +1799,6 @@
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.Label label68;
         private System.Windows.Forms.ComboBox cmbItemType;
-        private System.Windows.Forms.Button btnCart;
+        private System.Windows.Forms.Button btnBasket;
     }
 }
