@@ -35,7 +35,7 @@
             this.btnClose = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.btnCart = new System.Windows.Forms.Button();
+            this.btnBasket = new System.Windows.Forms.Button();
             this.label67 = new System.Windows.Forms.Label();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.label68 = new System.Windows.Forms.Label();
@@ -45,159 +45,159 @@
             this.label65 = new System.Windows.Forms.Label();
             this.lblDate = new System.Windows.Forms.Label();
             this.lblTime = new System.Windows.Forms.Label();
-            this.panel3 = new System.Windows.Forms.Panel();
-            this.label4 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
+            this.bookpanel1 = new System.Windows.Forms.Panel();
+            this.bookprice1 = new System.Windows.Forms.Label();
+            this.bookauthor1 = new System.Windows.Forms.Label();
+            this.bookname1 = new System.Windows.Forms.Label();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.lblUsername = new System.Windows.Forms.Label();
             this.pictureBox9 = new System.Windows.Forms.PictureBox();
-            this.label25 = new System.Windows.Forms.Label();
-            this.label24 = new System.Windows.Forms.Label();
-            this.label23 = new System.Windows.Forms.Label();
-            this.panel10 = new System.Windows.Forms.Panel();
-            this.panel17 = new System.Windows.Forms.Panel();
-            this.label44 = new System.Windows.Forms.Label();
-            this.label45 = new System.Windows.Forms.Label();
-            this.label46 = new System.Windows.Forms.Label();
+            this.magazinename1 = new System.Windows.Forms.Label();
+            this.issue1 = new System.Windows.Forms.Label();
+            this.magazineprice1 = new System.Windows.Forms.Label();
+            this.magazinepanel1 = new System.Windows.Forms.Panel();
+            this.panelcd1 = new System.Windows.Forms.Panel();
+            this.cdprice1 = new System.Windows.Forms.Label();
+            this.cdname1 = new System.Windows.Forms.Label();
+            this.cdsinger1 = new System.Windows.Forms.Label();
             this.pictureBox16 = new System.Windows.Forms.PictureBox();
-            this.panel4 = new System.Windows.Forms.Panel();
-            this.label5 = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
-            this.label7 = new System.Windows.Forms.Label();
+            this.bookpanel2 = new System.Windows.Forms.Panel();
+            this.bookprice2 = new System.Windows.Forms.Label();
+            this.bookauthor2 = new System.Windows.Forms.Label();
+            this.bookname2 = new System.Windows.Forms.Label();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
-            this.panel5 = new System.Windows.Forms.Panel();
-            this.label8 = new System.Windows.Forms.Label();
-            this.label9 = new System.Windows.Forms.Label();
-            this.label10 = new System.Windows.Forms.Label();
+            this.bookpanel3 = new System.Windows.Forms.Panel();
+            this.bookprice3 = new System.Windows.Forms.Label();
+            this.bookauthor3 = new System.Windows.Forms.Label();
+            this.bookname3 = new System.Windows.Forms.Label();
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
-            this.panel6 = new System.Windows.Forms.Panel();
-            this.label11 = new System.Windows.Forms.Label();
-            this.label12 = new System.Windows.Forms.Label();
-            this.label13 = new System.Windows.Forms.Label();
+            this.bookpanel7 = new System.Windows.Forms.Panel();
+            this.bookprice7 = new System.Windows.Forms.Label();
+            this.bookauthor7 = new System.Windows.Forms.Label();
+            this.bookname7 = new System.Windows.Forms.Label();
             this.pictureBox5 = new System.Windows.Forms.PictureBox();
-            this.panel7 = new System.Windows.Forms.Panel();
-            this.label14 = new System.Windows.Forms.Label();
-            this.label15 = new System.Windows.Forms.Label();
-            this.label16 = new System.Windows.Forms.Label();
+            this.bookpanel6 = new System.Windows.Forms.Panel();
+            this.bookprice6 = new System.Windows.Forms.Label();
+            this.bookauthor6 = new System.Windows.Forms.Label();
+            this.bookname6 = new System.Windows.Forms.Label();
             this.pictureBox6 = new System.Windows.Forms.PictureBox();
-            this.panel8 = new System.Windows.Forms.Panel();
-            this.label17 = new System.Windows.Forms.Label();
-            this.label18 = new System.Windows.Forms.Label();
-            this.label19 = new System.Windows.Forms.Label();
+            this.bookpanel5 = new System.Windows.Forms.Panel();
+            this.bookprice5 = new System.Windows.Forms.Label();
+            this.bookauthor5 = new System.Windows.Forms.Label();
+            this.bookname5 = new System.Windows.Forms.Label();
             this.pictureBox7 = new System.Windows.Forms.PictureBox();
-            this.panel9 = new System.Windows.Forms.Panel();
-            this.label20 = new System.Windows.Forms.Label();
-            this.label21 = new System.Windows.Forms.Label();
-            this.label22 = new System.Windows.Forms.Label();
+            this.bookpanel4 = new System.Windows.Forms.Panel();
+            this.bookprice4 = new System.Windows.Forms.Label();
+            this.bookauthor4 = new System.Windows.Forms.Label();
+            this.bookname4 = new System.Windows.Forms.Label();
             this.pictureBox8 = new System.Windows.Forms.PictureBox();
-            this.panel11 = new System.Windows.Forms.Panel();
-            this.label26 = new System.Windows.Forms.Label();
-            this.label27 = new System.Windows.Forms.Label();
-            this.label28 = new System.Windows.Forms.Label();
+            this.magazinepanel2 = new System.Windows.Forms.Panel();
+            this.magazineprice2 = new System.Windows.Forms.Label();
+            this.issue2 = new System.Windows.Forms.Label();
+            this.magazinename2 = new System.Windows.Forms.Label();
             this.pictureBox10 = new System.Windows.Forms.PictureBox();
-            this.panel12 = new System.Windows.Forms.Panel();
-            this.label29 = new System.Windows.Forms.Label();
-            this.label30 = new System.Windows.Forms.Label();
-            this.label31 = new System.Windows.Forms.Label();
+            this.magazinepanel7 = new System.Windows.Forms.Panel();
+            this.magazineprice7 = new System.Windows.Forms.Label();
+            this.issue7 = new System.Windows.Forms.Label();
+            this.magazinename7 = new System.Windows.Forms.Label();
             this.pictureBox11 = new System.Windows.Forms.PictureBox();
-            this.panel13 = new System.Windows.Forms.Panel();
-            this.label32 = new System.Windows.Forms.Label();
-            this.label33 = new System.Windows.Forms.Label();
-            this.label34 = new System.Windows.Forms.Label();
+            this.magazinepanel4 = new System.Windows.Forms.Panel();
+            this.magazineprice4 = new System.Windows.Forms.Label();
+            this.issue4 = new System.Windows.Forms.Label();
+            this.magazinename4 = new System.Windows.Forms.Label();
             this.pictureBox12 = new System.Windows.Forms.PictureBox();
-            this.panel14 = new System.Windows.Forms.Panel();
-            this.label35 = new System.Windows.Forms.Label();
-            this.label36 = new System.Windows.Forms.Label();
-            this.label37 = new System.Windows.Forms.Label();
+            this.magazinepanel3 = new System.Windows.Forms.Panel();
+            this.magazineprice3 = new System.Windows.Forms.Label();
+            this.issue3 = new System.Windows.Forms.Label();
+            this.magazinename3 = new System.Windows.Forms.Label();
             this.pictureBox13 = new System.Windows.Forms.PictureBox();
-            this.panel15 = new System.Windows.Forms.Panel();
-            this.label38 = new System.Windows.Forms.Label();
-            this.label39 = new System.Windows.Forms.Label();
-            this.label40 = new System.Windows.Forms.Label();
+            this.magazinepanel6 = new System.Windows.Forms.Panel();
+            this.magazineprice6 = new System.Windows.Forms.Label();
+            this.issue6 = new System.Windows.Forms.Label();
+            this.magazinename6 = new System.Windows.Forms.Label();
             this.pictureBox14 = new System.Windows.Forms.PictureBox();
-            this.panel16 = new System.Windows.Forms.Panel();
-            this.label41 = new System.Windows.Forms.Label();
-            this.label42 = new System.Windows.Forms.Label();
-            this.label43 = new System.Windows.Forms.Label();
+            this.magazinepanel5 = new System.Windows.Forms.Panel();
+            this.magazineprice5 = new System.Windows.Forms.Label();
+            this.issue5 = new System.Windows.Forms.Label();
+            this.magazinename5 = new System.Windows.Forms.Label();
             this.pictureBox15 = new System.Windows.Forms.PictureBox();
-            this.panel18 = new System.Windows.Forms.Panel();
-            this.label47 = new System.Windows.Forms.Label();
-            this.label48 = new System.Windows.Forms.Label();
-            this.label49 = new System.Windows.Forms.Label();
+            this.panelcd2 = new System.Windows.Forms.Panel();
+            this.cdprice2 = new System.Windows.Forms.Label();
+            this.cdname2 = new System.Windows.Forms.Label();
+            this.cdsinger2 = new System.Windows.Forms.Label();
             this.pictureBox17 = new System.Windows.Forms.PictureBox();
-            this.panel19 = new System.Windows.Forms.Panel();
-            this.label50 = new System.Windows.Forms.Label();
-            this.label51 = new System.Windows.Forms.Label();
-            this.label52 = new System.Windows.Forms.Label();
+            this.panelcd7 = new System.Windows.Forms.Panel();
+            this.cdprice7 = new System.Windows.Forms.Label();
+            this.cdname7 = new System.Windows.Forms.Label();
+            this.cdsinger7 = new System.Windows.Forms.Label();
             this.pictureBox18 = new System.Windows.Forms.PictureBox();
-            this.panel20 = new System.Windows.Forms.Panel();
-            this.label53 = new System.Windows.Forms.Label();
-            this.label54 = new System.Windows.Forms.Label();
-            this.label55 = new System.Windows.Forms.Label();
+            this.panelcd4 = new System.Windows.Forms.Panel();
+            this.cdprice4 = new System.Windows.Forms.Label();
+            this.cdname4 = new System.Windows.Forms.Label();
+            this.cdsinger4 = new System.Windows.Forms.Label();
             this.pictureBox19 = new System.Windows.Forms.PictureBox();
-            this.panel21 = new System.Windows.Forms.Panel();
-            this.label56 = new System.Windows.Forms.Label();
-            this.label57 = new System.Windows.Forms.Label();
-            this.label58 = new System.Windows.Forms.Label();
+            this.panelcd3 = new System.Windows.Forms.Panel();
+            this.cdprice3 = new System.Windows.Forms.Label();
+            this.cdname3 = new System.Windows.Forms.Label();
+            this.cdsinger3 = new System.Windows.Forms.Label();
             this.pictureBox20 = new System.Windows.Forms.PictureBox();
-            this.panel22 = new System.Windows.Forms.Panel();
-            this.label59 = new System.Windows.Forms.Label();
-            this.label60 = new System.Windows.Forms.Label();
-            this.label61 = new System.Windows.Forms.Label();
+            this.panelcd6 = new System.Windows.Forms.Panel();
+            this.cdprice6 = new System.Windows.Forms.Label();
+            this.cdname6 = new System.Windows.Forms.Label();
+            this.cdsinger6 = new System.Windows.Forms.Label();
             this.pictureBox21 = new System.Windows.Forms.PictureBox();
-            this.panel23 = new System.Windows.Forms.Panel();
-            this.label62 = new System.Windows.Forms.Label();
-            this.label63 = new System.Windows.Forms.Label();
-            this.label64 = new System.Windows.Forms.Label();
+            this.panelcd5 = new System.Windows.Forms.Panel();
+            this.cdprice5 = new System.Windows.Forms.Label();
+            this.cdname5 = new System.Windows.Forms.Label();
+            this.cdsinger5 = new System.Windows.Forms.Label();
             this.pictureBox22 = new System.Windows.Forms.PictureBox();
             this.btnAdmin = new System.Windows.Forms.Button();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
-            this.panel3.SuspendLayout();
+            this.bookpanel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).BeginInit();
-            this.panel10.SuspendLayout();
-            this.panel17.SuspendLayout();
+            this.magazinepanel1.SuspendLayout();
+            this.panelcd1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox16)).BeginInit();
-            this.panel4.SuspendLayout();
+            this.bookpanel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
-            this.panel5.SuspendLayout();
+            this.bookpanel3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
-            this.panel6.SuspendLayout();
+            this.bookpanel7.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
-            this.panel7.SuspendLayout();
+            this.bookpanel6.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
-            this.panel8.SuspendLayout();
+            this.bookpanel5.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
-            this.panel9.SuspendLayout();
+            this.bookpanel4.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).BeginInit();
-            this.panel11.SuspendLayout();
+            this.magazinepanel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).BeginInit();
-            this.panel12.SuspendLayout();
+            this.magazinepanel7.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox11)).BeginInit();
-            this.panel13.SuspendLayout();
+            this.magazinepanel4.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox12)).BeginInit();
-            this.panel14.SuspendLayout();
+            this.magazinepanel3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox13)).BeginInit();
-            this.panel15.SuspendLayout();
+            this.magazinepanel6.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox14)).BeginInit();
-            this.panel16.SuspendLayout();
+            this.magazinepanel5.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox15)).BeginInit();
-            this.panel18.SuspendLayout();
+            this.panelcd2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox17)).BeginInit();
-            this.panel19.SuspendLayout();
+            this.panelcd7.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox18)).BeginInit();
-            this.panel20.SuspendLayout();
+            this.panelcd4.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox19)).BeginInit();
-            this.panel21.SuspendLayout();
+            this.panelcd3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox20)).BeginInit();
-            this.panel22.SuspendLayout();
+            this.panelcd6.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox21)).BeginInit();
-            this.panel23.SuspendLayout();
+            this.panelcd5.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox22)).BeginInit();
             this.SuspendLayout();
             // 
@@ -261,7 +261,7 @@
             // panel2
             // 
             this.panel2.BackColor = System.Drawing.Color.Silver;
-            this.panel2.Controls.Add(this.btnCart);
+            this.panel2.Controls.Add(this.btnBasket);
             this.panel2.Controls.Add(this.label67);
             this.panel2.Controls.Add(this.textBox1);
             this.panel2.Controls.Add(this.label68);
@@ -275,22 +275,21 @@
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(190, 711);
             this.panel2.TabIndex = 3;
-            this.panel2.Paint += new System.Windows.Forms.PaintEventHandler(this.panel2_Paint);
             // 
-            // btnCart
+            // btnBasket
             // 
-            this.btnCart.BackColor = System.Drawing.Color.Crimson;
-            this.btnCart.FlatAppearance.BorderSize = 0;
-            this.btnCart.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnCart.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.btnCart.ForeColor = System.Drawing.Color.White;
-            this.btnCart.Location = new System.Drawing.Point(0, 26);
-            this.btnCart.Name = "btnCart";
-            this.btnCart.Size = new System.Drawing.Size(190, 34);
-            this.btnCart.TabIndex = 74;
-            this.btnCart.Text = "Go To Cart";
-            this.btnCart.UseVisualStyleBackColor = false;
-            this.btnCart.Click += new System.EventHandler(this.btnCart_Click);
+            this.btnBasket.BackColor = System.Drawing.Color.Crimson;
+            this.btnBasket.FlatAppearance.BorderSize = 0;
+            this.btnBasket.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnBasket.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.btnBasket.ForeColor = System.Drawing.Color.White;
+            this.btnBasket.Location = new System.Drawing.Point(0, 26);
+            this.btnBasket.Name = "btnBasket";
+            this.btnBasket.Size = new System.Drawing.Size(190, 34);
+            this.btnBasket.TabIndex = 74;
+            this.btnBasket.Text = "Go To Basket";
+            this.btnBasket.UseVisualStyleBackColor = false;
+            this.btnBasket.Click += new System.EventHandler(this.btnCart_Click);
             // 
             // label67
             // 
@@ -393,48 +392,49 @@
             this.lblTime.Size = new System.Drawing.Size(0, 19);
             this.lblTime.TabIndex = 66;
             // 
-            // panel3
+            // bookpanel1
             // 
-            this.panel3.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.panel3.Controls.Add(this.label4);
-            this.panel3.Controls.Add(this.label3);
-            this.panel3.Controls.Add(this.label2);
-            this.panel3.Controls.Add(this.pictureBox2);
-            this.panel3.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.panel3.Location = new System.Drawing.Point(196, 86);
-            this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(160, 200);
-            this.panel3.TabIndex = 4;
+            this.bookpanel1.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.bookpanel1.Controls.Add(this.bookprice1);
+            this.bookpanel1.Controls.Add(this.bookauthor1);
+            this.bookpanel1.Controls.Add(this.bookname1);
+            this.bookpanel1.Controls.Add(this.pictureBox2);
+            this.bookpanel1.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.bookpanel1.Location = new System.Drawing.Point(196, 86);
+            this.bookpanel1.Name = "bookpanel1";
+            this.bookpanel1.Size = new System.Drawing.Size(160, 200);
+            this.bookpanel1.TabIndex = 4;
+            this.bookpanel1.Click += new System.EventHandler(this.bookpanel1_Click);
             // 
-            // label4
+            // bookprice1
             // 
-            this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label4.Location = new System.Drawing.Point(37, 160);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(39, 17);
-            this.label4.TabIndex = 3;
-            this.label4.Text = "Price";
+            this.bookprice1.AutoSize = true;
+            this.bookprice1.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.bookprice1.Location = new System.Drawing.Point(37, 160);
+            this.bookprice1.Name = "bookprice1";
+            this.bookprice1.Size = new System.Drawing.Size(39, 17);
+            this.bookprice1.TabIndex = 3;
+            this.bookprice1.Text = "Price";
             // 
-            // label3
+            // bookauthor1
             // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label3.Location = new System.Drawing.Point(36, 130);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(95, 17);
-            this.label3.TabIndex = 2;
-            this.label3.Text = "Author Name";
+            this.bookauthor1.AutoSize = true;
+            this.bookauthor1.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.bookauthor1.Location = new System.Drawing.Point(36, 130);
+            this.bookauthor1.Name = "bookauthor1";
+            this.bookauthor1.Size = new System.Drawing.Size(95, 17);
+            this.bookauthor1.TabIndex = 2;
+            this.bookauthor1.Text = "Author Name";
             // 
-            // label2
+            // bookname1
             // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label2.Location = new System.Drawing.Point(36, 113);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(84, 17);
-            this.label2.TabIndex = 1;
-            this.label2.Text = "Book Name";
+            this.bookname1.AutoSize = true;
+            this.bookname1.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.bookname1.Location = new System.Drawing.Point(36, 113);
+            this.bookname1.Name = "bookname1";
+            this.bookname1.Size = new System.Drawing.Size(84, 17);
+            this.bookname1.TabIndex = 1;
+            this.bookname1.Text = "Book Name";
             // 
             // pictureBox2
             // 
@@ -479,91 +479,93 @@
             this.pictureBox9.TabIndex = 0;
             this.pictureBox9.TabStop = false;
             // 
-            // label25
+            // magazinename1
             // 
-            this.label25.AutoSize = true;
-            this.label25.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label25.Location = new System.Drawing.Point(36, 113);
-            this.label25.Name = "label25";
-            this.label25.Size = new System.Drawing.Size(115, 17);
-            this.label25.TabIndex = 1;
-            this.label25.Text = "Magazine Name";
+            this.magazinename1.AutoSize = true;
+            this.magazinename1.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.magazinename1.Location = new System.Drawing.Point(36, 113);
+            this.magazinename1.Name = "magazinename1";
+            this.magazinename1.Size = new System.Drawing.Size(115, 17);
+            this.magazinename1.TabIndex = 1;
+            this.magazinename1.Text = "Magazine Name";
             // 
-            // label24
+            // issue1
             // 
-            this.label24.AutoSize = true;
-            this.label24.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label24.Location = new System.Drawing.Point(36, 130);
-            this.label24.Name = "label24";
-            this.label24.Size = new System.Drawing.Size(104, 17);
-            this.label24.TabIndex = 2;
-            this.label24.Text = "Magazine Issue";
+            this.issue1.AutoSize = true;
+            this.issue1.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.issue1.Location = new System.Drawing.Point(36, 130);
+            this.issue1.Name = "issue1";
+            this.issue1.Size = new System.Drawing.Size(104, 17);
+            this.issue1.TabIndex = 2;
+            this.issue1.Text = "Magazine Issue";
             // 
-            // label23
+            // magazineprice1
             // 
-            this.label23.AutoSize = true;
-            this.label23.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label23.Location = new System.Drawing.Point(37, 160);
-            this.label23.Name = "label23";
-            this.label23.Size = new System.Drawing.Size(39, 17);
-            this.label23.TabIndex = 3;
-            this.label23.Text = "Price";
+            this.magazineprice1.AutoSize = true;
+            this.magazineprice1.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.magazineprice1.Location = new System.Drawing.Point(37, 160);
+            this.magazineprice1.Name = "magazineprice1";
+            this.magazineprice1.Size = new System.Drawing.Size(39, 17);
+            this.magazineprice1.TabIndex = 3;
+            this.magazineprice1.Text = "Price";
             // 
-            // panel10
+            // magazinepanel1
             // 
-            this.panel10.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.panel10.Controls.Add(this.label23);
-            this.panel10.Controls.Add(this.label24);
-            this.panel10.Controls.Add(this.label25);
-            this.panel10.Controls.Add(this.pictureBox9);
-            this.panel10.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.panel10.Location = new System.Drawing.Point(196, 292);
-            this.panel10.Name = "panel10";
-            this.panel10.Size = new System.Drawing.Size(160, 200);
-            this.panel10.TabIndex = 33;
+            this.magazinepanel1.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.magazinepanel1.Controls.Add(this.magazineprice1);
+            this.magazinepanel1.Controls.Add(this.issue1);
+            this.magazinepanel1.Controls.Add(this.magazinename1);
+            this.magazinepanel1.Controls.Add(this.pictureBox9);
+            this.magazinepanel1.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.magazinepanel1.Location = new System.Drawing.Point(196, 292);
+            this.magazinepanel1.Name = "magazinepanel1";
+            this.magazinepanel1.Size = new System.Drawing.Size(160, 200);
+            this.magazinepanel1.TabIndex = 33;
+            this.magazinepanel1.Click += new System.EventHandler(this.magazinepanel1_Click);
             // 
-            // panel17
+            // panelcd1
             // 
-            this.panel17.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.panel17.Controls.Add(this.label44);
-            this.panel17.Controls.Add(this.label45);
-            this.panel17.Controls.Add(this.label46);
-            this.panel17.Controls.Add(this.pictureBox16);
-            this.panel17.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.panel17.Location = new System.Drawing.Point(196, 498);
-            this.panel17.Name = "panel17";
-            this.panel17.Size = new System.Drawing.Size(160, 200);
-            this.panel17.TabIndex = 40;
+            this.panelcd1.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.panelcd1.Controls.Add(this.cdprice1);
+            this.panelcd1.Controls.Add(this.cdname1);
+            this.panelcd1.Controls.Add(this.cdsinger1);
+            this.panelcd1.Controls.Add(this.pictureBox16);
+            this.panelcd1.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.panelcd1.Location = new System.Drawing.Point(196, 498);
+            this.panelcd1.Name = "panelcd1";
+            this.panelcd1.Size = new System.Drawing.Size(160, 200);
+            this.panelcd1.TabIndex = 40;
+            this.panelcd1.Click += new System.EventHandler(this.panelcd1_Click);
             // 
-            // label44
+            // cdprice1
             // 
-            this.label44.AutoSize = true;
-            this.label44.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label44.Location = new System.Drawing.Point(37, 160);
-            this.label44.Name = "label44";
-            this.label44.Size = new System.Drawing.Size(39, 17);
-            this.label44.TabIndex = 3;
-            this.label44.Text = "Price";
+            this.cdprice1.AutoSize = true;
+            this.cdprice1.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.cdprice1.Location = new System.Drawing.Point(37, 160);
+            this.cdprice1.Name = "cdprice1";
+            this.cdprice1.Size = new System.Drawing.Size(39, 17);
+            this.cdprice1.TabIndex = 3;
+            this.cdprice1.Text = "Price";
             // 
-            // label45
+            // cdname1
             // 
-            this.label45.AutoSize = true;
-            this.label45.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label45.Location = new System.Drawing.Point(36, 130);
-            this.label45.Name = "label45";
-            this.label45.Size = new System.Drawing.Size(73, 17);
-            this.label45.TabIndex = 2;
-            this.label45.Text = "CD Name";
+            this.cdname1.AutoSize = true;
+            this.cdname1.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.cdname1.Location = new System.Drawing.Point(36, 130);
+            this.cdname1.Name = "cdname1";
+            this.cdname1.Size = new System.Drawing.Size(73, 17);
+            this.cdname1.TabIndex = 2;
+            this.cdname1.Text = "CD Name";
             // 
-            // label46
+            // cdsinger1
             // 
-            this.label46.AutoSize = true;
-            this.label46.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label46.Location = new System.Drawing.Point(36, 113);
-            this.label46.Name = "label46";
-            this.label46.Size = new System.Drawing.Size(90, 17);
-            this.label46.TabIndex = 1;
-            this.label46.Text = "Singer Name";
+            this.cdsinger1.AutoSize = true;
+            this.cdsinger1.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.cdsinger1.Location = new System.Drawing.Point(36, 113);
+            this.cdsinger1.Name = "cdsinger1";
+            this.cdsinger1.Size = new System.Drawing.Size(90, 17);
+            this.cdsinger1.TabIndex = 1;
+            this.cdsinger1.Text = "Singer Name";
             // 
             // pictureBox16
             // 
@@ -575,48 +577,49 @@
             this.pictureBox16.TabIndex = 0;
             this.pictureBox16.TabStop = false;
             // 
-            // panel4
+            // bookpanel2
             // 
-            this.panel4.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.panel4.Controls.Add(this.label5);
-            this.panel4.Controls.Add(this.label6);
-            this.panel4.Controls.Add(this.label7);
-            this.panel4.Controls.Add(this.pictureBox3);
-            this.panel4.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.panel4.Location = new System.Drawing.Point(362, 86);
-            this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(160, 200);
-            this.panel4.TabIndex = 47;
+            this.bookpanel2.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.bookpanel2.Controls.Add(this.bookprice2);
+            this.bookpanel2.Controls.Add(this.bookauthor2);
+            this.bookpanel2.Controls.Add(this.bookname2);
+            this.bookpanel2.Controls.Add(this.pictureBox3);
+            this.bookpanel2.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.bookpanel2.Location = new System.Drawing.Point(362, 86);
+            this.bookpanel2.Name = "bookpanel2";
+            this.bookpanel2.Size = new System.Drawing.Size(160, 200);
+            this.bookpanel2.TabIndex = 47;
+            this.bookpanel2.Click += new System.EventHandler(this.bookpanel2_Click);
             // 
-            // label5
+            // bookprice2
             // 
-            this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label5.Location = new System.Drawing.Point(37, 160);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(39, 17);
-            this.label5.TabIndex = 3;
-            this.label5.Text = "Price";
+            this.bookprice2.AutoSize = true;
+            this.bookprice2.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.bookprice2.Location = new System.Drawing.Point(37, 160);
+            this.bookprice2.Name = "bookprice2";
+            this.bookprice2.Size = new System.Drawing.Size(39, 17);
+            this.bookprice2.TabIndex = 3;
+            this.bookprice2.Text = "Price";
             // 
-            // label6
+            // bookauthor2
             // 
-            this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label6.Location = new System.Drawing.Point(36, 130);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(95, 17);
-            this.label6.TabIndex = 2;
-            this.label6.Text = "Author Name";
+            this.bookauthor2.AutoSize = true;
+            this.bookauthor2.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.bookauthor2.Location = new System.Drawing.Point(36, 130);
+            this.bookauthor2.Name = "bookauthor2";
+            this.bookauthor2.Size = new System.Drawing.Size(95, 17);
+            this.bookauthor2.TabIndex = 2;
+            this.bookauthor2.Text = "Author Name";
             // 
-            // label7
+            // bookname2
             // 
-            this.label7.AutoSize = true;
-            this.label7.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label7.Location = new System.Drawing.Point(36, 113);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(84, 17);
-            this.label7.TabIndex = 1;
-            this.label7.Text = "Book Name";
+            this.bookname2.AutoSize = true;
+            this.bookname2.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.bookname2.Location = new System.Drawing.Point(36, 113);
+            this.bookname2.Name = "bookname2";
+            this.bookname2.Size = new System.Drawing.Size(84, 17);
+            this.bookname2.TabIndex = 1;
+            this.bookname2.Text = "Book Name";
             // 
             // pictureBox3
             // 
@@ -628,48 +631,49 @@
             this.pictureBox3.TabIndex = 0;
             this.pictureBox3.TabStop = false;
             // 
-            // panel5
+            // bookpanel3
             // 
-            this.panel5.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.panel5.Controls.Add(this.label8);
-            this.panel5.Controls.Add(this.label9);
-            this.panel5.Controls.Add(this.label10);
-            this.panel5.Controls.Add(this.pictureBox4);
-            this.panel5.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.panel5.Location = new System.Drawing.Point(528, 86);
-            this.panel5.Name = "panel5";
-            this.panel5.Size = new System.Drawing.Size(160, 200);
-            this.panel5.TabIndex = 48;
+            this.bookpanel3.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.bookpanel3.Controls.Add(this.bookprice3);
+            this.bookpanel3.Controls.Add(this.bookauthor3);
+            this.bookpanel3.Controls.Add(this.bookname3);
+            this.bookpanel3.Controls.Add(this.pictureBox4);
+            this.bookpanel3.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.bookpanel3.Location = new System.Drawing.Point(528, 86);
+            this.bookpanel3.Name = "bookpanel3";
+            this.bookpanel3.Size = new System.Drawing.Size(160, 200);
+            this.bookpanel3.TabIndex = 48;
+            this.bookpanel3.Click += new System.EventHandler(this.bookpanel3_Click);
             // 
-            // label8
+            // bookprice3
             // 
-            this.label8.AutoSize = true;
-            this.label8.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label8.Location = new System.Drawing.Point(37, 160);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(39, 17);
-            this.label8.TabIndex = 3;
-            this.label8.Text = "Price";
+            this.bookprice3.AutoSize = true;
+            this.bookprice3.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.bookprice3.Location = new System.Drawing.Point(37, 160);
+            this.bookprice3.Name = "bookprice3";
+            this.bookprice3.Size = new System.Drawing.Size(39, 17);
+            this.bookprice3.TabIndex = 3;
+            this.bookprice3.Text = "Price";
             // 
-            // label9
+            // bookauthor3
             // 
-            this.label9.AutoSize = true;
-            this.label9.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label9.Location = new System.Drawing.Point(36, 130);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(95, 17);
-            this.label9.TabIndex = 2;
-            this.label9.Text = "Author Name";
+            this.bookauthor3.AutoSize = true;
+            this.bookauthor3.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.bookauthor3.Location = new System.Drawing.Point(36, 130);
+            this.bookauthor3.Name = "bookauthor3";
+            this.bookauthor3.Size = new System.Drawing.Size(95, 17);
+            this.bookauthor3.TabIndex = 2;
+            this.bookauthor3.Text = "Author Name";
             // 
-            // label10
+            // bookname3
             // 
-            this.label10.AutoSize = true;
-            this.label10.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label10.Location = new System.Drawing.Point(36, 113);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(84, 17);
-            this.label10.TabIndex = 1;
-            this.label10.Text = "Book Name";
+            this.bookname3.AutoSize = true;
+            this.bookname3.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.bookname3.Location = new System.Drawing.Point(36, 113);
+            this.bookname3.Name = "bookname3";
+            this.bookname3.Size = new System.Drawing.Size(84, 17);
+            this.bookname3.TabIndex = 1;
+            this.bookname3.Text = "Book Name";
             // 
             // pictureBox4
             // 
@@ -681,48 +685,49 @@
             this.pictureBox4.TabIndex = 0;
             this.pictureBox4.TabStop = false;
             // 
-            // panel6
+            // bookpanel7
             // 
-            this.panel6.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.panel6.Controls.Add(this.label11);
-            this.panel6.Controls.Add(this.label12);
-            this.panel6.Controls.Add(this.label13);
-            this.panel6.Controls.Add(this.pictureBox5);
-            this.panel6.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.panel6.Location = new System.Drawing.Point(1194, 86);
-            this.panel6.Name = "panel6";
-            this.panel6.Size = new System.Drawing.Size(160, 200);
-            this.panel6.TabIndex = 49;
+            this.bookpanel7.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.bookpanel7.Controls.Add(this.bookprice7);
+            this.bookpanel7.Controls.Add(this.bookauthor7);
+            this.bookpanel7.Controls.Add(this.bookname7);
+            this.bookpanel7.Controls.Add(this.pictureBox5);
+            this.bookpanel7.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.bookpanel7.Location = new System.Drawing.Point(1194, 86);
+            this.bookpanel7.Name = "bookpanel7";
+            this.bookpanel7.Size = new System.Drawing.Size(160, 200);
+            this.bookpanel7.TabIndex = 49;
+            this.bookpanel7.Click += new System.EventHandler(this.bookpanel7_Click);
             // 
-            // label11
+            // bookprice7
             // 
-            this.label11.AutoSize = true;
-            this.label11.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label11.Location = new System.Drawing.Point(37, 160);
-            this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(39, 17);
-            this.label11.TabIndex = 3;
-            this.label11.Text = "Price";
+            this.bookprice7.AutoSize = true;
+            this.bookprice7.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.bookprice7.Location = new System.Drawing.Point(37, 160);
+            this.bookprice7.Name = "bookprice7";
+            this.bookprice7.Size = new System.Drawing.Size(39, 17);
+            this.bookprice7.TabIndex = 3;
+            this.bookprice7.Text = "Price";
             // 
-            // label12
+            // bookauthor7
             // 
-            this.label12.AutoSize = true;
-            this.label12.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label12.Location = new System.Drawing.Point(36, 130);
-            this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(95, 17);
-            this.label12.TabIndex = 2;
-            this.label12.Text = "Author Name";
+            this.bookauthor7.AutoSize = true;
+            this.bookauthor7.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.bookauthor7.Location = new System.Drawing.Point(36, 130);
+            this.bookauthor7.Name = "bookauthor7";
+            this.bookauthor7.Size = new System.Drawing.Size(95, 17);
+            this.bookauthor7.TabIndex = 2;
+            this.bookauthor7.Text = "Author Name";
             // 
-            // label13
+            // bookname7
             // 
-            this.label13.AutoSize = true;
-            this.label13.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label13.Location = new System.Drawing.Point(36, 113);
-            this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(84, 17);
-            this.label13.TabIndex = 1;
-            this.label13.Text = "Book Name";
+            this.bookname7.AutoSize = true;
+            this.bookname7.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.bookname7.Location = new System.Drawing.Point(36, 113);
+            this.bookname7.Name = "bookname7";
+            this.bookname7.Size = new System.Drawing.Size(84, 17);
+            this.bookname7.TabIndex = 1;
+            this.bookname7.Text = "Book Name";
             // 
             // pictureBox5
             // 
@@ -734,48 +739,49 @@
             this.pictureBox5.TabIndex = 0;
             this.pictureBox5.TabStop = false;
             // 
-            // panel7
+            // bookpanel6
             // 
-            this.panel7.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.panel7.Controls.Add(this.label14);
-            this.panel7.Controls.Add(this.label15);
-            this.panel7.Controls.Add(this.label16);
-            this.panel7.Controls.Add(this.pictureBox6);
-            this.panel7.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.panel7.Location = new System.Drawing.Point(1026, 86);
-            this.panel7.Name = "panel7";
-            this.panel7.Size = new System.Drawing.Size(160, 200);
-            this.panel7.TabIndex = 52;
+            this.bookpanel6.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.bookpanel6.Controls.Add(this.bookprice6);
+            this.bookpanel6.Controls.Add(this.bookauthor6);
+            this.bookpanel6.Controls.Add(this.bookname6);
+            this.bookpanel6.Controls.Add(this.pictureBox6);
+            this.bookpanel6.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.bookpanel6.Location = new System.Drawing.Point(1026, 86);
+            this.bookpanel6.Name = "bookpanel6";
+            this.bookpanel6.Size = new System.Drawing.Size(160, 200);
+            this.bookpanel6.TabIndex = 52;
+            this.bookpanel6.Click += new System.EventHandler(this.bookpanel6_Click);
             // 
-            // label14
+            // bookprice6
             // 
-            this.label14.AutoSize = true;
-            this.label14.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label14.Location = new System.Drawing.Point(37, 160);
-            this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(39, 17);
-            this.label14.TabIndex = 3;
-            this.label14.Text = "Price";
+            this.bookprice6.AutoSize = true;
+            this.bookprice6.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.bookprice6.Location = new System.Drawing.Point(37, 160);
+            this.bookprice6.Name = "bookprice6";
+            this.bookprice6.Size = new System.Drawing.Size(39, 17);
+            this.bookprice6.TabIndex = 3;
+            this.bookprice6.Text = "Price";
             // 
-            // label15
+            // bookauthor6
             // 
-            this.label15.AutoSize = true;
-            this.label15.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label15.Location = new System.Drawing.Point(36, 130);
-            this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(95, 17);
-            this.label15.TabIndex = 2;
-            this.label15.Text = "Author Name";
+            this.bookauthor6.AutoSize = true;
+            this.bookauthor6.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.bookauthor6.Location = new System.Drawing.Point(36, 130);
+            this.bookauthor6.Name = "bookauthor6";
+            this.bookauthor6.Size = new System.Drawing.Size(95, 17);
+            this.bookauthor6.TabIndex = 2;
+            this.bookauthor6.Text = "Author Name";
             // 
-            // label16
+            // bookname6
             // 
-            this.label16.AutoSize = true;
-            this.label16.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label16.Location = new System.Drawing.Point(36, 113);
-            this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(84, 17);
-            this.label16.TabIndex = 1;
-            this.label16.Text = "Book Name";
+            this.bookname6.AutoSize = true;
+            this.bookname6.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.bookname6.Location = new System.Drawing.Point(36, 113);
+            this.bookname6.Name = "bookname6";
+            this.bookname6.Size = new System.Drawing.Size(84, 17);
+            this.bookname6.TabIndex = 1;
+            this.bookname6.Text = "Book Name";
             // 
             // pictureBox6
             // 
@@ -787,48 +793,49 @@
             this.pictureBox6.TabIndex = 0;
             this.pictureBox6.TabStop = false;
             // 
-            // panel8
+            // bookpanel5
             // 
-            this.panel8.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.panel8.Controls.Add(this.label17);
-            this.panel8.Controls.Add(this.label18);
-            this.panel8.Controls.Add(this.label19);
-            this.panel8.Controls.Add(this.pictureBox7);
-            this.panel8.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.panel8.Location = new System.Drawing.Point(860, 86);
-            this.panel8.Name = "panel8";
-            this.panel8.Size = new System.Drawing.Size(160, 200);
-            this.panel8.TabIndex = 51;
+            this.bookpanel5.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.bookpanel5.Controls.Add(this.bookprice5);
+            this.bookpanel5.Controls.Add(this.bookauthor5);
+            this.bookpanel5.Controls.Add(this.bookname5);
+            this.bookpanel5.Controls.Add(this.pictureBox7);
+            this.bookpanel5.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.bookpanel5.Location = new System.Drawing.Point(860, 86);
+            this.bookpanel5.Name = "bookpanel5";
+            this.bookpanel5.Size = new System.Drawing.Size(160, 200);
+            this.bookpanel5.TabIndex = 51;
+            this.bookpanel5.Click += new System.EventHandler(this.bookpanel5_Click);
             // 
-            // label17
+            // bookprice5
             // 
-            this.label17.AutoSize = true;
-            this.label17.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label17.Location = new System.Drawing.Point(37, 160);
-            this.label17.Name = "label17";
-            this.label17.Size = new System.Drawing.Size(39, 17);
-            this.label17.TabIndex = 3;
-            this.label17.Text = "Price";
+            this.bookprice5.AutoSize = true;
+            this.bookprice5.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.bookprice5.Location = new System.Drawing.Point(37, 160);
+            this.bookprice5.Name = "bookprice5";
+            this.bookprice5.Size = new System.Drawing.Size(39, 17);
+            this.bookprice5.TabIndex = 3;
+            this.bookprice5.Text = "Price";
             // 
-            // label18
+            // bookauthor5
             // 
-            this.label18.AutoSize = true;
-            this.label18.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label18.Location = new System.Drawing.Point(36, 130);
-            this.label18.Name = "label18";
-            this.label18.Size = new System.Drawing.Size(95, 17);
-            this.label18.TabIndex = 2;
-            this.label18.Text = "Author Name";
+            this.bookauthor5.AutoSize = true;
+            this.bookauthor5.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.bookauthor5.Location = new System.Drawing.Point(36, 130);
+            this.bookauthor5.Name = "bookauthor5";
+            this.bookauthor5.Size = new System.Drawing.Size(95, 17);
+            this.bookauthor5.TabIndex = 2;
+            this.bookauthor5.Text = "Author Name";
             // 
-            // label19
+            // bookname5
             // 
-            this.label19.AutoSize = true;
-            this.label19.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label19.Location = new System.Drawing.Point(36, 113);
-            this.label19.Name = "label19";
-            this.label19.Size = new System.Drawing.Size(84, 17);
-            this.label19.TabIndex = 1;
-            this.label19.Text = "Book Name";
+            this.bookname5.AutoSize = true;
+            this.bookname5.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.bookname5.Location = new System.Drawing.Point(36, 113);
+            this.bookname5.Name = "bookname5";
+            this.bookname5.Size = new System.Drawing.Size(84, 17);
+            this.bookname5.TabIndex = 1;
+            this.bookname5.Text = "Book Name";
             // 
             // pictureBox7
             // 
@@ -840,48 +847,49 @@
             this.pictureBox7.TabIndex = 0;
             this.pictureBox7.TabStop = false;
             // 
-            // panel9
+            // bookpanel4
             // 
-            this.panel9.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.panel9.Controls.Add(this.label20);
-            this.panel9.Controls.Add(this.label21);
-            this.panel9.Controls.Add(this.label22);
-            this.panel9.Controls.Add(this.pictureBox8);
-            this.panel9.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.panel9.Location = new System.Drawing.Point(694, 86);
-            this.panel9.Name = "panel9";
-            this.panel9.Size = new System.Drawing.Size(160, 200);
-            this.panel9.TabIndex = 50;
+            this.bookpanel4.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.bookpanel4.Controls.Add(this.bookprice4);
+            this.bookpanel4.Controls.Add(this.bookauthor4);
+            this.bookpanel4.Controls.Add(this.bookname4);
+            this.bookpanel4.Controls.Add(this.pictureBox8);
+            this.bookpanel4.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.bookpanel4.Location = new System.Drawing.Point(694, 86);
+            this.bookpanel4.Name = "bookpanel4";
+            this.bookpanel4.Size = new System.Drawing.Size(160, 200);
+            this.bookpanel4.TabIndex = 50;
+            this.bookpanel4.Click += new System.EventHandler(this.bookpanel4_Click);
             // 
-            // label20
+            // bookprice4
             // 
-            this.label20.AutoSize = true;
-            this.label20.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label20.Location = new System.Drawing.Point(37, 160);
-            this.label20.Name = "label20";
-            this.label20.Size = new System.Drawing.Size(39, 17);
-            this.label20.TabIndex = 3;
-            this.label20.Text = "Price";
+            this.bookprice4.AutoSize = true;
+            this.bookprice4.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.bookprice4.Location = new System.Drawing.Point(37, 160);
+            this.bookprice4.Name = "bookprice4";
+            this.bookprice4.Size = new System.Drawing.Size(39, 17);
+            this.bookprice4.TabIndex = 3;
+            this.bookprice4.Text = "Price";
             // 
-            // label21
+            // bookauthor4
             // 
-            this.label21.AutoSize = true;
-            this.label21.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label21.Location = new System.Drawing.Point(36, 130);
-            this.label21.Name = "label21";
-            this.label21.Size = new System.Drawing.Size(95, 17);
-            this.label21.TabIndex = 2;
-            this.label21.Text = "Author Name";
+            this.bookauthor4.AutoSize = true;
+            this.bookauthor4.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.bookauthor4.Location = new System.Drawing.Point(36, 130);
+            this.bookauthor4.Name = "bookauthor4";
+            this.bookauthor4.Size = new System.Drawing.Size(95, 17);
+            this.bookauthor4.TabIndex = 2;
+            this.bookauthor4.Text = "Author Name";
             // 
-            // label22
+            // bookname4
             // 
-            this.label22.AutoSize = true;
-            this.label22.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label22.Location = new System.Drawing.Point(36, 113);
-            this.label22.Name = "label22";
-            this.label22.Size = new System.Drawing.Size(84, 17);
-            this.label22.TabIndex = 1;
-            this.label22.Text = "Book Name";
+            this.bookname4.AutoSize = true;
+            this.bookname4.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.bookname4.Location = new System.Drawing.Point(36, 113);
+            this.bookname4.Name = "bookname4";
+            this.bookname4.Size = new System.Drawing.Size(84, 17);
+            this.bookname4.TabIndex = 1;
+            this.bookname4.Text = "Book Name";
             // 
             // pictureBox8
             // 
@@ -893,48 +901,49 @@
             this.pictureBox8.TabIndex = 0;
             this.pictureBox8.TabStop = false;
             // 
-            // panel11
+            // magazinepanel2
             // 
-            this.panel11.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.panel11.Controls.Add(this.label26);
-            this.panel11.Controls.Add(this.label27);
-            this.panel11.Controls.Add(this.label28);
-            this.panel11.Controls.Add(this.pictureBox10);
-            this.panel11.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.panel11.Location = new System.Drawing.Point(362, 292);
-            this.panel11.Name = "panel11";
-            this.panel11.Size = new System.Drawing.Size(160, 200);
-            this.panel11.TabIndex = 53;
+            this.magazinepanel2.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.magazinepanel2.Controls.Add(this.magazineprice2);
+            this.magazinepanel2.Controls.Add(this.issue2);
+            this.magazinepanel2.Controls.Add(this.magazinename2);
+            this.magazinepanel2.Controls.Add(this.pictureBox10);
+            this.magazinepanel2.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.magazinepanel2.Location = new System.Drawing.Point(362, 292);
+            this.magazinepanel2.Name = "magazinepanel2";
+            this.magazinepanel2.Size = new System.Drawing.Size(160, 200);
+            this.magazinepanel2.TabIndex = 53;
+            this.magazinepanel2.Click += new System.EventHandler(this.magazinepanel2_Click);
             // 
-            // label26
+            // magazineprice2
             // 
-            this.label26.AutoSize = true;
-            this.label26.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label26.Location = new System.Drawing.Point(37, 160);
-            this.label26.Name = "label26";
-            this.label26.Size = new System.Drawing.Size(39, 17);
-            this.label26.TabIndex = 3;
-            this.label26.Text = "Price";
+            this.magazineprice2.AutoSize = true;
+            this.magazineprice2.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.magazineprice2.Location = new System.Drawing.Point(37, 160);
+            this.magazineprice2.Name = "magazineprice2";
+            this.magazineprice2.Size = new System.Drawing.Size(39, 17);
+            this.magazineprice2.TabIndex = 3;
+            this.magazineprice2.Text = "Price";
             // 
-            // label27
+            // issue2
             // 
-            this.label27.AutoSize = true;
-            this.label27.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label27.Location = new System.Drawing.Point(36, 130);
-            this.label27.Name = "label27";
-            this.label27.Size = new System.Drawing.Size(104, 17);
-            this.label27.TabIndex = 2;
-            this.label27.Text = "Magazine Issue";
+            this.issue2.AutoSize = true;
+            this.issue2.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.issue2.Location = new System.Drawing.Point(36, 130);
+            this.issue2.Name = "issue2";
+            this.issue2.Size = new System.Drawing.Size(104, 17);
+            this.issue2.TabIndex = 2;
+            this.issue2.Text = "Magazine Issue";
             // 
-            // label28
+            // magazinename2
             // 
-            this.label28.AutoSize = true;
-            this.label28.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label28.Location = new System.Drawing.Point(36, 113);
-            this.label28.Name = "label28";
-            this.label28.Size = new System.Drawing.Size(115, 17);
-            this.label28.TabIndex = 1;
-            this.label28.Text = "Magazine Name";
+            this.magazinename2.AutoSize = true;
+            this.magazinename2.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.magazinename2.Location = new System.Drawing.Point(36, 113);
+            this.magazinename2.Name = "magazinename2";
+            this.magazinename2.Size = new System.Drawing.Size(115, 17);
+            this.magazinename2.TabIndex = 1;
+            this.magazinename2.Text = "Magazine Name";
             // 
             // pictureBox10
             // 
@@ -946,48 +955,49 @@
             this.pictureBox10.TabIndex = 0;
             this.pictureBox10.TabStop = false;
             // 
-            // panel12
+            // magazinepanel7
             // 
-            this.panel12.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.panel12.Controls.Add(this.label29);
-            this.panel12.Controls.Add(this.label30);
-            this.panel12.Controls.Add(this.label31);
-            this.panel12.Controls.Add(this.pictureBox11);
-            this.panel12.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.panel12.Location = new System.Drawing.Point(1194, 292);
-            this.panel12.Name = "panel12";
-            this.panel12.Size = new System.Drawing.Size(160, 200);
-            this.panel12.TabIndex = 54;
+            this.magazinepanel7.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.magazinepanel7.Controls.Add(this.magazineprice7);
+            this.magazinepanel7.Controls.Add(this.issue7);
+            this.magazinepanel7.Controls.Add(this.magazinename7);
+            this.magazinepanel7.Controls.Add(this.pictureBox11);
+            this.magazinepanel7.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.magazinepanel7.Location = new System.Drawing.Point(1194, 292);
+            this.magazinepanel7.Name = "magazinepanel7";
+            this.magazinepanel7.Size = new System.Drawing.Size(160, 200);
+            this.magazinepanel7.TabIndex = 54;
+            this.magazinepanel7.Click += new System.EventHandler(this.magazinepanel7_Click);
             // 
-            // label29
+            // magazineprice7
             // 
-            this.label29.AutoSize = true;
-            this.label29.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label29.Location = new System.Drawing.Point(37, 160);
-            this.label29.Name = "label29";
-            this.label29.Size = new System.Drawing.Size(39, 17);
-            this.label29.TabIndex = 3;
-            this.label29.Text = "Price";
+            this.magazineprice7.AutoSize = true;
+            this.magazineprice7.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.magazineprice7.Location = new System.Drawing.Point(37, 160);
+            this.magazineprice7.Name = "magazineprice7";
+            this.magazineprice7.Size = new System.Drawing.Size(39, 17);
+            this.magazineprice7.TabIndex = 3;
+            this.magazineprice7.Text = "Price";
             // 
-            // label30
+            // issue7
             // 
-            this.label30.AutoSize = true;
-            this.label30.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label30.Location = new System.Drawing.Point(36, 130);
-            this.label30.Name = "label30";
-            this.label30.Size = new System.Drawing.Size(104, 17);
-            this.label30.TabIndex = 2;
-            this.label30.Text = "Magazine Issue";
+            this.issue7.AutoSize = true;
+            this.issue7.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.issue7.Location = new System.Drawing.Point(36, 130);
+            this.issue7.Name = "issue7";
+            this.issue7.Size = new System.Drawing.Size(104, 17);
+            this.issue7.TabIndex = 2;
+            this.issue7.Text = "Magazine Issue";
             // 
-            // label31
+            // magazinename7
             // 
-            this.label31.AutoSize = true;
-            this.label31.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label31.Location = new System.Drawing.Point(36, 113);
-            this.label31.Name = "label31";
-            this.label31.Size = new System.Drawing.Size(115, 17);
-            this.label31.TabIndex = 1;
-            this.label31.Text = "Magazine Name";
+            this.magazinename7.AutoSize = true;
+            this.magazinename7.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.magazinename7.Location = new System.Drawing.Point(36, 113);
+            this.magazinename7.Name = "magazinename7";
+            this.magazinename7.Size = new System.Drawing.Size(115, 17);
+            this.magazinename7.TabIndex = 1;
+            this.magazinename7.Text = "Magazine Name";
             // 
             // pictureBox11
             // 
@@ -999,48 +1009,49 @@
             this.pictureBox11.TabIndex = 0;
             this.pictureBox11.TabStop = false;
             // 
-            // panel13
+            // magazinepanel4
             // 
-            this.panel13.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.panel13.Controls.Add(this.label32);
-            this.panel13.Controls.Add(this.label33);
-            this.panel13.Controls.Add(this.label34);
-            this.panel13.Controls.Add(this.pictureBox12);
-            this.panel13.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.panel13.Location = new System.Drawing.Point(694, 292);
-            this.panel13.Name = "panel13";
-            this.panel13.Size = new System.Drawing.Size(160, 200);
-            this.panel13.TabIndex = 56;
+            this.magazinepanel4.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.magazinepanel4.Controls.Add(this.magazineprice4);
+            this.magazinepanel4.Controls.Add(this.issue4);
+            this.magazinepanel4.Controls.Add(this.magazinename4);
+            this.magazinepanel4.Controls.Add(this.pictureBox12);
+            this.magazinepanel4.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.magazinepanel4.Location = new System.Drawing.Point(694, 292);
+            this.magazinepanel4.Name = "magazinepanel4";
+            this.magazinepanel4.Size = new System.Drawing.Size(160, 200);
+            this.magazinepanel4.TabIndex = 56;
+            this.magazinepanel4.Click += new System.EventHandler(this.magazinepanel4_Click);
             // 
-            // label32
+            // magazineprice4
             // 
-            this.label32.AutoSize = true;
-            this.label32.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label32.Location = new System.Drawing.Point(37, 160);
-            this.label32.Name = "label32";
-            this.label32.Size = new System.Drawing.Size(39, 17);
-            this.label32.TabIndex = 3;
-            this.label32.Text = "Price";
+            this.magazineprice4.AutoSize = true;
+            this.magazineprice4.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.magazineprice4.Location = new System.Drawing.Point(37, 160);
+            this.magazineprice4.Name = "magazineprice4";
+            this.magazineprice4.Size = new System.Drawing.Size(39, 17);
+            this.magazineprice4.TabIndex = 3;
+            this.magazineprice4.Text = "Price";
             // 
-            // label33
+            // issue4
             // 
-            this.label33.AutoSize = true;
-            this.label33.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label33.Location = new System.Drawing.Point(36, 130);
-            this.label33.Name = "label33";
-            this.label33.Size = new System.Drawing.Size(104, 17);
-            this.label33.TabIndex = 2;
-            this.label33.Text = "Magazine Issue";
+            this.issue4.AutoSize = true;
+            this.issue4.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.issue4.Location = new System.Drawing.Point(36, 130);
+            this.issue4.Name = "issue4";
+            this.issue4.Size = new System.Drawing.Size(104, 17);
+            this.issue4.TabIndex = 2;
+            this.issue4.Text = "Magazine Issue";
             // 
-            // label34
+            // magazinename4
             // 
-            this.label34.AutoSize = true;
-            this.label34.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label34.Location = new System.Drawing.Point(36, 113);
-            this.label34.Name = "label34";
-            this.label34.Size = new System.Drawing.Size(115, 17);
-            this.label34.TabIndex = 1;
-            this.label34.Text = "Magazine Name";
+            this.magazinename4.AutoSize = true;
+            this.magazinename4.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.magazinename4.Location = new System.Drawing.Point(36, 113);
+            this.magazinename4.Name = "magazinename4";
+            this.magazinename4.Size = new System.Drawing.Size(115, 17);
+            this.magazinename4.TabIndex = 1;
+            this.magazinename4.Text = "Magazine Name";
             // 
             // pictureBox12
             // 
@@ -1052,48 +1063,49 @@
             this.pictureBox12.TabIndex = 0;
             this.pictureBox12.TabStop = false;
             // 
-            // panel14
+            // magazinepanel3
             // 
-            this.panel14.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.panel14.Controls.Add(this.label35);
-            this.panel14.Controls.Add(this.label36);
-            this.panel14.Controls.Add(this.label37);
-            this.panel14.Controls.Add(this.pictureBox13);
-            this.panel14.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.panel14.Location = new System.Drawing.Point(528, 292);
-            this.panel14.Name = "panel14";
-            this.panel14.Size = new System.Drawing.Size(160, 200);
-            this.panel14.TabIndex = 55;
+            this.magazinepanel3.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.magazinepanel3.Controls.Add(this.magazineprice3);
+            this.magazinepanel3.Controls.Add(this.issue3);
+            this.magazinepanel3.Controls.Add(this.magazinename3);
+            this.magazinepanel3.Controls.Add(this.pictureBox13);
+            this.magazinepanel3.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.magazinepanel3.Location = new System.Drawing.Point(528, 292);
+            this.magazinepanel3.Name = "magazinepanel3";
+            this.magazinepanel3.Size = new System.Drawing.Size(160, 200);
+            this.magazinepanel3.TabIndex = 55;
+            this.magazinepanel3.Click += new System.EventHandler(this.magazinepanel3_Click);
             // 
-            // label35
+            // magazineprice3
             // 
-            this.label35.AutoSize = true;
-            this.label35.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label35.Location = new System.Drawing.Point(37, 160);
-            this.label35.Name = "label35";
-            this.label35.Size = new System.Drawing.Size(39, 17);
-            this.label35.TabIndex = 3;
-            this.label35.Text = "Price";
+            this.magazineprice3.AutoSize = true;
+            this.magazineprice3.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.magazineprice3.Location = new System.Drawing.Point(37, 160);
+            this.magazineprice3.Name = "magazineprice3";
+            this.magazineprice3.Size = new System.Drawing.Size(39, 17);
+            this.magazineprice3.TabIndex = 3;
+            this.magazineprice3.Text = "Price";
             // 
-            // label36
+            // issue3
             // 
-            this.label36.AutoSize = true;
-            this.label36.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label36.Location = new System.Drawing.Point(36, 130);
-            this.label36.Name = "label36";
-            this.label36.Size = new System.Drawing.Size(104, 17);
-            this.label36.TabIndex = 2;
-            this.label36.Text = "Magazine Issue";
+            this.issue3.AutoSize = true;
+            this.issue3.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.issue3.Location = new System.Drawing.Point(36, 130);
+            this.issue3.Name = "issue3";
+            this.issue3.Size = new System.Drawing.Size(104, 17);
+            this.issue3.TabIndex = 2;
+            this.issue3.Text = "Magazine Issue";
             // 
-            // label37
+            // magazinename3
             // 
-            this.label37.AutoSize = true;
-            this.label37.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label37.Location = new System.Drawing.Point(36, 113);
-            this.label37.Name = "label37";
-            this.label37.Size = new System.Drawing.Size(115, 17);
-            this.label37.TabIndex = 1;
-            this.label37.Text = "Magazine Name";
+            this.magazinename3.AutoSize = true;
+            this.magazinename3.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.magazinename3.Location = new System.Drawing.Point(36, 113);
+            this.magazinename3.Name = "magazinename3";
+            this.magazinename3.Size = new System.Drawing.Size(115, 17);
+            this.magazinename3.TabIndex = 1;
+            this.magazinename3.Text = "Magazine Name";
             // 
             // pictureBox13
             // 
@@ -1105,48 +1117,49 @@
             this.pictureBox13.TabIndex = 0;
             this.pictureBox13.TabStop = false;
             // 
-            // panel15
+            // magazinepanel6
             // 
-            this.panel15.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.panel15.Controls.Add(this.label38);
-            this.panel15.Controls.Add(this.label39);
-            this.panel15.Controls.Add(this.label40);
-            this.panel15.Controls.Add(this.pictureBox14);
-            this.panel15.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.panel15.Location = new System.Drawing.Point(1026, 292);
-            this.panel15.Name = "panel15";
-            this.panel15.Size = new System.Drawing.Size(160, 200);
-            this.panel15.TabIndex = 58;
+            this.magazinepanel6.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.magazinepanel6.Controls.Add(this.magazineprice6);
+            this.magazinepanel6.Controls.Add(this.issue6);
+            this.magazinepanel6.Controls.Add(this.magazinename6);
+            this.magazinepanel6.Controls.Add(this.pictureBox14);
+            this.magazinepanel6.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.magazinepanel6.Location = new System.Drawing.Point(1026, 292);
+            this.magazinepanel6.Name = "magazinepanel6";
+            this.magazinepanel6.Size = new System.Drawing.Size(160, 200);
+            this.magazinepanel6.TabIndex = 58;
+            this.magazinepanel6.Click += new System.EventHandler(this.magazinepanel6_Click);
             // 
-            // label38
+            // magazineprice6
             // 
-            this.label38.AutoSize = true;
-            this.label38.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label38.Location = new System.Drawing.Point(37, 160);
-            this.label38.Name = "label38";
-            this.label38.Size = new System.Drawing.Size(39, 17);
-            this.label38.TabIndex = 3;
-            this.label38.Text = "Price";
+            this.magazineprice6.AutoSize = true;
+            this.magazineprice6.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.magazineprice6.Location = new System.Drawing.Point(37, 160);
+            this.magazineprice6.Name = "magazineprice6";
+            this.magazineprice6.Size = new System.Drawing.Size(39, 17);
+            this.magazineprice6.TabIndex = 3;
+            this.magazineprice6.Text = "Price";
             // 
-            // label39
+            // issue6
             // 
-            this.label39.AutoSize = true;
-            this.label39.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label39.Location = new System.Drawing.Point(36, 130);
-            this.label39.Name = "label39";
-            this.label39.Size = new System.Drawing.Size(104, 17);
-            this.label39.TabIndex = 2;
-            this.label39.Text = "Magazine Issue";
+            this.issue6.AutoSize = true;
+            this.issue6.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.issue6.Location = new System.Drawing.Point(36, 130);
+            this.issue6.Name = "issue6";
+            this.issue6.Size = new System.Drawing.Size(104, 17);
+            this.issue6.TabIndex = 2;
+            this.issue6.Text = "Magazine Issue";
             // 
-            // label40
+            // magazinename6
             // 
-            this.label40.AutoSize = true;
-            this.label40.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label40.Location = new System.Drawing.Point(36, 113);
-            this.label40.Name = "label40";
-            this.label40.Size = new System.Drawing.Size(115, 17);
-            this.label40.TabIndex = 1;
-            this.label40.Text = "Magazine Name";
+            this.magazinename6.AutoSize = true;
+            this.magazinename6.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.magazinename6.Location = new System.Drawing.Point(36, 113);
+            this.magazinename6.Name = "magazinename6";
+            this.magazinename6.Size = new System.Drawing.Size(115, 17);
+            this.magazinename6.TabIndex = 1;
+            this.magazinename6.Text = "Magazine Name";
             // 
             // pictureBox14
             // 
@@ -1158,48 +1171,49 @@
             this.pictureBox14.TabIndex = 0;
             this.pictureBox14.TabStop = false;
             // 
-            // panel16
+            // magazinepanel5
             // 
-            this.panel16.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.panel16.Controls.Add(this.label41);
-            this.panel16.Controls.Add(this.label42);
-            this.panel16.Controls.Add(this.label43);
-            this.panel16.Controls.Add(this.pictureBox15);
-            this.panel16.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.panel16.Location = new System.Drawing.Point(860, 292);
-            this.panel16.Name = "panel16";
-            this.panel16.Size = new System.Drawing.Size(160, 200);
-            this.panel16.TabIndex = 57;
+            this.magazinepanel5.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.magazinepanel5.Controls.Add(this.magazineprice5);
+            this.magazinepanel5.Controls.Add(this.issue5);
+            this.magazinepanel5.Controls.Add(this.magazinename5);
+            this.magazinepanel5.Controls.Add(this.pictureBox15);
+            this.magazinepanel5.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.magazinepanel5.Location = new System.Drawing.Point(860, 292);
+            this.magazinepanel5.Name = "magazinepanel5";
+            this.magazinepanel5.Size = new System.Drawing.Size(160, 200);
+            this.magazinepanel5.TabIndex = 57;
+            this.magazinepanel5.Click += new System.EventHandler(this.magazinepanel5_Click);
             // 
-            // label41
+            // magazineprice5
             // 
-            this.label41.AutoSize = true;
-            this.label41.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label41.Location = new System.Drawing.Point(37, 160);
-            this.label41.Name = "label41";
-            this.label41.Size = new System.Drawing.Size(39, 17);
-            this.label41.TabIndex = 3;
-            this.label41.Text = "Price";
+            this.magazineprice5.AutoSize = true;
+            this.magazineprice5.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.magazineprice5.Location = new System.Drawing.Point(37, 160);
+            this.magazineprice5.Name = "magazineprice5";
+            this.magazineprice5.Size = new System.Drawing.Size(39, 17);
+            this.magazineprice5.TabIndex = 3;
+            this.magazineprice5.Text = "Price";
             // 
-            // label42
+            // issue5
             // 
-            this.label42.AutoSize = true;
-            this.label42.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label42.Location = new System.Drawing.Point(36, 130);
-            this.label42.Name = "label42";
-            this.label42.Size = new System.Drawing.Size(104, 17);
-            this.label42.TabIndex = 2;
-            this.label42.Text = "Magazine Issue";
+            this.issue5.AutoSize = true;
+            this.issue5.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.issue5.Location = new System.Drawing.Point(36, 130);
+            this.issue5.Name = "issue5";
+            this.issue5.Size = new System.Drawing.Size(104, 17);
+            this.issue5.TabIndex = 2;
+            this.issue5.Text = "Magazine Issue";
             // 
-            // label43
+            // magazinename5
             // 
-            this.label43.AutoSize = true;
-            this.label43.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label43.Location = new System.Drawing.Point(36, 113);
-            this.label43.Name = "label43";
-            this.label43.Size = new System.Drawing.Size(115, 17);
-            this.label43.TabIndex = 1;
-            this.label43.Text = "Magazine Name";
+            this.magazinename5.AutoSize = true;
+            this.magazinename5.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.magazinename5.Location = new System.Drawing.Point(36, 113);
+            this.magazinename5.Name = "magazinename5";
+            this.magazinename5.Size = new System.Drawing.Size(115, 17);
+            this.magazinename5.TabIndex = 1;
+            this.magazinename5.Text = "Magazine Name";
             // 
             // pictureBox15
             // 
@@ -1211,48 +1225,49 @@
             this.pictureBox15.TabIndex = 0;
             this.pictureBox15.TabStop = false;
             // 
-            // panel18
+            // panelcd2
             // 
-            this.panel18.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.panel18.Controls.Add(this.label47);
-            this.panel18.Controls.Add(this.label48);
-            this.panel18.Controls.Add(this.label49);
-            this.panel18.Controls.Add(this.pictureBox17);
-            this.panel18.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.panel18.Location = new System.Drawing.Point(362, 498);
-            this.panel18.Name = "panel18";
-            this.panel18.Size = new System.Drawing.Size(160, 200);
-            this.panel18.TabIndex = 59;
+            this.panelcd2.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.panelcd2.Controls.Add(this.cdprice2);
+            this.panelcd2.Controls.Add(this.cdname2);
+            this.panelcd2.Controls.Add(this.cdsinger2);
+            this.panelcd2.Controls.Add(this.pictureBox17);
+            this.panelcd2.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.panelcd2.Location = new System.Drawing.Point(362, 498);
+            this.panelcd2.Name = "panelcd2";
+            this.panelcd2.Size = new System.Drawing.Size(160, 200);
+            this.panelcd2.TabIndex = 59;
+            this.panelcd2.Click += new System.EventHandler(this.panelcd2_Click);
             // 
-            // label47
+            // cdprice2
             // 
-            this.label47.AutoSize = true;
-            this.label47.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label47.Location = new System.Drawing.Point(37, 160);
-            this.label47.Name = "label47";
-            this.label47.Size = new System.Drawing.Size(39, 17);
-            this.label47.TabIndex = 3;
-            this.label47.Text = "Price";
+            this.cdprice2.AutoSize = true;
+            this.cdprice2.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.cdprice2.Location = new System.Drawing.Point(37, 160);
+            this.cdprice2.Name = "cdprice2";
+            this.cdprice2.Size = new System.Drawing.Size(39, 17);
+            this.cdprice2.TabIndex = 3;
+            this.cdprice2.Text = "Price";
             // 
-            // label48
+            // cdname2
             // 
-            this.label48.AutoSize = true;
-            this.label48.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label48.Location = new System.Drawing.Point(36, 130);
-            this.label48.Name = "label48";
-            this.label48.Size = new System.Drawing.Size(73, 17);
-            this.label48.TabIndex = 2;
-            this.label48.Text = "CD Name";
+            this.cdname2.AutoSize = true;
+            this.cdname2.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.cdname2.Location = new System.Drawing.Point(36, 130);
+            this.cdname2.Name = "cdname2";
+            this.cdname2.Size = new System.Drawing.Size(73, 17);
+            this.cdname2.TabIndex = 2;
+            this.cdname2.Text = "CD Name";
             // 
-            // label49
+            // cdsinger2
             // 
-            this.label49.AutoSize = true;
-            this.label49.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label49.Location = new System.Drawing.Point(36, 113);
-            this.label49.Name = "label49";
-            this.label49.Size = new System.Drawing.Size(90, 17);
-            this.label49.TabIndex = 1;
-            this.label49.Text = "Singer Name";
+            this.cdsinger2.AutoSize = true;
+            this.cdsinger2.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.cdsinger2.Location = new System.Drawing.Point(36, 113);
+            this.cdsinger2.Name = "cdsinger2";
+            this.cdsinger2.Size = new System.Drawing.Size(90, 17);
+            this.cdsinger2.TabIndex = 1;
+            this.cdsinger2.Text = "Singer Name";
             // 
             // pictureBox17
             // 
@@ -1264,48 +1279,49 @@
             this.pictureBox17.TabIndex = 0;
             this.pictureBox17.TabStop = false;
             // 
-            // panel19
+            // panelcd7
             // 
-            this.panel19.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.panel19.Controls.Add(this.label50);
-            this.panel19.Controls.Add(this.label51);
-            this.panel19.Controls.Add(this.label52);
-            this.panel19.Controls.Add(this.pictureBox18);
-            this.panel19.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.panel19.Location = new System.Drawing.Point(1194, 498);
-            this.panel19.Name = "panel19";
-            this.panel19.Size = new System.Drawing.Size(160, 200);
-            this.panel19.TabIndex = 60;
+            this.panelcd7.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.panelcd7.Controls.Add(this.cdprice7);
+            this.panelcd7.Controls.Add(this.cdname7);
+            this.panelcd7.Controls.Add(this.cdsinger7);
+            this.panelcd7.Controls.Add(this.pictureBox18);
+            this.panelcd7.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.panelcd7.Location = new System.Drawing.Point(1194, 498);
+            this.panelcd7.Name = "panelcd7";
+            this.panelcd7.Size = new System.Drawing.Size(160, 200);
+            this.panelcd7.TabIndex = 60;
+            this.panelcd7.Click += new System.EventHandler(this.panelcd7_Click);
             // 
-            // label50
+            // cdprice7
             // 
-            this.label50.AutoSize = true;
-            this.label50.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label50.Location = new System.Drawing.Point(37, 160);
-            this.label50.Name = "label50";
-            this.label50.Size = new System.Drawing.Size(39, 17);
-            this.label50.TabIndex = 3;
-            this.label50.Text = "Price";
+            this.cdprice7.AutoSize = true;
+            this.cdprice7.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.cdprice7.Location = new System.Drawing.Point(37, 160);
+            this.cdprice7.Name = "cdprice7";
+            this.cdprice7.Size = new System.Drawing.Size(39, 17);
+            this.cdprice7.TabIndex = 3;
+            this.cdprice7.Text = "Price";
             // 
-            // label51
+            // cdname7
             // 
-            this.label51.AutoSize = true;
-            this.label51.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label51.Location = new System.Drawing.Point(36, 130);
-            this.label51.Name = "label51";
-            this.label51.Size = new System.Drawing.Size(73, 17);
-            this.label51.TabIndex = 2;
-            this.label51.Text = "CD Name";
+            this.cdname7.AutoSize = true;
+            this.cdname7.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.cdname7.Location = new System.Drawing.Point(36, 130);
+            this.cdname7.Name = "cdname7";
+            this.cdname7.Size = new System.Drawing.Size(73, 17);
+            this.cdname7.TabIndex = 2;
+            this.cdname7.Text = "CD Name";
             // 
-            // label52
+            // cdsinger7
             // 
-            this.label52.AutoSize = true;
-            this.label52.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label52.Location = new System.Drawing.Point(36, 113);
-            this.label52.Name = "label52";
-            this.label52.Size = new System.Drawing.Size(90, 17);
-            this.label52.TabIndex = 1;
-            this.label52.Text = "Singer Name";
+            this.cdsinger7.AutoSize = true;
+            this.cdsinger7.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.cdsinger7.Location = new System.Drawing.Point(36, 113);
+            this.cdsinger7.Name = "cdsinger7";
+            this.cdsinger7.Size = new System.Drawing.Size(90, 17);
+            this.cdsinger7.TabIndex = 1;
+            this.cdsinger7.Text = "Singer Name";
             // 
             // pictureBox18
             // 
@@ -1317,48 +1333,49 @@
             this.pictureBox18.TabIndex = 0;
             this.pictureBox18.TabStop = false;
             // 
-            // panel20
+            // panelcd4
             // 
-            this.panel20.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.panel20.Controls.Add(this.label53);
-            this.panel20.Controls.Add(this.label54);
-            this.panel20.Controls.Add(this.label55);
-            this.panel20.Controls.Add(this.pictureBox19);
-            this.panel20.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.panel20.Location = new System.Drawing.Point(694, 498);
-            this.panel20.Name = "panel20";
-            this.panel20.Size = new System.Drawing.Size(160, 200);
-            this.panel20.TabIndex = 62;
+            this.panelcd4.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.panelcd4.Controls.Add(this.cdprice4);
+            this.panelcd4.Controls.Add(this.cdname4);
+            this.panelcd4.Controls.Add(this.cdsinger4);
+            this.panelcd4.Controls.Add(this.pictureBox19);
+            this.panelcd4.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.panelcd4.Location = new System.Drawing.Point(694, 498);
+            this.panelcd4.Name = "panelcd4";
+            this.panelcd4.Size = new System.Drawing.Size(160, 200);
+            this.panelcd4.TabIndex = 62;
+            this.panelcd4.Click += new System.EventHandler(this.panelcd4_Click);
             // 
-            // label53
+            // cdprice4
             // 
-            this.label53.AutoSize = true;
-            this.label53.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label53.Location = new System.Drawing.Point(37, 160);
-            this.label53.Name = "label53";
-            this.label53.Size = new System.Drawing.Size(39, 17);
-            this.label53.TabIndex = 3;
-            this.label53.Text = "Price";
+            this.cdprice4.AutoSize = true;
+            this.cdprice4.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.cdprice4.Location = new System.Drawing.Point(37, 160);
+            this.cdprice4.Name = "cdprice4";
+            this.cdprice4.Size = new System.Drawing.Size(39, 17);
+            this.cdprice4.TabIndex = 3;
+            this.cdprice4.Text = "Price";
             // 
-            // label54
+            // cdname4
             // 
-            this.label54.AutoSize = true;
-            this.label54.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label54.Location = new System.Drawing.Point(36, 130);
-            this.label54.Name = "label54";
-            this.label54.Size = new System.Drawing.Size(73, 17);
-            this.label54.TabIndex = 2;
-            this.label54.Text = "CD Name";
+            this.cdname4.AutoSize = true;
+            this.cdname4.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.cdname4.Location = new System.Drawing.Point(36, 130);
+            this.cdname4.Name = "cdname4";
+            this.cdname4.Size = new System.Drawing.Size(73, 17);
+            this.cdname4.TabIndex = 2;
+            this.cdname4.Text = "CD Name";
             // 
-            // label55
+            // cdsinger4
             // 
-            this.label55.AutoSize = true;
-            this.label55.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label55.Location = new System.Drawing.Point(36, 113);
-            this.label55.Name = "label55";
-            this.label55.Size = new System.Drawing.Size(90, 17);
-            this.label55.TabIndex = 1;
-            this.label55.Text = "Singer Name";
+            this.cdsinger4.AutoSize = true;
+            this.cdsinger4.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.cdsinger4.Location = new System.Drawing.Point(36, 113);
+            this.cdsinger4.Name = "cdsinger4";
+            this.cdsinger4.Size = new System.Drawing.Size(90, 17);
+            this.cdsinger4.TabIndex = 1;
+            this.cdsinger4.Text = "Singer Name";
             // 
             // pictureBox19
             // 
@@ -1370,48 +1387,49 @@
             this.pictureBox19.TabIndex = 0;
             this.pictureBox19.TabStop = false;
             // 
-            // panel21
+            // panelcd3
             // 
-            this.panel21.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.panel21.Controls.Add(this.label56);
-            this.panel21.Controls.Add(this.label57);
-            this.panel21.Controls.Add(this.label58);
-            this.panel21.Controls.Add(this.pictureBox20);
-            this.panel21.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.panel21.Location = new System.Drawing.Point(528, 498);
-            this.panel21.Name = "panel21";
-            this.panel21.Size = new System.Drawing.Size(160, 200);
-            this.panel21.TabIndex = 61;
+            this.panelcd3.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.panelcd3.Controls.Add(this.cdprice3);
+            this.panelcd3.Controls.Add(this.cdname3);
+            this.panelcd3.Controls.Add(this.cdsinger3);
+            this.panelcd3.Controls.Add(this.pictureBox20);
+            this.panelcd3.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.panelcd3.Location = new System.Drawing.Point(528, 498);
+            this.panelcd3.Name = "panelcd3";
+            this.panelcd3.Size = new System.Drawing.Size(160, 200);
+            this.panelcd3.TabIndex = 61;
+            this.panelcd3.Click += new System.EventHandler(this.panelcd3_Click);
             // 
-            // label56
+            // cdprice3
             // 
-            this.label56.AutoSize = true;
-            this.label56.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label56.Location = new System.Drawing.Point(37, 160);
-            this.label56.Name = "label56";
-            this.label56.Size = new System.Drawing.Size(39, 17);
-            this.label56.TabIndex = 3;
-            this.label56.Text = "Price";
+            this.cdprice3.AutoSize = true;
+            this.cdprice3.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.cdprice3.Location = new System.Drawing.Point(37, 160);
+            this.cdprice3.Name = "cdprice3";
+            this.cdprice3.Size = new System.Drawing.Size(39, 17);
+            this.cdprice3.TabIndex = 3;
+            this.cdprice3.Text = "Price";
             // 
-            // label57
+            // cdname3
             // 
-            this.label57.AutoSize = true;
-            this.label57.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label57.Location = new System.Drawing.Point(36, 130);
-            this.label57.Name = "label57";
-            this.label57.Size = new System.Drawing.Size(73, 17);
-            this.label57.TabIndex = 2;
-            this.label57.Text = "CD Name";
+            this.cdname3.AutoSize = true;
+            this.cdname3.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.cdname3.Location = new System.Drawing.Point(36, 130);
+            this.cdname3.Name = "cdname3";
+            this.cdname3.Size = new System.Drawing.Size(73, 17);
+            this.cdname3.TabIndex = 2;
+            this.cdname3.Text = "CD Name";
             // 
-            // label58
+            // cdsinger3
             // 
-            this.label58.AutoSize = true;
-            this.label58.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label58.Location = new System.Drawing.Point(36, 113);
-            this.label58.Name = "label58";
-            this.label58.Size = new System.Drawing.Size(90, 17);
-            this.label58.TabIndex = 1;
-            this.label58.Text = "Singer Name";
+            this.cdsinger3.AutoSize = true;
+            this.cdsinger3.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.cdsinger3.Location = new System.Drawing.Point(36, 113);
+            this.cdsinger3.Name = "cdsinger3";
+            this.cdsinger3.Size = new System.Drawing.Size(90, 17);
+            this.cdsinger3.TabIndex = 1;
+            this.cdsinger3.Text = "Singer Name";
             // 
             // pictureBox20
             // 
@@ -1423,48 +1441,49 @@
             this.pictureBox20.TabIndex = 0;
             this.pictureBox20.TabStop = false;
             // 
-            // panel22
+            // panelcd6
             // 
-            this.panel22.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.panel22.Controls.Add(this.label59);
-            this.panel22.Controls.Add(this.label60);
-            this.panel22.Controls.Add(this.label61);
-            this.panel22.Controls.Add(this.pictureBox21);
-            this.panel22.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.panel22.Location = new System.Drawing.Point(1026, 498);
-            this.panel22.Name = "panel22";
-            this.panel22.Size = new System.Drawing.Size(160, 200);
-            this.panel22.TabIndex = 64;
+            this.panelcd6.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.panelcd6.Controls.Add(this.cdprice6);
+            this.panelcd6.Controls.Add(this.cdname6);
+            this.panelcd6.Controls.Add(this.cdsinger6);
+            this.panelcd6.Controls.Add(this.pictureBox21);
+            this.panelcd6.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.panelcd6.Location = new System.Drawing.Point(1026, 498);
+            this.panelcd6.Name = "panelcd6";
+            this.panelcd6.Size = new System.Drawing.Size(160, 200);
+            this.panelcd6.TabIndex = 64;
+            this.panelcd6.Click += new System.EventHandler(this.panelcd6_Click);
             // 
-            // label59
+            // cdprice6
             // 
-            this.label59.AutoSize = true;
-            this.label59.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label59.Location = new System.Drawing.Point(37, 160);
-            this.label59.Name = "label59";
-            this.label59.Size = new System.Drawing.Size(39, 17);
-            this.label59.TabIndex = 3;
-            this.label59.Text = "Price";
+            this.cdprice6.AutoSize = true;
+            this.cdprice6.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.cdprice6.Location = new System.Drawing.Point(37, 160);
+            this.cdprice6.Name = "cdprice6";
+            this.cdprice6.Size = new System.Drawing.Size(39, 17);
+            this.cdprice6.TabIndex = 3;
+            this.cdprice6.Text = "Price";
             // 
-            // label60
+            // cdname6
             // 
-            this.label60.AutoSize = true;
-            this.label60.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label60.Location = new System.Drawing.Point(36, 130);
-            this.label60.Name = "label60";
-            this.label60.Size = new System.Drawing.Size(73, 17);
-            this.label60.TabIndex = 2;
-            this.label60.Text = "CD Name";
+            this.cdname6.AutoSize = true;
+            this.cdname6.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.cdname6.Location = new System.Drawing.Point(36, 130);
+            this.cdname6.Name = "cdname6";
+            this.cdname6.Size = new System.Drawing.Size(73, 17);
+            this.cdname6.TabIndex = 2;
+            this.cdname6.Text = "CD Name";
             // 
-            // label61
+            // cdsinger6
             // 
-            this.label61.AutoSize = true;
-            this.label61.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label61.Location = new System.Drawing.Point(36, 113);
-            this.label61.Name = "label61";
-            this.label61.Size = new System.Drawing.Size(90, 17);
-            this.label61.TabIndex = 1;
-            this.label61.Text = "Singer Name";
+            this.cdsinger6.AutoSize = true;
+            this.cdsinger6.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.cdsinger6.Location = new System.Drawing.Point(36, 113);
+            this.cdsinger6.Name = "cdsinger6";
+            this.cdsinger6.Size = new System.Drawing.Size(90, 17);
+            this.cdsinger6.TabIndex = 1;
+            this.cdsinger6.Text = "Singer Name";
             // 
             // pictureBox21
             // 
@@ -1476,48 +1495,49 @@
             this.pictureBox21.TabIndex = 0;
             this.pictureBox21.TabStop = false;
             // 
-            // panel23
+            // panelcd5
             // 
-            this.panel23.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.panel23.Controls.Add(this.label62);
-            this.panel23.Controls.Add(this.label63);
-            this.panel23.Controls.Add(this.label64);
-            this.panel23.Controls.Add(this.pictureBox22);
-            this.panel23.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.panel23.Location = new System.Drawing.Point(860, 498);
-            this.panel23.Name = "panel23";
-            this.panel23.Size = new System.Drawing.Size(160, 200);
-            this.panel23.TabIndex = 63;
+            this.panelcd5.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.panelcd5.Controls.Add(this.cdprice5);
+            this.panelcd5.Controls.Add(this.cdname5);
+            this.panelcd5.Controls.Add(this.cdsinger5);
+            this.panelcd5.Controls.Add(this.pictureBox22);
+            this.panelcd5.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.panelcd5.Location = new System.Drawing.Point(860, 498);
+            this.panelcd5.Name = "panelcd5";
+            this.panelcd5.Size = new System.Drawing.Size(160, 200);
+            this.panelcd5.TabIndex = 63;
+            this.panelcd5.Click += new System.EventHandler(this.panelcd5_Click);
             // 
-            // label62
+            // cdprice5
             // 
-            this.label62.AutoSize = true;
-            this.label62.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label62.Location = new System.Drawing.Point(37, 160);
-            this.label62.Name = "label62";
-            this.label62.Size = new System.Drawing.Size(39, 17);
-            this.label62.TabIndex = 3;
-            this.label62.Text = "Price";
+            this.cdprice5.AutoSize = true;
+            this.cdprice5.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.cdprice5.Location = new System.Drawing.Point(37, 160);
+            this.cdprice5.Name = "cdprice5";
+            this.cdprice5.Size = new System.Drawing.Size(39, 17);
+            this.cdprice5.TabIndex = 3;
+            this.cdprice5.Text = "Price";
             // 
-            // label63
+            // cdname5
             // 
-            this.label63.AutoSize = true;
-            this.label63.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label63.Location = new System.Drawing.Point(36, 130);
-            this.label63.Name = "label63";
-            this.label63.Size = new System.Drawing.Size(73, 17);
-            this.label63.TabIndex = 2;
-            this.label63.Text = "CD Name";
+            this.cdname5.AutoSize = true;
+            this.cdname5.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.cdname5.Location = new System.Drawing.Point(36, 130);
+            this.cdname5.Name = "cdname5";
+            this.cdname5.Size = new System.Drawing.Size(73, 17);
+            this.cdname5.TabIndex = 2;
+            this.cdname5.Text = "CD Name";
             // 
-            // label64
+            // cdsinger5
             // 
-            this.label64.AutoSize = true;
-            this.label64.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label64.Location = new System.Drawing.Point(36, 113);
-            this.label64.Name = "label64";
-            this.label64.Size = new System.Drawing.Size(90, 17);
-            this.label64.TabIndex = 1;
-            this.label64.Text = "Singer Name";
+            this.cdsinger5.AutoSize = true;
+            this.cdsinger5.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.cdsinger5.Location = new System.Drawing.Point(36, 113);
+            this.cdsinger5.Name = "cdsinger5";
+            this.cdsinger5.Size = new System.Drawing.Size(90, 17);
+            this.cdsinger5.TabIndex = 1;
+            this.cdsinger5.Text = "Singer Name";
             // 
             // pictureBox22
             // 
@@ -1553,29 +1573,29 @@
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(1400, 750);
             this.Controls.Add(this.btnAdmin);
-            this.Controls.Add(this.panel22);
-            this.Controls.Add(this.panel23);
-            this.Controls.Add(this.panel20);
-            this.Controls.Add(this.panel21);
-            this.Controls.Add(this.panel19);
-            this.Controls.Add(this.panel18);
-            this.Controls.Add(this.panel15);
-            this.Controls.Add(this.panel16);
-            this.Controls.Add(this.panel13);
-            this.Controls.Add(this.panel14);
-            this.Controls.Add(this.panel12);
-            this.Controls.Add(this.panel11);
-            this.Controls.Add(this.panel7);
-            this.Controls.Add(this.panel8);
-            this.Controls.Add(this.panel9);
-            this.Controls.Add(this.panel6);
-            this.Controls.Add(this.panel5);
-            this.Controls.Add(this.panel4);
-            this.Controls.Add(this.panel17);
-            this.Controls.Add(this.panel10);
+            this.Controls.Add(this.panelcd6);
+            this.Controls.Add(this.panelcd5);
+            this.Controls.Add(this.panelcd4);
+            this.Controls.Add(this.panelcd3);
+            this.Controls.Add(this.panelcd7);
+            this.Controls.Add(this.panelcd2);
+            this.Controls.Add(this.magazinepanel6);
+            this.Controls.Add(this.magazinepanel5);
+            this.Controls.Add(this.magazinepanel4);
+            this.Controls.Add(this.magazinepanel3);
+            this.Controls.Add(this.magazinepanel7);
+            this.Controls.Add(this.magazinepanel2);
+            this.Controls.Add(this.bookpanel6);
+            this.Controls.Add(this.bookpanel5);
+            this.Controls.Add(this.bookpanel4);
+            this.Controls.Add(this.bookpanel7);
+            this.Controls.Add(this.bookpanel3);
+            this.Controls.Add(this.bookpanel2);
+            this.Controls.Add(this.panelcd1);
+            this.Controls.Add(this.magazinepanel1);
             this.Controls.Add(this.lblUsername);
             this.Controls.Add(this.pictureBox1);
-            this.Controls.Add(this.panel3);
+            this.Controls.Add(this.bookpanel1);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
@@ -1585,69 +1605,69 @@
             this.panel1.PerformLayout();
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
-            this.panel3.ResumeLayout(false);
-            this.panel3.PerformLayout();
+            this.bookpanel1.ResumeLayout(false);
+            this.bookpanel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).EndInit();
-            this.panel10.ResumeLayout(false);
-            this.panel10.PerformLayout();
-            this.panel17.ResumeLayout(false);
-            this.panel17.PerformLayout();
+            this.magazinepanel1.ResumeLayout(false);
+            this.magazinepanel1.PerformLayout();
+            this.panelcd1.ResumeLayout(false);
+            this.panelcd1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox16)).EndInit();
-            this.panel4.ResumeLayout(false);
-            this.panel4.PerformLayout();
+            this.bookpanel2.ResumeLayout(false);
+            this.bookpanel2.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
-            this.panel5.ResumeLayout(false);
-            this.panel5.PerformLayout();
+            this.bookpanel3.ResumeLayout(false);
+            this.bookpanel3.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
-            this.panel6.ResumeLayout(false);
-            this.panel6.PerformLayout();
+            this.bookpanel7.ResumeLayout(false);
+            this.bookpanel7.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
-            this.panel7.ResumeLayout(false);
-            this.panel7.PerformLayout();
+            this.bookpanel6.ResumeLayout(false);
+            this.bookpanel6.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
-            this.panel8.ResumeLayout(false);
-            this.panel8.PerformLayout();
+            this.bookpanel5.ResumeLayout(false);
+            this.bookpanel5.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();
-            this.panel9.ResumeLayout(false);
-            this.panel9.PerformLayout();
+            this.bookpanel4.ResumeLayout(false);
+            this.bookpanel4.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).EndInit();
-            this.panel11.ResumeLayout(false);
-            this.panel11.PerformLayout();
+            this.magazinepanel2.ResumeLayout(false);
+            this.magazinepanel2.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).EndInit();
-            this.panel12.ResumeLayout(false);
-            this.panel12.PerformLayout();
+            this.magazinepanel7.ResumeLayout(false);
+            this.magazinepanel7.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox11)).EndInit();
-            this.panel13.ResumeLayout(false);
-            this.panel13.PerformLayout();
+            this.magazinepanel4.ResumeLayout(false);
+            this.magazinepanel4.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox12)).EndInit();
-            this.panel14.ResumeLayout(false);
-            this.panel14.PerformLayout();
+            this.magazinepanel3.ResumeLayout(false);
+            this.magazinepanel3.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox13)).EndInit();
-            this.panel15.ResumeLayout(false);
-            this.panel15.PerformLayout();
+            this.magazinepanel6.ResumeLayout(false);
+            this.magazinepanel6.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox14)).EndInit();
-            this.panel16.ResumeLayout(false);
-            this.panel16.PerformLayout();
+            this.magazinepanel5.ResumeLayout(false);
+            this.magazinepanel5.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox15)).EndInit();
-            this.panel18.ResumeLayout(false);
-            this.panel18.PerformLayout();
+            this.panelcd2.ResumeLayout(false);
+            this.panelcd2.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox17)).EndInit();
-            this.panel19.ResumeLayout(false);
-            this.panel19.PerformLayout();
+            this.panelcd7.ResumeLayout(false);
+            this.panelcd7.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox18)).EndInit();
-            this.panel20.ResumeLayout(false);
-            this.panel20.PerformLayout();
+            this.panelcd4.ResumeLayout(false);
+            this.panelcd4.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox19)).EndInit();
-            this.panel21.ResumeLayout(false);
-            this.panel21.PerformLayout();
+            this.panelcd3.ResumeLayout(false);
+            this.panelcd3.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox20)).EndInit();
-            this.panel22.ResumeLayout(false);
-            this.panel22.PerformLayout();
+            this.panelcd6.ResumeLayout(false);
+            this.panelcd6.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox21)).EndInit();
-            this.panel23.ResumeLayout(false);
-            this.panel23.PerformLayout();
+            this.panelcd5.ResumeLayout(false);
+            this.panelcd5.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox22)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -1661,112 +1681,112 @@
         private System.Windows.Forms.Button btnClose;
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.Button btnHide;
-        private System.Windows.Forms.Panel panel3;
+        private System.Windows.Forms.Panel bookpanel1;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Label lblUsername;
-        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label bookname1;
         private System.Windows.Forms.PictureBox pictureBox2;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Label bookauthor1;
+        private System.Windows.Forms.Label bookprice1;
         private System.Windows.Forms.PictureBox pictureBox9;
-        private System.Windows.Forms.Label label25;
-        private System.Windows.Forms.Label label24;
-        private System.Windows.Forms.Label label23;
-        private System.Windows.Forms.Panel panel10;
-        private System.Windows.Forms.Panel panel17;
-        private System.Windows.Forms.Label label44;
-        private System.Windows.Forms.Label label45;
-        private System.Windows.Forms.Label label46;
+        private System.Windows.Forms.Label magazinename1;
+        private System.Windows.Forms.Label issue1;
+        private System.Windows.Forms.Label magazineprice1;
+        private System.Windows.Forms.Panel magazinepanel1;
+        private System.Windows.Forms.Panel panelcd1;
+        private System.Windows.Forms.Label cdprice1;
+        private System.Windows.Forms.Label cdname1;
+        private System.Windows.Forms.Label cdsinger1;
         private System.Windows.Forms.PictureBox pictureBox16;
-        private System.Windows.Forms.Panel panel4;
-        private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.Panel bookpanel2;
+        private System.Windows.Forms.Label bookprice2;
+        private System.Windows.Forms.Label bookauthor2;
+        private System.Windows.Forms.Label bookname2;
         private System.Windows.Forms.PictureBox pictureBox3;
-        private System.Windows.Forms.Panel panel5;
-        private System.Windows.Forms.Label label8;
-        private System.Windows.Forms.Label label9;
-        private System.Windows.Forms.Label label10;
+        private System.Windows.Forms.Panel bookpanel3;
+        private System.Windows.Forms.Label bookprice3;
+        private System.Windows.Forms.Label bookauthor3;
+        private System.Windows.Forms.Label bookname3;
         private System.Windows.Forms.PictureBox pictureBox4;
-        private System.Windows.Forms.Panel panel6;
-        private System.Windows.Forms.Label label11;
-        private System.Windows.Forms.Label label12;
-        private System.Windows.Forms.Label label13;
+        private System.Windows.Forms.Panel bookpanel7;
+        private System.Windows.Forms.Label bookprice7;
+        private System.Windows.Forms.Label bookauthor7;
+        private System.Windows.Forms.Label bookname7;
         private System.Windows.Forms.PictureBox pictureBox5;
-        private System.Windows.Forms.Panel panel7;
-        private System.Windows.Forms.Label label14;
-        private System.Windows.Forms.Label label15;
-        private System.Windows.Forms.Label label16;
+        private System.Windows.Forms.Panel bookpanel6;
+        private System.Windows.Forms.Label bookprice6;
+        private System.Windows.Forms.Label bookauthor6;
+        private System.Windows.Forms.Label bookname6;
         private System.Windows.Forms.PictureBox pictureBox6;
-        private System.Windows.Forms.Panel panel8;
-        private System.Windows.Forms.Label label17;
-        private System.Windows.Forms.Label label18;
-        private System.Windows.Forms.Label label19;
+        private System.Windows.Forms.Panel bookpanel5;
+        private System.Windows.Forms.Label bookprice5;
+        private System.Windows.Forms.Label bookauthor5;
+        private System.Windows.Forms.Label bookname5;
         private System.Windows.Forms.PictureBox pictureBox7;
-        private System.Windows.Forms.Panel panel9;
-        private System.Windows.Forms.Label label20;
-        private System.Windows.Forms.Label label21;
-        private System.Windows.Forms.Label label22;
+        private System.Windows.Forms.Panel bookpanel4;
+        private System.Windows.Forms.Label bookprice4;
+        private System.Windows.Forms.Label bookauthor4;
+        private System.Windows.Forms.Label bookname4;
         private System.Windows.Forms.PictureBox pictureBox8;
-        private System.Windows.Forms.Panel panel11;
-        private System.Windows.Forms.Label label26;
-        private System.Windows.Forms.Label label27;
-        private System.Windows.Forms.Label label28;
+        private System.Windows.Forms.Panel magazinepanel2;
+        private System.Windows.Forms.Label magazineprice2;
+        private System.Windows.Forms.Label issue2;
+        private System.Windows.Forms.Label magazinename2;
         private System.Windows.Forms.PictureBox pictureBox10;
-        private System.Windows.Forms.Panel panel12;
-        private System.Windows.Forms.Label label29;
-        private System.Windows.Forms.Label label30;
-        private System.Windows.Forms.Label label31;
+        private System.Windows.Forms.Panel magazinepanel7;
+        private System.Windows.Forms.Label magazineprice7;
+        private System.Windows.Forms.Label issue7;
+        private System.Windows.Forms.Label magazinename7;
         private System.Windows.Forms.PictureBox pictureBox11;
-        private System.Windows.Forms.Panel panel13;
-        private System.Windows.Forms.Label label32;
-        private System.Windows.Forms.Label label33;
-        private System.Windows.Forms.Label label34;
+        private System.Windows.Forms.Panel magazinepanel4;
+        private System.Windows.Forms.Label magazineprice4;
+        private System.Windows.Forms.Label issue4;
+        private System.Windows.Forms.Label magazinename4;
         private System.Windows.Forms.PictureBox pictureBox12;
-        private System.Windows.Forms.Panel panel14;
-        private System.Windows.Forms.Label label35;
-        private System.Windows.Forms.Label label36;
-        private System.Windows.Forms.Label label37;
+        private System.Windows.Forms.Panel magazinepanel3;
+        private System.Windows.Forms.Label magazineprice3;
+        private System.Windows.Forms.Label issue3;
+        private System.Windows.Forms.Label magazinename3;
         private System.Windows.Forms.PictureBox pictureBox13;
-        private System.Windows.Forms.Panel panel15;
-        private System.Windows.Forms.Label label38;
-        private System.Windows.Forms.Label label39;
-        private System.Windows.Forms.Label label40;
+        private System.Windows.Forms.Panel magazinepanel6;
+        private System.Windows.Forms.Label magazineprice6;
+        private System.Windows.Forms.Label issue6;
+        private System.Windows.Forms.Label magazinename6;
         private System.Windows.Forms.PictureBox pictureBox14;
-        private System.Windows.Forms.Panel panel16;
-        private System.Windows.Forms.Label label41;
-        private System.Windows.Forms.Label label42;
-        private System.Windows.Forms.Label label43;
+        private System.Windows.Forms.Panel magazinepanel5;
+        private System.Windows.Forms.Label magazineprice5;
+        private System.Windows.Forms.Label issue5;
+        private System.Windows.Forms.Label magazinename5;
         private System.Windows.Forms.PictureBox pictureBox15;
-        private System.Windows.Forms.Panel panel18;
-        private System.Windows.Forms.Label label47;
-        private System.Windows.Forms.Label label48;
-        private System.Windows.Forms.Label label49;
+        private System.Windows.Forms.Panel panelcd2;
+        private System.Windows.Forms.Label cdprice2;
+        private System.Windows.Forms.Label cdname2;
+        private System.Windows.Forms.Label cdsinger2;
         private System.Windows.Forms.PictureBox pictureBox17;
-        private System.Windows.Forms.Panel panel19;
-        private System.Windows.Forms.Label label50;
-        private System.Windows.Forms.Label label51;
-        private System.Windows.Forms.Label label52;
+        private System.Windows.Forms.Panel panelcd7;
+        private System.Windows.Forms.Label cdprice7;
+        private System.Windows.Forms.Label cdname7;
+        private System.Windows.Forms.Label cdsinger7;
         private System.Windows.Forms.PictureBox pictureBox18;
-        private System.Windows.Forms.Panel panel20;
-        private System.Windows.Forms.Label label53;
-        private System.Windows.Forms.Label label54;
-        private System.Windows.Forms.Label label55;
+        private System.Windows.Forms.Panel panelcd4;
+        private System.Windows.Forms.Label cdprice4;
+        private System.Windows.Forms.Label cdname4;
+        private System.Windows.Forms.Label cdsinger4;
         private System.Windows.Forms.PictureBox pictureBox19;
-        private System.Windows.Forms.Panel panel21;
-        private System.Windows.Forms.Label label56;
-        private System.Windows.Forms.Label label57;
-        private System.Windows.Forms.Label label58;
+        private System.Windows.Forms.Panel panelcd3;
+        private System.Windows.Forms.Label cdprice3;
+        private System.Windows.Forms.Label cdname3;
+        private System.Windows.Forms.Label cdsinger3;
         private System.Windows.Forms.PictureBox pictureBox20;
-        private System.Windows.Forms.Panel panel22;
-        private System.Windows.Forms.Label label59;
-        private System.Windows.Forms.Label label60;
-        private System.Windows.Forms.Label label61;
+        private System.Windows.Forms.Panel panelcd6;
+        private System.Windows.Forms.Label cdprice6;
+        private System.Windows.Forms.Label cdname6;
+        private System.Windows.Forms.Label cdsinger6;
         private System.Windows.Forms.PictureBox pictureBox21;
-        private System.Windows.Forms.Panel panel23;
-        private System.Windows.Forms.Label label62;
-        private System.Windows.Forms.Label label63;
-        private System.Windows.Forms.Label label64;
+        private System.Windows.Forms.Panel panelcd5;
+        private System.Windows.Forms.Label cdprice5;
+        private System.Windows.Forms.Label cdname5;
+        private System.Windows.Forms.Label cdsinger5;
         private System.Windows.Forms.PictureBox pictureBox22;
         private System.Windows.Forms.Button btnAdmin;
         private System.Windows.Forms.Label lblDate;
@@ -1779,6 +1799,6 @@
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.Label label68;
         private System.Windows.Forms.ComboBox cmbItemType;
-        private System.Windows.Forms.Button btnCart;
+        private System.Windows.Forms.Button btnBasket;
     }
 }

@@ -32,11 +32,41 @@ namespace Online_Book_Store
         public string Type { get => type; set => type = value; }
         public string Producttype { get => producttype; set => producttype = value; }
 
+        public string getDetail1()
+        {
+            return type;
+        }
+
+        public string getDetail2()
+        {
+            return null;
+        }
+
         public string getInfo()
         {
             string s;
             s = producttype + "," + name + "," + singer + "," + price + "," + type;
             return s;
+        }
+
+        public string getName()
+        {
+            return name;
+        }
+
+        public string getOwner()
+        {
+            return singer;
+        }
+
+        public string getPrice()
+        {
+            return price;
+        }
+
+        public string getType()
+        {
+            return Producttype;
         }
     }
 }
