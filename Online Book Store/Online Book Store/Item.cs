@@ -17,7 +17,29 @@ namespace Online_Book_Store
         {
             InitializeComponent();
         }
-
+        public Item(ItemInterface item)
+        {
+            InitializeComponent();
+            lblName.Text = item.getName();
+            lblOwner.Text = item.getOwner();
+            lblPrice.Text = item.getPrice() + " TL";
+            if(item.getDetail1() == null)
+            {
+                lblDetail1.Visible = false;
+            }
+            else
+            {
+                lblDetail1.Text = item.getDetail1();
+            }
+            if(item.getDetail2()==null)
+            {
+                lblDetail2.Visible = false;
+            }
+            else 
+            {
+                lblDetail2.Text = item.getDetail2();
+            }
+        }
 
         private void btnClose_Click(object sender, EventArgs e)
         {
@@ -36,6 +58,7 @@ namespace Online_Book_Store
                 LogClass log = new LogClass(LoginedCustomer.getInstance().Customer.Id, btnAdd.Name, "Item", Util.GetTime());
                 db.insertLog(log);
             }
+            MessageBox.Show("Item Added To Basket");
         }
     }
 }
