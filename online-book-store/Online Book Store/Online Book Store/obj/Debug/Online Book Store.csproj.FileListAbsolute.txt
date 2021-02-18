@@ -1,0 +1,76 @@
+C:\Users\aydcs\OneDrive\Masaüstü\online-book-store\Online Book Store\Online Book Store\bin\Debug\Online Book Store.exe.config
+C:\Users\aydcs\OneDrive\Masaüstü\online-book-store\Online Book Store\Online Book Store\bin\Debug\Online Book Store.exe
+C:\Users\aydcs\OneDrive\Masaüstü\online-book-store\Online Book Store\Online Book Store\bin\Debug\Online Book Store.pdb
+C:\Users\aydcs\OneDrive\Masaüstü\online-book-store\Online Book Store\Online Book Store\obj\Debug\Online Book Store.csprojAssemblyReference.cache
+C:\Users\aydcs\OneDrive\Masaüstü\online-book-store\Online Book Store\Online Book Store\obj\Debug\Online_Book_Store.Properties.Resources.resources
+C:\Users\aydcs\OneDrive\Masaüstü\online-book-store\Online Book Store\Online Book Store\obj\Debug\Online Book Store.csproj.GenerateResource.cache
+C:\Users\aydcs\OneDrive\Masaüstü\online-book-store\Online Book Store\Online Book Store\obj\Debug\Online Book Store.csproj.CoreCompileInputs.cache
+C:\Users\aydcs\OneDrive\Masaüstü\online-book-store\Online Book Store\Online Book Store\obj\Debug\Online Book Store.exe
+C:\Users\aydcs\OneDrive\Masaüstü\online-book-store\Online Book Store\Online Book Store\obj\Debug\Online Book Store.pdb
+C:\Users\aydcs\OneDrive\Masaüstü\online-book-store\Online Book Store\Online Book Store\obj\Debug\Online_Book_Store.Login_Form.resources
+C:\Users\aydcs\OneDrive\Masaüstü\online-book-store\Online Book Store\Online Book Store\obj\Debug\Online_Book_Store.Signup_Form.resources
+C:\Users\witam\Desktop\aydincesur-online-book-store-375285366929\Online Book Store\Online Book Store\bin\Debug\Online Book Store.exe.config
+C:\Users\witam\Desktop\aydincesur-online-book-store-375285366929\Online Book Store\Online Book Store\bin\Debug\Online Book Store.exe
+C:\Users\witam\Desktop\aydincesur-online-book-store-375285366929\Online Book Store\Online Book Store\bin\Debug\Online Book Store.pdb
+C:\Users\witam\Desktop\aydincesur-online-book-store-375285366929\Online Book Store\Online Book Store\obj\Debug\Online Book Store.csprojAssemblyReference.cache
+C:\Users\witam\Desktop\aydincesur-online-book-store-375285366929\Online Book Store\Online Book Store\obj\Debug\Online_Book_Store.Login_Form.resources
+C:\Users\witam\Desktop\aydincesur-online-book-store-375285366929\Online Book Store\Online Book Store\obj\Debug\Online_Book_Store.Properties.Resources.resources
+C:\Users\witam\Desktop\aydincesur-online-book-store-375285366929\Online Book Store\Online Book Store\obj\Debug\Online_Book_Store.Signup_Form.resources
+C:\Users\witam\Desktop\aydincesur-online-book-store-375285366929\Online Book Store\Online Book Store\obj\Debug\Online Book Store.csproj.GenerateResource.cache
+C:\Users\witam\Desktop\aydincesur-online-book-store-375285366929\Online Book Store\Online Book Store\obj\Debug\Online Book Store.csproj.CoreCompileInputs.cache
+C:\Users\witam\Desktop\aydincesur-online-book-store-375285366929\Online Book Store\Online Book Store\obj\Debug\Online Book Store.exe
+C:\Users\witam\Desktop\aydincesur-online-book-store-375285366929\Online Book Store\Online Book Store\obj\Debug\Online Book Store.pdb
+C:\Users\witam\Desktop\confclict\Online Book Store\Online Book Store\bin\Debug\Online Book Store.exe.config
+C:\Users\witam\Desktop\confclict\Online Book Store\Online Book Store\bin\Debug\Online Book Store.exe
+C:\Users\witam\Desktop\confclict\Online Book Store\Online Book Store\bin\Debug\Online Book Store.pdb
+C:\Users\witam\Desktop\confclict\Online Book Store\Online Book Store\obj\Debug\Online Book Store.csprojAssemblyReference.cache
+C:\Users\witam\Desktop\confclict\Online Book Store\Online Book Store\obj\Debug\Online_Book_Store.FormAddItem.resources
+C:\Users\witam\Desktop\confclict\Online Book Store\Online Book Store\obj\Debug\Online_Book_Store.FormAdmin.resources
+C:\Users\witam\Desktop\confclict\Online Book Store\Online Book Store\obj\Debug\Online_Book_Store.Login_Form.resources
+C:\Users\witam\Desktop\confclict\Online Book Store\Online Book Store\obj\Debug\Online_Book_Store.Properties.Resources.resources
+C:\Users\witam\Desktop\confclict\Online Book Store\Online Book Store\obj\Debug\Online_Book_Store.Signup_Form.resources
+C:\Users\witam\Desktop\confclict\Online Book Store\Online Book Store\obj\Debug\Online Book Store.csproj.GenerateResource.cache
+C:\Users\witam\Desktop\confclict\Online Book Store\Online Book Store\obj\Debug\Online Book Store.csproj.CoreCompileInputs.cache
+C:\Users\witam\Desktop\confclict\Online Book Store\Online Book Store\obj\Debug\Online Book Store.exe
+C:\Users\witam\Desktop\confclict\Online Book Store\Online Book Store\obj\Debug\Online Book Store.pdb
+C:\Users\witam\Desktop\Online Book Store\Online Book Store\obj\Debug\Online Book Store.csprojAssemblyReference.cache
+C:\Users\witam\Desktop\Online Book Store\Online Book Store\obj\Debug\Online_Book_Store.FormItemAdd.resources
+C:\Users\witam\Desktop\Online Book Store\Online Book Store\obj\Debug\Online_Book_Store.FormAdmin.resources
+C:\Users\witam\Desktop\Online Book Store\Online Book Store\obj\Debug\Online_Book_Store.Login_Form.resources
+C:\Users\witam\Desktop\Online Book Store\Online Book Store\obj\Debug\Online_Book_Store.Properties.Resources.resources
+C:\Users\witam\Desktop\Online Book Store\Online Book Store\obj\Debug\Online_Book_Store.Signup_Form.resources
+C:\Users\witam\Desktop\Online Book Store\Online Book Store\obj\Debug\Online Book Store.csproj.GenerateResource.cache
+C:\Users\witam\Desktop\Online Book Store\Online Book Store\obj\Debug\Online Book Store.csproj.CoreCompileInputs.cache
+C:\Users\witam\Desktop\Online Book Store\Online Book Store\obj\Debug\Online Book Store.exe
+C:\Users\witam\Desktop\Online Book Store\Online Book Store\obj\Debug\Online Book Store.pdb
+C:\Users\witam\Desktop\Online Book Store\Online Book Store\bin\Debug\Online Book Store.exe.config
+C:\Users\witam\Desktop\Online Book Store\Online Book Store\bin\Debug\Online Book Store.exe
+C:\Users\witam\Desktop\Online Book Store\Online Book Store\bin\Debug\Online Book Store.pdb
+C:\Users\witam\Desktop\Online Book Store\Online Book Store\obj\Debug\Online_Book_Store.FormBookUpdate.resources
+C:\Users\witam\Desktop\Online Book Store\Online Book Store\obj\Debug\Online_Book_Store.FormCdUpdate.resources
+C:\Users\witam\Desktop\Online Book Store\Online Book Store\obj\Debug\Online_Book_Store.FormMagazineUpdate.resources
+C:\Users\aydcs\OneDrive\Masaüstü\online-book-store\Online Book Store\Online Book Store\obj\Debug\Online_Book_Store.FormBookUpdate.resources
+C:\Users\aydcs\OneDrive\Masaüstü\online-book-store\Online Book Store\Online Book Store\obj\Debug\Online_Book_Store.FormCdUpdate.resources
+C:\Users\aydcs\OneDrive\Masaüstü\online-book-store\Online Book Store\Online Book Store\obj\Debug\Online_Book_Store.FormItemAdd.resources
+C:\Users\aydcs\OneDrive\Masaüstü\online-book-store\Online Book Store\Online Book Store\obj\Debug\Online_Book_Store.FormAdmin.resources
+C:\Users\aydcs\OneDrive\Masaüstü\online-book-store\Online Book Store\Online Book Store\obj\Debug\Online_Book_Store.FormMagazineUpdate.resources
+C:\Users\aydcs\OneDrive\Masaüstü\online-book-store\Online Book Store\Online Book Store\obj\Debug\Online_Book_Store.MainForm.resources
+C:\Users\Huseyinoglu\Desktop\online-book-store\Online Book Store\Online Book Store\bin\Debug\Online Book Store.exe.config
+C:\Users\Huseyinoglu\Desktop\online-book-store\Online Book Store\Online Book Store\bin\Debug\Online Book Store.exe
+C:\Users\Huseyinoglu\Desktop\online-book-store\Online Book Store\Online Book Store\bin\Debug\Online Book Store.pdb
+C:\Users\Huseyinoglu\Desktop\online-book-store\Online Book Store\Online Book Store\obj\Debug\Online Book Store.csprojAssemblyReference.cache
+C:\Users\Huseyinoglu\Desktop\online-book-store\Online Book Store\Online Book Store\obj\Debug\Online_Book_Store.kullanıciprofil.resources
+C:\Users\Huseyinoglu\Desktop\online-book-store\Online Book Store\Online Book Store\obj\Debug\Online_Book_Store.MainForm.resources
+C:\Users\Huseyinoglu\Desktop\online-book-store\Online Book Store\Online Book Store\obj\Debug\Online_Book_Store.FormBookUpdate.resources
+C:\Users\Huseyinoglu\Desktop\online-book-store\Online Book Store\Online Book Store\obj\Debug\Online_Book_Store.FormCdUpdate.resources
+C:\Users\Huseyinoglu\Desktop\online-book-store\Online Book Store\Online Book Store\obj\Debug\Online_Book_Store.FormItemAdd.resources
+C:\Users\Huseyinoglu\Desktop\online-book-store\Online Book Store\Online Book Store\obj\Debug\Online_Book_Store.FormAdmin.resources
+C:\Users\Huseyinoglu\Desktop\online-book-store\Online Book Store\Online Book Store\obj\Debug\Online_Book_Store.FormMagazineUpdate.resources
+C:\Users\Huseyinoglu\Desktop\online-book-store\Online Book Store\Online Book Store\obj\Debug\Online_Book_Store.Login_Form.resources
+C:\Users\Huseyinoglu\Desktop\online-book-store\Online Book Store\Online Book Store\obj\Debug\Online_Book_Store.Properties.Resources.resources
+C:\Users\Huseyinoglu\Desktop\online-book-store\Online Book Store\Online Book Store\obj\Debug\Online_Book_Store.Signup_Form.resources
+C:\Users\Huseyinoglu\Desktop\online-book-store\Online Book Store\Online Book Store\obj\Debug\Online Book Store.csproj.GenerateResource.cache
+C:\Users\Huseyinoglu\Desktop\online-book-store\Online Book Store\Online Book Store\obj\Debug\Online Book Store.exe
+C:\Users\Huseyinoglu\Desktop\online-book-store\Online Book Store\Online Book Store\obj\Debug\Online Book Store.pdb
+C:\Users\aydcs\OneDrive\Masaüstü\online-book-store\Online Book Store\Online Book Store\obj\Debug\Online_Book_Store.kullanıciprofil.resources
+C:\Users\aydcs\OneDrive\Masaüstü\online-book-store\Online Book Store\Online Book Store\obj\Debug\Online_Book_Store.Item.resources
